@@ -12,7 +12,7 @@
           rel="noopener"
           aria-label="devto badge"
         >
-          <font-awesome-icon :icon="['fab', 'dev']" title="cguttweb's DEV Profile" size="md" />
+          <font-awesome-icon :icon="['fab', 'dev']" title="cguttweb's DEV Profile" />
         </a>&nbsp;
         <a
           class="px-2 text-red-700"
@@ -20,7 +20,7 @@
           target="_blank"
           aria-label="twitter icon"
         >
-          <font-awesome-icon :icon="['fab', 'twitter']" title="Twitter" size="md" />
+          <font-awesome-icon :icon="['fab', 'twitter']" title="Twitter" />
         </a>&nbsp;
         <a
           class="px-2 text-red-700"
@@ -28,7 +28,7 @@
           target="_blank"
           aria-label="github icon"
         >
-          <font-awesome-icon :icon="['fab', 'github']" title="Github" size="md" />
+          <font-awesome-icon :icon="['fab', 'github']" title="Github" />
         </a>
         <a
           class="px-2 text-red-700"
@@ -36,7 +36,7 @@
           target="_blank"
           aria-label="codepen icon"
         >
-          <font-awesome-icon :icon="['fab', 'codepen']" title="Codepen" size="md" />
+          <font-awesome-icon :icon="['fab', 'codepen']" title="Codepen" />
         </a>
         <a
           class="px-2 text-red-700"
@@ -44,7 +44,7 @@
           target="_blank"
           aria-label="codepen icon"
         >
-         <font-awesome-icon :icon="['fab', 'instagram']" title="Instagram" size="md"></font-awesome-icon>
+         <font-awesome-icon :icon="['fab', 'instagram']" title="Instagram" />
          </a>
     </nav>
     </div>

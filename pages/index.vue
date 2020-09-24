@@ -1,14 +1,14 @@
 <template>
-  <div class="container">
+  <div class="">
     <main class="px-3 text-gray-900 text-lg" role="main">
     <p class="mx-auto text-center w-4/5">
-      I'm Chloe a web developer based in Hampshire, UK I'm currently learning and creating projects with anything Vue based Gridsome which this site is built from. See my latest posts on my <g-link class="font-bold" to="/blog/">blog</g-link>
+      I'm Chloe a web developer based in Hampshire, UK I'm currently learning and creating projects with anything Vue based Gridsome which this site is built from. See my latest posts on my <nuxt-link class="font-bold" to="/blog/">blog</nuxt-link>
     </p>
 
     <h2 class="py-3 text-gray-900 text-center text-2xl">Projects</h2>
     <section>
     <div class="grid lg:grid-cols-2 gap-6">
-      <div class="p-4 shadow-lg">
+      <!-- <div class="p-4 shadow-lg">
         <ProjectCard
           title="Portfolio"
           information="This website itself is built with Gridsome and uses Tailwind CSS for styling. I have also added netlifyCMS to make it easier to create posts with markdown."
@@ -17,24 +17,24 @@
           techused="Gridsome, Vue, Tailwindcss"
         />
         <a href="https://www.cgweb.co.uk" target="_blank">
-          <g-image
+          <img
             alt="Portfolio screenshot"
             src="~/assets/portfolio-blog.png"
             width="300"
           />
         </a>
         <p>Learn more about <a href="https://www.netlifycms.org/" target="_blank">NetlifyCMS</a> which can be used with a variety of frameworks including Gridsome and Gatsby.</p>
-      </div>
+      </div> -->
       <div class="p-4 shadow-lg">
         <ProjectCard
           title="Array Helper"
-          information="This app is the first I built with the Vue-cli and uses the Twitter Bootstrap framework for styling."
+          information="This app is the first I built with the Vue-cli and uses the Twitter Bootstrap framework for styling. It is deployed on vercel."
           repo="https://github.com/cguttweb/array-helper"
-          link="https://array-helper.netlify.com/"
+          link="https://array-helper.vercel.app/"
           techused="Vue, Bootstrap"
         />
-        <a href="https://array-helper.netlify.com/" target="_blank">
-          <g-image
+        <a href="https://array-helper.vercel.app/" target="_blank">
+          <img
             alt="Array Helper screenshot"
             src="~/assets/array-helper-small.png"
             width="400"
@@ -50,7 +50,7 @@
           techused="Gatsby, React, Markdown"
         />
         <a href="https://designhistory.co.uk" target="_blank">
-          <g-image
+          <img
             alt="Design History screenshot"
             src="~/assets/design-history.png"
             width="400"
@@ -67,7 +67,7 @@
           techused="Gatsby, CSS"
         />
         <a href="https://github.com/cguttweb/gym-site" target="_blank">
-        <g-image 
+        <img 
         alt="simple gym site using gatsby" 
         src="~/assets/gym-site.png" 
         width="400" />
@@ -81,7 +81,7 @@
           link="https://github.com/cguttweb/lfc-euro-champions"
           techused="Vue, CSS" />
         <a href="#" target="_blank">
-          <g-image
+          <img
             alt="LFC Euro Champions screenshot"
             src="~/assets/lfc-euro-champs.png"
             width="400"
@@ -97,7 +97,7 @@
           link="https://github.com/cguttweb/all-about-coffee"
         />
         <a href="https://github.com/cguttweb/all-about-coffee" target="_blank">
-          <g-image 
+          <img 
           alt="All About Coffee site homepage" 
           src="~/assets/all-about-coffee.png" 
           width="300" />
@@ -105,53 +105,6 @@
       </div>
     </div>
     </section>
-      <section class="my-4 flex justify-center">
-        Contact me on following networks:
-        <a
-          class="px-2 text-red-700"
-          href="https://dev.to/cguttweb"
-          target="_blank"
-          aria-label="devto badge"
-        >
-          <font-awesome :icon="['fab', 'dev']" title="cguttweb's DEV Profile" size="lg"></font-awesome>
-        </a>&nbsp;
-        <a
-          class="px-2 text-red-700"
-          href="https://twitter.com/cguttweb"
-          rel="noopener noreferrer"
-          target="_blank"
-          aria-label="twitter icon"
-        >
-          <font-awesome :icon="['fab', 'twitter']" title="Twitter" size="lg"></font-awesome>
-        </a>&nbsp;
-        <a
-          class="px-2 text-red-700"
-          href="https://github.com/cguttweb"
-          rel="noopener noreferrer"
-          target="_blank"
-          aria-label="github icon"
-        >
-          <font-awesome :icon="['fab', 'github']" title="Github" size="lg"></font-awesome>
-        </a>
-        <a
-          class="px-2 text-red-700"
-          href="https://codepen.io/cgweb"
-          rel="noopener noreferrer"
-          target="_blank"
-          aria-label="codepen icon"
-        >
-          <font-awesome :icon="['fab', 'codepen']" title="Codepen" size="lg"></font-awesome>
-        </a>
-        <a
-          class="px-2 text-red-700"
-          href="https://instagram.com/cguttweb2017"
-          rel="noopener noreferrer"
-          target="_blank"
-          aria-label="codepen icon"
-        >
-         <font-awesome :icon="['fab', 'instagram']" title="Instagram" size="lg"></font-awesome>
-        </a>
-      </section>
     </main>
   </div>
 </template>
@@ -166,14 +119,4 @@ export default {}
 @apply min-h-screen flex justify-center items-center text-center mx-auto;
 }
 */
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-
 </style>
