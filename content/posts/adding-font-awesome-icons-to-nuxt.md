@@ -7,7 +7,7 @@ Why did I want t use these? Well simply for my various social networks and I've 
 ```javascript
 yarn install @fortawesome/vue-fontawesome 
 @fortawesome/font-awesome-svg-core 
-@fortawesome/free-brands-svvg-icons
+@fortawesome/free-brands-svg-icons
 ```
 
 then in plugins folder create a `fontawesome.js` file and add the following:
@@ -27,21 +27,31 @@ library.add(fas)
 // Register the component globally
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 ```
-
 as the documentation found [here](https://github.com/FortAwesome/vue-fontawesome#nuxtjs)
 
+It was simply a case of import whichever icons you require in my example it was github, twitter, codepen, instagram and dev and then add them to the library:
 
+```
+library.add(faGithub, faTwitter, faDev, faCodepen, faInstagram, fas)
+```
 
+Modify `nuxt.config.js` to include references to your plugins file and the global css from font-awesome:
+
+```javascript
+  css: [
+    '@fortawesome/fontawesome-svg-core/styles.css'
+  ],
+
+  plugins: [
+    '~/plugins/fontawesome.js'
+  ],
+```
+
+Add your icon using `<font-awesome-icon />` explicitly binding to your chosen icons.
 
 My completed navigation with font awesome icons with tailwind used for styling:
 
 ```html
-  <nav
-      role="navigation"
-      class="flex font-bold my-2 justify-center text-xl text-red-800 uppercase"
-    >
-      <nuxt-link class="pr-5" to="/">Home</nuxt-link>
-      <nuxt-link class="pr-5" to="/blog/">Blog</nuxt-link>
       <a class="px-2 text-red-700"
           href="https://dev.to/cguttweb"
           target="_blank"
@@ -82,5 +92,4 @@ My completed navigation with font awesome icons with tailwind used for styling:
         >
          <font-awesome-icon :icon="['fab', 'instagram']" title="Instagram" />
          </a>
-    </nav>
 ```
