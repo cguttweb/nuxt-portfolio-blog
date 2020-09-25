@@ -46,7 +46,6 @@
         >
          <font-awesome-icon :icon="['fab', 'instagram']" title="Instagram" />
          </a>
-         <SearchPosts />
     </nav>
     </div>
 </template>

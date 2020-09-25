@@ -1,5 +1,6 @@
 <template>
     <div>
+        <SearchPosts />
         <ul class="pl-5">
             <li v-for="post in posts" :key="post.id">
                 <nuxt-link :to="{ name: 'blog-slug', params: { slug: post.slug } }">
@@ -11,7 +12,6 @@
                 </nuxt-link>
             </li>
         </ul>
-        <!-- <SearchPosts /> -->
     </div>
 </template>
 

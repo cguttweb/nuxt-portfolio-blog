@@ -1,21 +1,22 @@
 <template>
-    <div>
-        <nav>
+    <div class="flex justify-center">
+        <!-- <nav>
             <ul>
                 <li v-for="link of post.toc" :key="link.id">
                     <nuxt-link :to="`#${link.id}`">{{ link.text }}</nuxt-link>
                 </li>
             </ul>
-        </nav>
+        </nav> -->
+        <div class="w-4/5">
+            <h1 class="pl-2 py-2 text-red-700 text-xl">{{ post.title }}</h1>
 
-        <h1>{{ post.title }}</h1>
+            <p class="pl-2">{{ post.description }}</p>
+            <p class="pl-2">Post created on: {{ formatDate(post.date) }} || Updated: {{ formatDate(post.updatedAt) }} </p>
 
-        <p>{{ post.description }}</p>
-        <p>Post created on: {{ formatDate(post.createdAt) }} || Updated: {{ formatDate(post.updatedAt) }} </p>
+            <nuxt-content :document="post" />
 
-        <nuxt-content :document="post" />
-
-        <prev-next :prev="prev" :next="next" />
+            <prev-next :prev="prev" :next="next" />
+        </div>
     </div>
 </template>
 
@@ -45,5 +46,11 @@
 </script>
 
 <style>
+.nuxt-content h1 {
+    text-align: center;
+}
 
+.nuxt-content p {
+    padding: 0.5rem;
+}
 </style>
