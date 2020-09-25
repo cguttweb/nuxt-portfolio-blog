@@ -1,6 +1,8 @@
-## HTML Video and Audio
-
-HTML5 `<video>` and `<audio>` elements
+---
+title: HTML Video and Audio
+date: 2020-09-02T14:55:48.543Z
+---
+A quick post looking at HTML5 `<video>` and `<audio>` elements
 
 `video src=""` works the same way as image src add the type for video/mp4 and controls attribute - this is boolean so either true or false. You could also use autoplay but this is not the best idea.
 
