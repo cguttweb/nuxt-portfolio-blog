@@ -21,10 +21,15 @@
             const posts = await $content('posts', params.slug)
             .only(['title', 'slug', 'date'])
             .sortBy('createdAt', 'desc')
-            .limit(10)
+            // .limit(10)
             .fetch()
 
             return { posts }
+        },
+        head(){
+            return {
+                title: 'Blog Posts || cgweb.co.uk'
+            }
         },
         methods: {
             formatDate(date) {
