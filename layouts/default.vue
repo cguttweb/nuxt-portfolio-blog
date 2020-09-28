@@ -2,8 +2,8 @@
   <div>   
     <TheNavBar />
     <Nuxt />
-    <footer class="pl-5 absolute">
-      <a href="https://nuxtjs.org" target="_blank" rel="noopener noreferrer" title="Nuxtjs"><img src="~/assets/built-with-nuxt.svg" alt="" width="100"></a>
+    <footer class="flex justify-center">
+      <a href="https://nuxtjs.org" target="_blank" rel="noopener noreferrer" title="Nuxtjs"><img src="~/assets/built-with-nuxt.svg" alt="" width=""></a>
     </footer>
   </div>
 </template>

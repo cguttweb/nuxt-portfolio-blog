@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="py-3">
         <nuxt-link 
         v-if="prev" 
         :to="{ name: 'blog-slug', params: { slug: prev.slug } }">
