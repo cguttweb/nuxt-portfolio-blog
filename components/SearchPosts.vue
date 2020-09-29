@@ -1,20 +1,18 @@
 <template>
     <div class="pl-5 py-4">
         <input 
-        class="border border-red-600 pl-2 py-1"
+        class="border border-red-600 flex justify-center pl-2 py-1"
         type="search" 
         name="searchposts"
         placeholder="Search Posts"
         v-model="searchPosts">
-        <!-- <div> -->
             <ul>
-                <li v-for="post in posts" :key="post.date">
+                <li class="flex-col" v-for="post in posts" :key="post.date">
                     <nuxt-link :to="{ name: 'blog-slug', params: { slug: post.slug } }">
                         {{ post.title }}
                     </nuxt-link>
                 </li>
             </ul>
-        <!-- </div> -->
     </div>
 </template>
 

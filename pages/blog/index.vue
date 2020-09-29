@@ -1,17 +1,20 @@
 <template>
     <div>
         <SearchPosts />
-        <ul class="pl-5">
-            <li v-for="post in posts" :key="post.id">
-                <nuxt-link :to="{ name: 'blog-slug', params: { slug: post.slug } }">
-                    <div>
-                        <p class="text-green-800">{{ formatDate(post.date) }}</p>
-                        <h3 class="text-red-700">{{ post.title }}</h3>
-                        <a :to="{ name: 'blog-slug', params: { slug: post.slug }}" class="text-blue-800">Read More</a>
-                    </div>
-                </nuxt-link>
-            </li>
-        </ul>
+        <div class="">
+            <ul class="pl-5">
+                <li v-for="post in posts" :key="post.id">
+                    <nuxt-link :to="{ name: 'blog-slug', params: { slug: post.slug } }">
+                        <div class="">
+                            <p class="text-green-800">{{ formatDate(post.date) }}</p>
+                            <h3 class="text-red-700">{{ post.title }}</h3>
+                            <p class="text-green-800">{{ post.description }}</p>
+                            <a :to="{ name: 'blog-slug', params: { slug: post.slug }}" class="text-blue-800">Read More</a>
+                        </div>
+                    </nuxt-link>
+                </li>
+            </ul>
+        </div>
     </div>
 </template>
 
@@ -19,7 +22,7 @@
     export default {
         async asyncData({ $content, params }){
             const posts = await $content('posts', params.slug)
-            .only(['title', 'slug', 'date'])
+            .only(['title', 'slug', 'date', 'description'])
             .sortBy('createdAt', 'desc')
             .fetch()
 
@@ -27,7 +30,7 @@
         },
         head(){
             return {
-                title: 'Blog Posts || cgweb.co.uk'
+                title: 'Blog || cgweb.co.uk'
             }
         },
         methods: {

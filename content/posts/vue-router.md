@@ -8,7 +8,7 @@ The [documentation](https://router.vuejs.org/) is very good it's well laid out a
 
 After installing the router import it into `main.js` using `import Router from 'vue-router'` then add `Vue.use(Router)` and initialise it and add your routes e.g.
 
-```
+```javascript
 const router = new Router({
   routes
 })
@@ -16,7 +16,7 @@ const router = new Router({
 
 In this example there is a `routes.js` file which is an array of objects and then imported into `main.js` `import { routes } from './routes` an example file would be:
 
-```
+```javascript
 export const routes = [
 { 
   path: '/',
@@ -48,13 +48,13 @@ export default new Router({
 using `<router-link></router-link>` has the advantage of having an implicit eventListener added so it will listen to click and will load the correct route instead of the default behaviour of reloading the page sending a server request. You can also trigger the navigation through code as well as `router-link` e.g.
 
 ```javascript
-...
-methods: {
+
+..methods: {
   goHome(){
     this.$router.push('/')
   }
 }
-...
+..
 ```
 
 this method can then be added to element e.g.button.
@@ -64,10 +64,10 @@ this method can then be added to element e.g.button.
 To add dynamic parts of a URL e.g.an id by using colon using params property is an object holding key value pairs in routes.js:
 `... path: '/user/:id...` then in your component:
 
-```
-...javascript
+```javascript
+..
 data(){
-...id: this.$route.params.id
+..id: this.$route.params.id
 }
 ```
 

@@ -2,7 +2,7 @@
   <div class="">
     <main class="px-3 text-gray-900 text-lg" role="main">
     <p class="mx-auto text-center w-4/5">
-      I'm Chloe a web developer based in Hampshire, UK I'm currently learning and creating projects with anything Vue based Gridsome which this site is built from. See my latest posts on my <nuxt-link class="font-bold" to="/blog/">blog</nuxt-link>
+      I'm Chloe a web developer based in Hampshire, UK I'm currently learning and creating projects with anything Vue based including <a class="underline" href="https://nuxtjs.org" target="_blank" rel="noopener noreferrer">Nuxt</a> which this site is now built from having moved from <a class="underline" href="https://gridsome.org" target="_blank" rel="noopener noreferrer">Gridsome</a>. I'm attempting to document my learnings with my latest posts on my <nuxt-link class="font-bold" to="/blog/">blog</nuxt-link>
     </p>
 
     <h2 class="py-3 text-gray-900 text-center text-2xl">Projects</h2>
@@ -28,7 +28,7 @@
       <div class="p-4 shadow-lg">
         <ProjectCard
           title="Array Helper"
-          information="This app is the first I built with the Vue-cli and uses the Twitter Bootstrap framework for styling. It is deployed on vercel."
+          information="This app is the first I built with the Vue-cli. It uses the Twitter Bootstrap framework for styling and is deployed on vercel."
           repo="https://github.com/cguttweb/array-helper"
           link="https://array-helper.vercel.app/"
           techused="Vue, Bootstrap"

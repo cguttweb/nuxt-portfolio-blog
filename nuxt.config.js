@@ -1,3 +1,6 @@
+import { $content } from "@nuxt/content";
+import { create } from "core-js/fn/object";
+
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
@@ -39,6 +42,42 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    '@nuxtjs/feed', {
+      feed: [
+        {
+          path: '/feed.xml',
+          async create(feed){
+            // add details here
+            feed.options = {
+              title: 'My Web Dev Blog',
+              description: 'My web dev blog feed',
+              link: 'https://cgweb.co.uk/feed.xml'
+            }
+
+            const { $content } = require('@nuxt/content')
+
+            const posts = await $content('posts').fetch()
+
+            posts.forEach((post) => {
+              const url = `https://cgweb.co.uk/blog/${post.slug}`
+
+              feed.addItem({
+                title: post.title,
+                id: post.url,
+                link: post.url,
+                description: post.description,
+                content: post.content
+              })
+            })
+
+          },
+
+
+          cacheTime: 1000 * 60 * 15,
+          type: 'rss2'
+        }
+      ]
+    }
   ],
 
   // Content module configuration (https://go.nuxtjs.dev/content-config)
