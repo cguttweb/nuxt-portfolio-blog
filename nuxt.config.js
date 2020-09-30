@@ -6,8 +6,8 @@ const path = require('path');
 
 let posts = [];
 
-const constructFeedItem = (post, hostname) => {  
-  const url = `${hostname}/blog/${post.slug}`;
+const constructFeedItem = (post, dir, hostname) => {  
+  const url = `${hostname}/${dir}/${post.slug}`;
   return {
     title: post.title,
     id: url,
@@ -17,8 +17,7 @@ const constructFeedItem = (post, hostname) => {
   }
 } 
 
-const create = async (feed, args) => {
-  const [filePath, ext] = args;  
+const create = async (feed) => {
   const hostname = process.NODE_ENV === 'production' ? 'https://cgweb.co.uk' : 'http://localhost:3000';
   feed.options = {
     title: "My Web Dev Blog",
@@ -27,10 +26,10 @@ const create = async (feed, args) => {
   }
   const { $content } = require('@nuxt/content')
   if (posts === null || posts.length === 0)
-    posts = await $content(filePath).fetch();
+    posts = await $content('posts').fetch();
 
   for (const post of posts) {
-    const feedItem = await constructFeedItem(post, filePath, hostname);
+    const feedItem = await constructFeedItem(post, hostname);
     feed.addItem(feedItem);
   }
   return feed;
@@ -79,7 +78,6 @@ export default {
     // https://go.nuxtjs.dev/content
     '@nuxt/content', 
     '@nuxtjs/feed'
-    
   ],
 
   feed: [
