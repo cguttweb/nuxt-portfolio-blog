@@ -30,7 +30,7 @@
         },
         head(){
             return {
-                title: 'Blog || cgweb.co.uk'
+                title: 'Web Dev Blog'
             }
         },
         methods: {
