@@ -10,6 +10,8 @@
         <div class="w-4/5">
             <h1 class="pl-2 py-2 text-red-700 text-2xl">{{ post.title }}</h1>
 
+            <p class="pl-2 pb-2">{{ post.description }}</p>
+
             <p class="pl-2">Post created on: {{ formatDate(post.date) }} || Updated: {{ formatDate(post.updatedAt) }} </p>
 
             <nuxt-content :document="post" />

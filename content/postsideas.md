@@ -20,3 +20,6 @@
 - GatsbyJS + netlifyCMS/forestry CMS
 - CSS selectors which could be used as a reference
 - ES6+ ?
+- font awesome icons
+- nuxt config file
+- setting up own web dev docs

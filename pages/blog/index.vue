@@ -1,7 +1,7 @@
 <template>
-    <div>
+    <div class="">
         <SearchPosts />
-        <div class="">
+        <div class="border border-gray-300 w-3/5">
             <ul class="pl-5">
                 <li v-for="post in posts" :key="post.id">
                     <nuxt-link :to="{ name: 'blog-slug', params: { slug: post.slug } }">
@@ -22,7 +22,7 @@
     export default {
         async asyncData({ $content, params }){
             const posts = await $content('posts', params.slug)
-            .only(['title', 'slug', 'date', 'description'])
+            .only(['title', 'slug', 'date'])
             .sortBy('createdAt', 'desc')
             .fetch()
 
