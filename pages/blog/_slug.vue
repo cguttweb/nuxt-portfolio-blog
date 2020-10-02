@@ -8,7 +8,7 @@
             </ul>
         </nav> -->
         <div class="w-4/5">
-            <h1 class="pl-2 py-2 text-red-700 text-2xl">{{ post.title }}</h1>
+            <h1>{{ post.title }}</h1>
 
             <p class="pl-2 pb-2">{{ post.description }}</p>
 
@@ -29,13 +29,14 @@
             const [prev, next] = await $content('posts')
             .only(['title', 'slug'])
             .sortBy('createdAt', 'desc')
+            .surround(params.slug)
             .fetch()
 
             return { 
                 post,
                 prev,
                 next
-                }
+            }
         },
         head(){
             return {
@@ -52,6 +53,12 @@
 </script>
 
 <style>
+h1 {
+    @apply pl-2;
+    @apply text-red-700;
+    @apply text-2xl;
+}
+
 .nuxt-content h1 {
     text-align: center;
 }

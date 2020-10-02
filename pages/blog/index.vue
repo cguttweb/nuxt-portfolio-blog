@@ -1,18 +1,22 @@
 <template>
-    <div class="">
-        <SearchPosts />
-        <div class="border border-gray-300 w-3/5">
+    <div>
+        <div class="flex justify-center">
+            <SearchPosts />
+        </div>
+        <div>
             <ul class="pl-5">
-                <li v-for="post in posts" :key="post.id">
-                    <nuxt-link :to="{ name: 'blog-slug', params: { slug: post.slug } }">
-                        <div class="">
-                            <p class="text-green-800">{{ formatDate(post.date) }}</p>
-                            <h3 class="text-red-700">{{ post.title }}</h3>
-                            <p class="text-green-800">{{ post.description }}</p>
-                            <a :to="{ name: 'blog-slug', params: { slug: post.slug }}" class="text-blue-800">Read More</a>
-                        </div>
-                    </nuxt-link>
-                </li>
+                <div>
+                    <li v-for="post in posts" :key="post.id">
+                        <nuxt-link :to="{ name: 'blog-slug', params: { slug: post.slug } }">
+                            <!-- <div class="post-info"> -->
+                                <p class="text-green-800">{{ formatDate(post.date) }}</p>
+                                <h3 class="py-1 text-red-700">{{ post.title }}</h3>
+                                <p class="text-green-800">{{ post.description }}</p>
+                                <a :to="{ name: 'blog-slug', params: { slug: post.slug }}" class="text-blue-800">Read More</a>
+                            <!-- </div> -->
+                        </nuxt-link>
+                    </li>
+                </div>
             </ul>
         </div>
     </div>
@@ -30,7 +34,7 @@
         },
         head(){
             return {
-                title: 'Web Dev Blog'
+                title: 'Web Development Blog'
             }
         },
         methods: {
@@ -43,5 +47,7 @@
 </script>
 
 <style>
-
+li {
+    @apply py-2 text-lg
+}
 </style>

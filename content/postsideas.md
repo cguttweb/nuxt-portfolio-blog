@@ -23,3 +23,5 @@
 - font awesome icons
 - nuxt config file
 - setting up own web dev docs
+- setting up rss feed on nuxt with content module
+- setting up sitemap.xml file
