@@ -8,12 +8,12 @@
                 <div>
                     <li v-for="post in posts" :key="post.id">
                         <nuxt-link :to="{ name: 'blog-slug', params: { slug: post.slug } }">
-                            <!-- <div class="post-info"> -->
+                            <div class="post-info">
                                 <p class="text-green-800">{{ formatDate(post.date) }}</p>
                                 <h3 class="py-1 text-red-700">{{ post.title }}</h3>
                                 <p class="text-green-800">{{ post.description }}</p>
                                 <a :to="{ name: 'blog-slug', params: { slug: post.slug }}" class="text-blue-800">Read More</a>
-                            <!-- </div> -->
+                            </div>
                         </nuxt-link>
                     </li>
                 </div>
@@ -48,6 +48,7 @@
 
 <style>
 li {
-    @apply py-2 text-lg
+    @apply py-2;
+    @apply text-lg;
 }
 </style>
