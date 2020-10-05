@@ -1,6 +1,6 @@
 <template>
-    <div class="py-4">
-        <footer class="footer flex justify-center">
+    <div class="bg-gray-900 py-5">
+        <footer class="footer flex justify-center text-white">
             Made by<a
           class="px-2"
           href="https://github.com/cguttweb"

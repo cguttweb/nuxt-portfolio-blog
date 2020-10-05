@@ -1,9 +1,9 @@
 <template>
   <div>
-    <h2 class="font-bold text-2xl text-red-800">{{ title }}</h2>
-    <p class="py-2 text-gray-900">{{ information }}</p>
-    <p class="text-red-800">Technology used: {{ techused }}</p>
-    <a class="text-green-800 py-4"
+    <h2 class="font-bold text-2xl text-red-600">{{ title }}</h2>
+    <p class="py-2 text-white">{{ information }}</p>
+    <p class="text-red-600">Technology used: {{ techused }}</p>
+    <a class="text-green-500 py-4"
       :href="repo"
       target="_blank"
       rel="noopener noreferrer"
