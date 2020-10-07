@@ -1,9 +1,8 @@
 <template>
-    <div>
+    <div class="bg-gray-900">
     <nav
       role="navigation"
-      class="flex font-bold my-2 justify-center text-xl text-red-800 uppercase"
-    >
+      class="flex flex-row justify-center py-2 text-xl text-red-600 uppercase">
       <nuxt-link class="pr-5" to="/">Home</nuxt-link>
       <nuxt-link class="pr-5" to="/blog/">Blog</nuxt-link>
       <a class="px-2 text-red-700"

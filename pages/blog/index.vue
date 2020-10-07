@@ -1,24 +1,20 @@
 <template>
-    <div>
+    <div class="bg-gray-900">
         <div class="flex justify-center">
             <SearchPosts />
         </div>
-        <div>
+        <!-- <div> -->
             <ul class="pl-5">
-                <div>
-                    <li v-for="post in posts" :key="post.id">
-                        <nuxt-link :to="{ name: 'blog-slug', params: { slug: post.slug } }">
-                            <div class="post-info">
-                                <p class="text-green-800">{{ formatDate(post.date) }}</p>
-                                <h3 class="py-1 text-red-700">{{ post.title }}</h3>
-                                <p class="text-green-800">{{ post.description }}</p>
-                                <a :to="{ name: 'blog-slug', params: { slug: post.slug }}" class="text-blue-800">Read More</a>
-                            </div>
-                        </nuxt-link>
-                    </li>
-                </div>
+                <li v-for="post in posts" :key="post.id">
+                    <nuxt-link :to="{ name: 'blog-slug', params: { slug: post.slug } }">
+                        <p class="text-small text-green-500">{{ formatDate(post.date) }}</p>
+                        <h3 class="py-1 text-white">{{ post.title }}</h3>
+                        <p class="text-white">{{ post.description }}</p>
+                        <a :to="{ name: 'blog-slug', params: { slug: post.slug }}" class="text-red-600">Read More</a>
+                    </nuxt-link>
+                </li>
             </ul>
-        </div>
+        <!-- </div> -->
     </div>
 </template>
 

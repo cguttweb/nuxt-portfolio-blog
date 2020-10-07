@@ -1,8 +1,8 @@
 <template>
-  <div class="">
-    <main class="px-3 text-gray-900 text-lg" role="main">
-    <p class="mx-auto text-center w-4/5">
-      I'm Chloe a web developer based in Hampshire, UK I'm currently learning and creating projects with anything Vue based including <a class="underline" href="https://nuxtjs.org" target="_blank" rel="noopener noreferrer">Nuxt</a> which this site is now built from having moved from <a class="underline" href="https://gridsome.org" target="_blank" rel="noopener noreferrer">Gridsome</a>. I'm attempting to document my learnings with my latest posts on my <nuxt-link class="font-bold" to="/blog/">blog</nuxt-link>
+  <div class="bg-gray-900">
+    <main class="px-3 text-white text-lg" role="main">
+    <p class="mx-auto py-4 text-center w-4/5">
+      I'm Chloe a web developer based in Hampshire, UK I'm currently learning and creating projects with anything Vue based including <a class="underline hover:font-bold" href="https://nuxtjs.org" target="_blank" rel="noopener noreferrer">Nuxt</a> which this site is now built from having moved from <a class="underline" href="https://gridsome.org" target="_blank" rel="noopener noreferrer">Gridsome</a>. I'm attempting to document my learnings with my latest posts on my <nuxt-link class="underline" to="/blog/">blog</nuxt-link>
     </p>
 
     <h2 class="py-3 text-gray-900 text-center text-2xl">Projects</h2>
@@ -11,7 +11,8 @@
       <!-- <div class="p-4 shadow-lg">
         <ProjectCard
           title="Portfolio"
-          information="This website itself is built with Gridsome and uses Tailwind CSS for styling. I have also added netlifyCMS to make it easier to create posts with markdown."
+          information="This website itself is built with 
+          nuxt and uses Tailwind CSS for styling. I have also added netlifyCMS to make it easier to create posts with markdown."
           repo="https://github.com/cguttweb/portfolio-and-blog"
           link="https://www.cgweb.co.uk"
           techused="Gridsome, Vue, Tailwindcss"
