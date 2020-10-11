@@ -75,3 +75,5 @@ const create = async (feed) => {
   return feed;
 }
 ```
+
+I set an empty array to capture the posts and get their details in the constructFeedItem function and setup the main create function which needs to be asynchronous. Firstly set some base options in this case a title, description and link followed by requiring nuxt/content to be able to access `$content` to get my posts as you would on your blog page. As made clear in the docs this can **only be accessed after the module has been loaded** so once the module is loaded check to make sure posts aren't empty and once check is complete I sort them in descending order by the createdAt option (one of the default options available with content module) and finally to add them to the feed itself I loop through the posts array add each post and return feed. 
