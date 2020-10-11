@@ -17,15 +17,17 @@ modules: [
 ...
 ```
 
-There are a couple of different ways to it setup depending on your particular use case and setup as explained in the [docs](https://github.com/nuxt-community/feed-module). 
+There are a couple of different ways to it setup depending on your particular use case and setup as explained in the [docs](https://github.com/nuxt-community/feed-module). The main difficulty I had was being able to access the markdown through nuxt/content and so back to the nuxt docs I went
 
-In the end I setup my `nuxt.config.js` like this in the default export with the create function setup outside this at the top of the file: 
+There are a few different hooks available when using the content module in my case I'm using the `content:file.beforeInsert` hook which as detailed on the docs `Allows you to add data to a document before it is stored`. I used this to be able to get down the body content of my blog posts
+
+The end result of a few hours of playing around and reading docs was this setup in `nuxt.config.js` in the default export with the create function setup outside this at the top of the file: 
 
 ```javascript
   feed: [
     {
       path: '/feed.xml',
-      create, // outside the default export
+      create, // outside the default export at the top of the config file
       cacheTime: 1000 * 60 * 15,
       type: 'rss2',
       data: [ 'blog', 'xml' ]
@@ -57,7 +59,6 @@ const constructFeedItem = (post, dir) => {
 } 
 
 const create = async (feed) => {
-  // const hostname = process.NODE_ENV === 'production' ? 'https://cgweb.co.uk' : 'http://localhost:3000';
   feed.options = {
     title: "My Web Dev Blog",
     description: "Documenting my web dev learnings",
