@@ -1,14 +1,14 @@
 <template>
     <div class="py-3">
         <nuxt-link 
-        v-if="prev" 
-        :to="{ name: 'blog-slug', params: { slug: prev.slug } }">
+        v-if="prevpage" 
+        :to="{ name: 'blog-slug', params: { slug: prevpage.slug } }">
             &lt;&lt; prev
         </nuxt-link>
         <span v-else>&nbsp;</span>
         <nuxt-link 
-        v-if="next"
-        :to="{ name: 'blog-slug', params: { slug: next.slug } }">
+        v-if="nextpage"
+        :to="{ name: 'blog-slug', params: { slug: nextpage.slug } }">
             next &gt;&gt;
         </nuxt-link>
         <span v-else>&nbsp;</span>
@@ -18,11 +18,11 @@
 <script>
     export default {
         props: {
-            prev: {
+            prevpage: {
                 type: Object,
                 default: () => null
             },
-            next: {
+            nextpage: {
                 type: Object,
                 default: () => null
             }
@@ -33,6 +33,7 @@
             const [prev, next] = await $content('posts')
             .only(['title', 'slug'])
             .sortBy('createdAt', 'desc')
+            .limit(10)
             .fetch()
 
             return { post }
