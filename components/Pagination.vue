@@ -1,41 +1,52 @@
 <template>
-    <div class="py-3">
-        <nuxt-link 
-        v-if="prev" 
-        :to="{ name: 'blog-slug', params: { slug: prev.slug } }">
-            &lt;&lt; prev
-        </nuxt-link>
-        <span v-else>&nbsp;</span>
-        <nuxt-link 
-        v-if="next"
-        :to="{ name: 'blog-slug', params: { slug: next.slug } }">
-            next &gt;&gt;
-        </nuxt-link>
-        <span v-else>&nbsp;</span>
-    </div>
+  <div class="text-white text-center">
+    <button
+      :disabled="PreviousButtonDisabled"
+      @click="previousPage"
+    >
+      ←
+    </button>
+        <PaginationTrigger 
+    :pageNumber="currentPage"
+    @loadPage="onLoadPage"
+    />
+    <button
+      :disabled="NextButtonDisabled"
+      @click="nextPage"
+    >
+      →
+    </button>
+
+  </div>
 </template>
 
 <script>
     export default {
         props: {
-            prev: {
-                type: Object,
-                default: () => null
+            currentPage: {
+                type: Number,
+                required: true
             },
-            next: {
-                type: Object,
-                default: () => null
+            pageCount: {
+                type: Number,
+                required: true
             }
         },
-        async asyncData({ $content, params }){
-            const post = await $content('posts', params.slug).fetch()
-
-            const [prev, next] = await $content('posts')
-            .only(['title', 'slug'])
-            .sortBy('createdAt', 'desc')
-            .fetch()
-
-            return { post }
+        computed: {
+            PreviousButtonDisabled(){
+                return this.currentPage === 1
+            },
+            NextButtonDisabled(){
+                return this.currentPage === this.pageCount
+            }
         },
+        methods: {
+            nextPage(){
+                this.$emit('nextPage')
+            },
+            previousPage(){
+                this.$emit('previousPage')
+            }
+        }
     }
 </script>

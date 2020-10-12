@@ -2,7 +2,7 @@
   <div class="bg-gray-900">
     <main class="px-3 text-white text-lg" role="main">
     <p class="mx-auto py-4 text-center w-4/5">
-      I'm Chloe a web developer based in Hampshire, UK I'm currently learning and creating projects with anything Vue based including <a class="underline hover:font-bold" href="https://nuxtjs.org" target="_blank" rel="noopener noreferrer">Nuxt</a> which this site is now built from having moved from <a class="underline" href="https://gridsome.org" target="_blank" rel="noopener noreferrer">Gridsome</a>. I'm attempting to document my learnings with my latest posts on my <nuxt-link class="underline" to="/blog/">blog</nuxt-link>
+      I'm Chloe a web developer based in Hampshire, UK I'm currently learning and creating projects with anything Vue based including <a class="underline hover:font-bold" href="https://nuxtjs.org" target="_blank" rel="noopener noreferrer">Nuxt</a> which this site is now built from having moved from <a class="underline hover:font-bold" href="https://gridsome.org" target="_blank" rel="noopener noreferrer">Gridsome</a>. I'm attempting to document my learnings with my latest posts on my <nuxt-link class="underline hover:font-bold" to="/blog/">blog</nuxt-link>
     </p>
 
     <h2 class="py-3 text-gray-900 text-center text-2xl">Projects</h2>
