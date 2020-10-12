@@ -8,7 +8,7 @@
       <a class="px-2 text-red-700"
           href="https://dev.to/cguttweb"
           target="_blank"
-          rel="noopener"
+          rel="noopener noreferrer"
           aria-label="devto badge"
         >
           <font-awesome-icon :icon="['fab', 'dev']" title="cguttweb's DEV Profile" />
@@ -17,6 +17,7 @@
           class="px-2 text-red-700"
           href="https://twitter.com/cguttweb"
           target="_blank"
+          rel="noopener noreferrer" 
           aria-label="twitter icon"
         >
           <font-awesome-icon :icon="['fab', 'twitter']" title="Twitter" />
@@ -25,6 +26,7 @@
           class="px-2 text-red-700"
           href="https://github.com/cguttweb"
           target="_blank"
+          rel="noopener noreferrer"
           aria-label="github icon"
         >
           <font-awesome-icon :icon="['fab', 'github']" title="Github" />
@@ -33,6 +35,7 @@
           class="px-2 text-red-700"
           href="https://codepen.io/cgweb"
           target="_blank"
+          rel="noopener noreferrer" 
           aria-label="codepen icon"
         >
           <font-awesome-icon :icon="['fab', 'codepen']" title="Codepen" />
@@ -41,6 +44,7 @@
           class="px-2 text-red-700"
           href="https://instagram.com/cguttweb2017"
           target="_blank"
+          rel="noopener noreferrer" 
           aria-label="codepen icon"
         >
          <font-awesome-icon :icon="['fab', 'instagram']" title="Instagram" />

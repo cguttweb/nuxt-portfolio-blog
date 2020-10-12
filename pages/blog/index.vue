@@ -3,7 +3,14 @@
         <div class="flex justify-center">
             <SearchPosts />
         </div>
-        <!-- <div> -->
+        <div>
+            <Pagination
+            :current-page="currentPage"
+            :page-count="pageCount" 
+            @nextPage="changePage('next')"
+            @previousPage="changePage('previous')"
+            />
+        </div>
             <ul class="pl-5">
                 <li v-for="post in posts" :key="post.id">
                     <nuxt-link :to="{ name: 'blog-slug', params: { slug: post.slug } }">
@@ -14,7 +21,6 @@
                     </nuxt-link>
                 </li>
             </ul>
-        <!-- </div> -->
     </div>
 </template>
 
@@ -33,10 +39,27 @@
                 title: 'Web Development Blog'
             }
         },
+        data(){
+            return {
+                currentPage: 1,
+                pageCount: 0
+            }
+        },
         methods: {
             formatDate(date) {
                 const dateFormatting = { year: 'numeric', month: 'long', day: 'numeric' }
                 return new Date(date).toLocaleDateString('en-gb', dateFormatting)
+            },
+            async changePage(){
+                switch (value) {
+                    case 'next':
+                        this.currentPage += 1
+                        break;
+                    case 'previous':
+                    this.currentPage -= 1
+                    default:
+                        this.currentPage = value
+                }
             }
         }
     }
