@@ -1,10 +1,10 @@
 ---
 title: Adding font awesome icons to Nuxt
 date: 2020-09-25T14:57:31.422Z
-description: 'How to add font awesome icon to your Nuxt app'
+description: How to add font awesome icon to your Nuxt app
 ---
 
-Why did I want t use these? Well simply for my various social networks and I've used them in the past but not with Nuxt but it was simpler than I expected it to be. Firstly install the packages you wish to use in my case this was:
+Why did I want to use these? Well simply for my various social networks and I've used them in the past but not with Nuxt but it was simpler than I expected it to be. Firstly install the packages you wish to use in my case this was:
 
 ```javascript
 yarn install @fortawesome/vue-fontawesome @fortawesome/font-awesome-svg-core @fortawesome/free-brands-svg-icons
