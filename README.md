@@ -1,20 +1,7 @@
-# my-nuxt-blog
+ # Portfolio and blog 
 
-## Build Setup
+[![Netlify Status](https://api.netlify.com/api/v1/badges/768c783b-a86d-4e7b-a999-16850a7e928a/deploy-status)](https://app.netlify.com/sites/heuristic-fermat-37450e/deploys) https://www.cgweb.co.uk
 
-```bash
-# install dependencies
-$ yarn install
+Built with Nuxt and hosted on Netlify WIP
 
-# serve with hot reload at localhost:3000
-$ yarn dev
-
-# build for production and launch server
-$ yarn build
-$ yarn start
-
-# generate static project
-$ yarn generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+Blog posts use [nuxt/content module](https://content.nuxtjs.org/)
