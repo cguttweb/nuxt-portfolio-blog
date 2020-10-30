@@ -3,7 +3,7 @@
     <div class="flex justify-center">
         <SearchPosts />
     </div>
-    <ul class="pl-5">
+    <ul class="container mx-auto pl-5">
         <li v-for="post in posts" :key="post.id">
             <nuxt-link :to="{ name: 'blog-slug', params: { slug: post.slug } }">
                 <p class="text-small text-green-500">{{ formatDate(post.date) }}</p>

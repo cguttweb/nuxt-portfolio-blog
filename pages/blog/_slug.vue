@@ -1,5 +1,5 @@
 <template>
-    <div class="flex justify-center">
+    <div class="bg-gray-800 text-white flex justify-center">
         <!-- <nav>
             <ul>
                 <li v-for="link of post.toc" :key="link.id">

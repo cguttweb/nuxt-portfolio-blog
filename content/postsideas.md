@@ -1,4 +1,4 @@
-## Blog Post Ideas
+# Blog Post Ideas
 
 - Gridsome - setup and thoughts on it so far...
   - vue meta-gridsome - need to look at this
