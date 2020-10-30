@@ -19,3 +19,10 @@ fr = fraction unit will be listened to after any fixed values e.g. 50px
 
 grid-auto-rows/colums...
 grid-auto-flow...
+
+grid lines can use negative values 
+
+cols = right to left starting at -1
+rows = bottom to top starting at -1
+
+this is useful if you don't know the number of rows/cols and want to stretch elements full width or fix element e.g. footer at bottom of the page
