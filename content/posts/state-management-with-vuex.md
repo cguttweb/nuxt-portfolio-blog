@@ -80,3 +80,5 @@ methods: {
 // can add own methods here
 }
 ```
+
+Important thing when using mutations **cannot** use asynchronous code e.g. setTimeout in them as can get lost on when the mutation is happening. **They must run synchronously**.
