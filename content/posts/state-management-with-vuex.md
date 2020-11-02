@@ -21,3 +21,21 @@ export const store = new Vuex Store({
 })
 
 ```
+
+you need to import into `main.js` and ass you would the router:
+
+```javascript
+new Vue({
+...
+store
+})
+```
+
+To be able to access this in components use $store e.g.
+```javascript
+methods: {
+  addOne(){
+    this.$store.counter++
+  }
+}
+```
