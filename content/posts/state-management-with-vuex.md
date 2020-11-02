@@ -82,3 +82,23 @@ methods: {
 ```
 
 Important thing when using mutations **cannot** use asynchronous code e.g. setTimeout in them as can get lost on when the mutation is happening. **They must run synchronously**.
+
+To get around this you can use actions e.g. 
+```javascript
+...
+asyncaddOne: ({ commit }, payload) => {
+  setTimeout(() => {
+    commit('addone') payload.by)
+  }, payload.duration)}
+  })
+}
+```
+```javascript
+import { mapActions } from 'vuex'
+
+...mapActions([
+'addone'...
+])
+```
+
+payload is the data passed to mutate the state
