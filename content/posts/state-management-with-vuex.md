@@ -67,3 +67,16 @@ computed: {
 ```
 
 ### Mutations
+
+These change state and work the same way as getters and can be setup in `store.js` file. As with getters you can also use mapMutations e.g.
+
+```javascript
+import { mapMutations } from 'vuex
+
+methods: {
+  ...mapMutations([
+    'addOne'
+  ]),
+// can add own methods here
+}
+```
