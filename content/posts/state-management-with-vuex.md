@@ -54,4 +54,16 @@ computed: {
 if you have several getters in computed properties there can also be issues. There is a helper function called `mapGetters`
 `import { mapGetters } from 'vuex'`
 
-you can update computed properties to do calculations in the background, however when adding mapGetters you will be unable to your own computed properties. There is a way around this in ES6 using a spread operator
+you can update computed properties to do calculations in the background, however when adding mapGetters you will be unable to your own computed properties. There is a way around this in ES6 using a spread operator e.g. 
+
+```vue
+computed: {
+...mapGetters([
+  'countDouble',
+  'countClicks'
+  ]),
+  myComputedProp(){}
+}
+```
+
+### Mutations
