@@ -39,3 +39,5 @@ methods: {
   }
 }
 ```
+
+It can improve things but it won't fix all issues as if using in multiple components can lead to duplicated code so problematic for large apps if using this way. 
