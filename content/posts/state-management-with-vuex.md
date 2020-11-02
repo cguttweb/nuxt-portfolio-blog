@@ -41,3 +41,15 @@ methods: {
 ```
 
 It can improve things but it won't fix all issues as if using in multiple components can lead to duplicated code so problematic for large apps if using this way. 
+
+Instead of directly accessing the state use a getter. Getters are added as a property in store.js file. You can add as many as needed and name them however you wish. However you can come across issues though as if using getters in an component e.g.
+```
+computed: {
+  counter(){
+    return this.$store.getters.countDouble
+  }
+}
+```
+
+if you have several getters in computed properties there can also be issues. There is a helper function called `mapGetters`
+`import { mapGetters } from 'vuex'`
