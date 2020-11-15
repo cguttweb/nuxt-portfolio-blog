@@ -34,10 +34,26 @@
           link="https://array-helper.vercel.app/"
           techused="Vue, Bootstrap"
         />
-        <a href="https://array-helper.vercel.app/" target="_blank">
+        <a href="https://array-helper.vercel.app/" target="_blank" rel="noopener noreferrer">
           <img
             alt="Array Helper screenshot"
             src="~/assets/array-helper-small.png"
+            width="400"
+          />
+        </a>
+      </div>
+      <div class="p-4 shadow-lg">
+        <ProjectCard
+          title="Coffee Matcher"
+          information="This app is built with Vue-cli and uses the Twitter Bootstrap framework for styling and is deployed on vercel."
+          repo="https://github.com/cguttweb/coffee-matcher"
+          link="https://coffee-matcher.vercel.app/"
+          techused="Vue, Bootstrap"
+        />
+        <a href="https://coffee-matcher.vercel.app/" target="_blank" rel="noopener noreferrer">
+          <img
+            alt="Coffee Matcher"
+            src="#"
             width="400"
           />
         </a>
@@ -50,7 +66,7 @@
           link="https://www.designhistory.co.uk/"
           techused="Gatsby, React, Markdown"
         />
-        <a href="https://designhistory.co.uk" target="_blank">
+        <a href="https://designhistory.co.uk" target="_blank" rel="noopener noreferrer">
           <img
             alt="Design History screenshot"
             src="~/assets/design-history.png"
@@ -80,8 +96,8 @@
           information="A small app built with the Vue cli"
           repo="https://github.com/cguttweb/lfc-euro-champions"
           link="https://github.com/cguttweb/lfc-euro-champions"
-          techused="Vue, CSS" />
-        <a href="#" target="_blank">
+          techused="Vue, Vue Router, CSS" />
+        <a href="#" target="_blank" rel="noopener noreferrer">
           <img
             alt="LFC Euro Champions screenshot"
             src="~/assets/lfc-euro-champs.png"
