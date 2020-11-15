@@ -42,6 +42,9 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
+    htmlAttrs: {
+      lang: 'en-gb'
+    },
     title: 'Web Developer Portfolio',
     meta: [
       { charset: 'utf-8' },
