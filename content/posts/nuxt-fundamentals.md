@@ -12,6 +12,12 @@ Routing is straightforward in Nuxt whereas in Vue apps you need to set the route
 
 If you are using the folder structure important to note whatever this is called will show in routing so this is recommended for sub-routes.
 
+Look up nuxt-child...
+
 #### Linking between pages
 
 When routing between pages to often the generation of many requests you should use `<nuxt-link>` this wil prevent the default behaviour of generating an additional HTTP request and will instead function in the same way as a Single Page Application.
+
+#### Layouts
+
+An important one to create is an `error.vue` file as the name suggests if someone puts in the wrong link this is the page that will show. This is created the layouts folder but it works the same way as any Vue component.
