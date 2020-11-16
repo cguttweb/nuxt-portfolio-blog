@@ -16,8 +16,21 @@ Look up nuxt-child...
 
 #### Linking between pages
 
-When routing between pages to often the generation of many requests you should use `<nuxt-link>` this wil prevent the default behaviour of generating an additional HTTP request and will instead function in the same way as a Single Page Application.
+When routing between pages to often the generation of many requests you should use `<nuxt-link>` this will prevent the default behaviour of generating an additional HTTP request and will instead function in the same way as a Single Page Application.
 
 #### Layouts
 
+Layouts are a wrapper for pages which work in the same way as other Vue components and can be contain small reusable component e.g. a navbar or footer. The default.vue layout will be used for all of your pages until a custom one is specified using layout property in the script section of your page e.g.
+
+```javascript
+<template>...</template>
+export default {
+  layout: 'blog'
+}
+```
+
 An important one to create is an `error.vue` file as the name suggests if someone puts in the wrong link this is the page that will show. This is created the layouts folder but it works the same way as any Vue component.
+
+### Styling
+
+There are multiple ways to style pages in Nuxt. You can add a global CSS file for some base styling and then add this to the `nuxt.config.js` file in the CSS section.
