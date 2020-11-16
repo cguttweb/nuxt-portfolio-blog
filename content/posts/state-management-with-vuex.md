@@ -6,13 +6,13 @@ date: 2020-10-25T17:45:22.153Z
 
 If using the vue-cli to scaffold an app you have the option to select it as part of your setup but if you're adding it to an existing app use `npm install vuex`. 
 
-Common way of using it is to create a `store.js` file in the store folder and inside that:
+A common way of using it is to create a `store.js` file in the store folder and inside that:
 
 ```javascript
 import Vue from 'vue'
 import Vuex from 'vuex'
 
-Vue.use(vuex) // this is to register it
+Vue.use(vuex) // this is done to register it
 
 // then create a new store
 
@@ -54,7 +54,7 @@ computed: {
 if you have several getters in computed properties there can also be issues. There is a helper function called `mapGetters`
 `import { mapGetters } from 'vuex'`
 
-you can update computed properties to do calculations in the background, however when adding mapGetters you will be unable to your own computed properties. There is a way around this in ES6 using a spread operator e.g. 
+you can update computed properties to do calculations in the background, however, when adding mapGetters you will be unable to your own computed properties. There is a way around this in ES6 using a spread operator e.g. 
 
 ```vue
 computed: {
@@ -68,7 +68,7 @@ computed: {
 
 ### Mutations
 
-These change state and work the same way as getters and can be setup in `store.js` file. As with getters you can also use mapMutations e.g.
+These change state and work the same way as getters and can be set up in the `store.js` file. As with getters, you can also use mapMutations e.g.
 
 ```javascript
 import { mapMutations } from 'vuex
@@ -81,7 +81,7 @@ methods: {
 }
 ```
 
-Important thing when using mutations **cannot** use asynchronous code e.g. setTimeout in them as can get lost on when the mutation is happening. **They must run synchronously**.
+The important thing to remember when using mutations **cannot** use asynchronous code e.g. setTimeout in them as can get lost on when the mutation is happening. **They must run synchronously**.
 
 To get around this you can use actions e.g. 
 ```javascript
@@ -99,6 +99,9 @@ import { mapActions } from 'vuex'
 ...mapActions([
 'addone'...
 ])
+
+...
+<button... asyncaddOne({ by: 50, duration: 500 })>
 ```
 
-payload is the data passed to mutate the state
+The payload is the data passed to mutate the state
