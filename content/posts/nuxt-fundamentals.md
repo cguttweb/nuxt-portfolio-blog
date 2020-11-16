@@ -62,7 +62,7 @@ When routing between pages to often the generation of many requests you should u
 
 #### Layouts
 
-Layouts are a wrapper for pages which work in the same way as other Vue components and can be contain small reusable component e.g. a navbar or footer. The default.vue layout will be used for all of your pages until a custom one is specified using layout property in the script section of your page e.g.
+Layouts are a wrapper for pages which work in the same way as other Vue components and can contain small reusable component e.g. a navbar or footer. The default.vue layout will be used for all of your pages until a custom one is specified using layout property in the script section of your page e.g.
 
 ```javascript
 <template>...</template>
@@ -72,3 +72,5 @@ export default {
 ```
 
 An important one to create is an `error.vue` file as the name suggests if someone puts in the wrong link this is the page that will show. This is created the layouts folder but it works the same way as any Vue component.
+
+If you would like to get started with learning Nuxt check the [great docs](https://nuxtjs.org/docs/2.x/get-started/installation) and this [fundamentals course](https://vueschool.io/courses/nuxtjs-fundamentals) from Vue School. 
