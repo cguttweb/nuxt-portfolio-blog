@@ -11,3 +11,7 @@ Routing is straightforward in Nuxt whereas in Vue apps you need to set the route
 **Dynamic** - this can be used with files or folders and uses an underscore e.g. `_id.vue` to tell Nuxt that it is dynamic.
 
 If you are using the folder structure important to note whatever this is called will show in routing so this is recommended for sub-routes.
+
+#### Linking between pages
+
+When routing between pages to often the generation of many requests you should use `<nuxt-link>` this wil prevent the default behaviour of generating an additional HTTP request and will instead function in the same way as a Single Page Application.
