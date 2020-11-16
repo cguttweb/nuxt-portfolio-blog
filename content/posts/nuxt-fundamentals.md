@@ -33,4 +33,8 @@ An important one to create is an `error.vue` file as the name suggests if someon
 
 ### Styling
 
-There are multiple ways to style pages in Nuxt. You can add a global CSS file for some base styling and then add this to the `nuxt.config.js` file in the CSS section.
+There are multiple ways to style pages in Nuxt.js. 
+
+- You can add a global CSS file for some base styling and then add this to the `nuxt.config.js` file in the CSS section which will add the styles to all pages e.g. fonts.
+- You can style individual components using the scoped property in your CSS.
+- Application wide CSS could also be added to the default.vue layout however if using multiple layouts this will not work. 
