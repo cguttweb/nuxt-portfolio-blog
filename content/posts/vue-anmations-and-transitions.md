@@ -12,4 +12,8 @@ There are a number of classes aavialble for transitions in css these are:
 - *-leave
 - *-leave-active
 
-* = is the name given to the transition
+* = is the name given to the transition. These same classes can be used with animations as well as setting up a keyframe.
+
+Note if using transitions and animations together can cause issues so make sure to specifiy the type on the transition e.g. `<transition name="fade" type="animation">`
+
+There is the option to setup an initial on-load animation by adding "appear" property to the transition.
