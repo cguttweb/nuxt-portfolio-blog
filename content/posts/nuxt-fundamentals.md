@@ -6,9 +6,9 @@ Nuxt is a Vue-based framework for SSR or Server Side Rendering but it can also b
 
 ### Routing
 
-Routing is straightforward in Nuxt whereas in Vue apps you need to set the router and a routes file in Nuxt it is done via the creation of folders and files. Any pages created in the pages folders are automatically saved to the router config file which you can see in the .nuxt folder. If you only have a few pages just creating pages is fine however if you intend on creating a large number of files use a folder structure with an `index.vue` <- this is important it needs to be called index. 
+Nuxt uses the Vue Router behind the scenes therefore routing is straightforward in Nuxt whereas in Vue apps you need to set the router and a routes file in Nuxt it is done via the creation of folders and files. Any pages created in the pages folders are automatically saved to the router config file which you can see in the .nuxt folder. If you only have a few pages just creating pages is fine however if you intend on creating a large number of files use a folder structure with an `index.vue` <- this is important it needs to be called index. 
 
-**Dynamic** - this can be used with files or folders and uses an underscore e.g. `_id.vue` to tell Nuxt that it is dynamic.
+**Dynamic** - this can be used with files or folders and uses an underscore e.g. `_id.vue` to tell Nuxt that it is dynamic. To access this for example you would use `$route.params.id` but this value depends on what your pages so if it is called users it would be `$route.params.users`.
 
 If you are using the folder structure important to note whatever this is called will show in routing so this is recommended for sub-routes.
 
