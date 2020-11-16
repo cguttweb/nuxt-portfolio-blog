@@ -12,7 +12,7 @@
 
             <p class="pl-2 pb-2">{{ post.description }}</p>
 
-            <p class="pl-2">Post created on: {{ formatDate(post.date) }} || Updated: {{ formatDate(post.updatedAt) }} </p>
+            <p class="pl-2">Post created on: {{ formatDate(post.date) }} </p>
 
             <nuxt-content :document="post" />
 
