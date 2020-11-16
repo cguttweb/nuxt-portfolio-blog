@@ -14,6 +14,38 @@ npx create-nuxt-app APPNAME // OR
 yarn create nuxt-app APPNAME
 ```
 
+#### Page Title and Meta Tags
+
+These can be set in pages using the head function (this can only be used in page components) which returns an object e.g.
+
+```javascript
+head() {
+  return {
+    title: 'Homepage'
+  }
+}
+```
+
+If this isn't set up on any pages it will default to whatever is included in the config file.
+
+Meta tags use vue-meta under the hood and a full list of supported properties can be found in [the docs](https://vue-meta.nuxtjs.org/api/#metainfo-properties). 
+
+### Styling
+
+There are multiple ways to style pages in Nuxt.js. 
+
+- You can add a global CSS file for some base styling and then add this to the `nuxt.config.js` file in the CSS section which will add the styles to all pages e.g.
+
+```javascript
+  css: [
+    '~/assets/styles.css'
+  ],
+```
+
+- You can style individual components using the scoped property in your CSS.
+- Application wide CSS could also be added to the default.vue layout however if using multiple layouts this will not work. 
+
+
 ### Routing
 
 Nuxt uses the Vue Router behind the scenes therefore routing is straightforward in Nuxt whereas in Vue apps you need to set the router and a routes file in Nuxt it is done via the creation of folders and files. Any pages created in the pages folders are automatically saved to the router config file which you can see in the .nuxt folder. If you only have a few pages just creating pages is fine however if you intend on creating a large number of files use a folder structure with an `index.vue` <- this is important it needs to be called index. 
@@ -40,11 +72,3 @@ export default {
 ```
 
 An important one to create is an `error.vue` file as the name suggests if someone puts in the wrong link this is the page that will show. This is created the layouts folder but it works the same way as any Vue component.
-
-### Styling
-
-There are multiple ways to style pages in Nuxt.js. 
-
-- You can add a global CSS file for some base styling and then add this to the `nuxt.config.js` file in the CSS section which will add the styles to all pages e.g. fonts.
-- You can style individual components using the scoped property in your CSS.
-- Application wide CSS could also be added to the default.vue layout however if using multiple layouts this will not work. 
