@@ -30,3 +30,7 @@ It is important to note when transitioning between two elements `v-show` will *n
 Transition event hooks - these can be used instead of CSS classes but can be used with CSS.
 
 `:css="false"` can be added to skip any CSS checks
+
+enter and leave are the places to set any animations -  done needs to be passed as a parameter and called as function on these two hooks.
+
+**You can mix CSS and JS when creating animations**
