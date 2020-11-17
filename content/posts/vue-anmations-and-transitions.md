@@ -26,3 +26,7 @@ enter-active-class = "animated bounce"
 The names on transitions can be dynamic - bind as you would with any other element
 
 It is important to note when transitioning between two elements `v-show` will *not* work but you can use `v-if/v-else` in most cases. They will need a unique key on each and set a mode either `in-out` or `out-in` for example fading out the first element before adding the second element.
+
+Transition event hooks - these can be used instead of CSS classes but can be used with CSS.
+
+`:css="false"` can be added to skip any CSS checks
