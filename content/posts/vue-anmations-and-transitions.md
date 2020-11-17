@@ -18,9 +18,11 @@ Note if using transitions and animations together can cause issues so make sure 
 
 There is the option to set up an initial on-load animation by adding the "appear" property to the transition.
 
-`animate.css` for CSS classes can be used with/via CDN option. To be able to use and override the default classes and can instead add attributes to transitions e.g.
+`animate.css` for CSS classes can be used with/via a CDN option. To be able to use and override the default classes and can instead add attributes to transitions e.g.
 ```
 enter-active-class = "animated bounce"
 ```
 
-The names on transitions can be dynamic - bind as you would with any other element..
+The names on transitions can be dynamic - bind as you would with any other element
+
+It is important to note when transitioning between two elements `v-show` will *not* work but you can use `v-if/v-else` in most cases. They will need a unique key on each and set a mode either `in-out` or `out-in` for example fading out the first element before adding the second element.
