@@ -1,19 +1,26 @@
 ---
-title: Vue anmations and transitions
+title: Vue animations and transitions
 date: 2020-11-16T15:45:44.136Z
 ---
-Transitions - can include multiple elements but can oinly show  one at a time.
+Transitions - can include multiple elements but can only show one at a time.
 
 In most cases use v-show and v-if to show/hide elements in most cases
 
-There are a number of classes aavialble for transitions in css these are:
-- *-enter
-- *-enter-active
-- *-leave
-- *-leave-active
+There are a number of classes available for transitions in CSS these are:
 
-* = is the name given to the transition. These same classes can be used with animations as well as setting up a keyframe.
+* \*-enter
+* \*-enter-active
+* \*-leave
+* \*-leave-active
+* \= is the name given to the transition. These same classes can be used with animations as well as setting up a keyframe.
 
-Note if using transitions and animations together can cause issues so make sure to specifiy the type on the transition e.g. `<transition name="fade" type="animation">`
+Note if using transitions and animations together can cause issues so make sure to specify the type on the transition e.g. `<transition name="fade" type="animation">`
 
-There is the option to setup an initial on-load animation by adding "appear" property to the transition.
+There is the option to set up an initial on-load animation by adding the "appear" property to the transition.
+
+`animate.css` for CSS classes can be used with/via CDN option. To be able to use and override the default classes and can instead add attributes to transitions e.g.
+```
+enter-active-class = "animated bounce"
+```
+
+The names on transitions can be dynamic - bind as you would with any other element..
