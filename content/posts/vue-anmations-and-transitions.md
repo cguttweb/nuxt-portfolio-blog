@@ -31,6 +31,14 @@ Transition event hooks - these can be used instead of CSS classes but can be use
 
 `:css="false"` can be added to skip any CSS checks
 
-enter and leave are the places to set any animations -  done needs to be passed as a parameter and called as function on these two hooks.
+enter and leave are the places to set any animations -  done needs to be passed as a parameter and called as a function on these two hooks.
 
 **You can mix CSS and JS when creating animations**
+
+You can bind dynamic components with is e.g.
+
+```html
+<component :is="name"></component>
+```
+
+You can use transition-group to animate a list. Unlike transition which does not render to DOM transition group _**does**_ render a new HTML tag. If using this you must include a key so vue can determine elements. You also have access to additional CSS class of move
