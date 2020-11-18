@@ -9,13 +9,21 @@ import VueResource from 'vue-resource'
 
 Vue.use(VueResource)
 ```
+To send a POST request: 
+
 this.$http.post(url, data to send) e.g. in example project
 
 ```javascript
-this.$http.post(firebase + json, this.user)
+this.$http.post('filename.json', this.user)
 .then(resp => { 
   console.log(resp) 
 })
 ```
 
-vue resource uses promises so can use .then() to get/see trhe response and then log to the console
+vue resource uses promises so can use .then() to get/see the response and then log to the console
+
+vue resource gives some helper methods to use e.g. configuring globally for URL as repeating in get/post requests in `main.js` use:
+
+```javascript
+Vue.http.options.root = 'url'
+```
