@@ -39,5 +39,5 @@ You have the option to dynamically set parts of the URL using custom resources
 
 Axios is a promise-based library for HTTP requests
 
-.put is used a single item
+.put is used for a single item
 .post is used for an array of data
