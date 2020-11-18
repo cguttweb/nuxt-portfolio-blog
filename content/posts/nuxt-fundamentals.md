@@ -74,3 +74,21 @@ export default {
 An important one to create is an `error.vue` file as the name suggests if someone puts in the wrong link this is the page that will show. This is created the layouts folder but it works the same way as any Vue component.
 
 If you would like to get started with learning Nuxt check the [great docs](https://nuxtjs.org/docs/2.x/get-started/installation) and this [fundamentals course](https://vueschool.io/courses/nuxtjs-fundamentals) from Vue School. 
+
+### Nuxt and netlifyCMS
+
+**asyncData()** - important to note this method can be only be used in page components. "this" is not accessible in this method as it is called before the initialisation of the component.
+
+You can use a callback with context, but it is recommended to use either:
+1. return a promise
+2. use async/await
+
+The new content module in Nuxt allows the creation of content using markdown
+
+The content module has the following properties:
+- dir
+- path
+- slug
+- extension (.md)
+- createdAt
+- updatedAt
