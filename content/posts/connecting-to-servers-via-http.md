@@ -1,7 +1,9 @@
 ---
-title: Connecting to servers via http
+title: Connecting to servers via http or axios
 date: 2020-11-18T16:20:02.797Z
 ---
+## Using Vue Resource
+
 This is done using vue-resource `npm install vue-resource -D` to install as a dev dependency and add it to `main.js` file like this:
 
 ```javascript
@@ -32,3 +34,10 @@ POST = appends to data (on firebase)
 PUT = will overwrite data (on firebase)
 
 You have the option to dynamically set parts of the URL using custom resources
+
+## Using Axios
+
+Axios is a promise-based library for HTTP requests
+
+.put is used a single item
+.post is used for an array of data
