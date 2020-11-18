@@ -13,7 +13,9 @@ this.$http.post(url, data to send) e.g. in example project
 
 ```javascript
 this.$http.post(firebase + json, this.user)
-.then(resp => { console.log(resp) })
+.then(resp => { 
+  console.log(resp) 
+})
 ```
 
 vue resource uses promises so can use .then() to get/see trhe response and then log to the console
