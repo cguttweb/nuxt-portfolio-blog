@@ -27,3 +27,6 @@ vue resource gives some helper methods to use e.g. configuring globally for URL 
 ```javascript
 Vue.http.options.root = 'url'
 ```
+
+POST = appends to data (on firebase)
+PUT = will overwrite data (on firebase)
