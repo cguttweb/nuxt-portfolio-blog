@@ -30,3 +30,5 @@ Vue.http.options.root = 'url'
 
 POST = appends to data (on firebase)
 PUT = will overwrite data (on firebase)
+
+You have the option to dynamically set parts of the URL using custom resources
