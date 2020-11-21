@@ -6,7 +6,7 @@ Nuxt is a Vue-based framework for SSR or Server Side Rendering but it can also b
 
 ### Getting started
 
-Unlike with Vue you don't need to install a cli tool to scaffold a Nuxt app as long as you have yarn or npm installed it is easy
+Unlike with Vue, you don't need to install a cli tool to scaffold a Nuxt app as long as you have yarn or npm installed it is easy
 
 ```javascript
 npx create-nuxt-app APPNAME // OR
@@ -54,11 +54,11 @@ Nuxt uses the Vue Router behind the scenes therefore routing is straightforward 
 
 If you are using the folder structure important to note whatever this is called will show in routing so this is recommended for sub-routes.
 
-Look up nuxt-child...
+<!-- look up nuxt-child... -->
 
 #### Linking between pages
 
-When routing between pages to often the generation of many requests you should use `<nuxt-link>` this will prevent the default behaviour of generating an additional HTTP request and will instead function in the same way as a Single Page Application.
+When routing between pages to prevent the generation of many requests you should use `<nuxt-link>` this will prevent the default behaviour of generating an additional HTTP request and will instead function in the same way as a Single Page Application.
 
 #### Layouts
 
