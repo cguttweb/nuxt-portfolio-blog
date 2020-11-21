@@ -3,13 +3,13 @@
     <div class="flex justify-center">
         <SearchPosts />
     </div>
-    <ul class="container mx-auto pl-5">
-        <li v-for="post in posts" :key="post.id">
+    <ul class="block md:flex flex-wrap mx-auto lg:w-1/2">
+        <li class="p-5 shadow-lg md:w-1/2" v-for="post in posts" :key="post.id">
             <nuxt-link :to="{ name: 'blog-slug', params: { slug: post.slug } }">
                 <p class="text-small text-green-500">{{ formatDate(post.date) }}</p>
-                <h3 class="py-1 text-white">{{ post.title }}</h3>
-                <p class="text-white">{{ post.description }}</p>
-                <a :to="{ name: 'blog-slug', params: { slug: post.slug }}" class="text-red-600">Read More</a>
+                <h3 class="py-2 text-white">{{ post.title }}</h3>
+                <p class="py-2 text-white">{{ post.description }}</p>
+                <a :to="{ name: 'blog-slug', params: { slug: post.slug }}" class="bg-red-800 px-3 py-2 rounded text-white hover:bg-blue-800 ">Read More</a>
             </nuxt-link>
         </li>
     </ul>

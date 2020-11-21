@@ -69,11 +69,23 @@ h1 {
     padding: 0.5rem;
 }
 
+.nuxt-content h3 {
+    font-size: 20px;
+}
+
+.nuxt-content h4 {
+    font-size: 18px;
+}
+
 .nuxt-content p {
+    font-size:16px;
     padding: 0.5rem;
 }
 
 .nuxt-content li {
-    padding: 0.25rem 0.5rem;
+    font-size: 16px;
+    list-style: disc;
+    margin-left: 0.5rem;
+    padding: 0.5rem;
 }
 </style>

@@ -38,7 +38,7 @@
           <img
             alt="Array Helper screenshot"
             src="~/assets/array-helper-small.png"
-            width="400"
+            width="300"
           />
         </a>
       </div>
@@ -54,26 +54,9 @@
           <img
             alt="Coffee Matcher"
             src="#"
-            width="400"
+            width="300"
           />
         </a>
-      </div>
-      <div class="p-4 shadow-lg">
-        <ProjectCard
-          title="Design History"
-          information="A project built using Gatsby a static site generator based on the React JavaScript framework with Forestry.io as the CMS. A work in progress"
-          repo="https://github.com/cguttweb/design-history"
-          link="https://www.designhistory.co.uk/"
-          techused="Gatsby, React, Markdown"
-        />
-        <a href="https://designhistory.co.uk" target="_blank" rel="noopener noreferrer">
-          <img
-            alt="Design History screenshot"
-            src="~/assets/design-history.png"
-            width="400"
-          />
-        </a>
-        <p>Learn more about <a href="https://forestry.io/" rel="noopener noreferrer" target="_blank">Forestry</a></p>
       </div>
       <div class="p-4 shadow-lg">
         <ProjectCard
@@ -87,7 +70,7 @@
         <img 
         alt="simple gym site using gatsby" 
         src="~/assets/gym-site.png" 
-        width="400" />
+        width="300" />
         </a>
       </div>
       <div class="p-4 shadow-lg">
@@ -101,7 +84,7 @@
           <img
             alt="LFC Euro Champions screenshot"
             src="~/assets/lfc-euro-champs.png"
-            width="400"
+            width="300"
           />
         </a>
       </div>
@@ -119,6 +102,23 @@
           src="~/assets/all-about-coffee.png" 
           width="300" />
         </a>
+      </div>
+      <div class="p-4 shadow-lg">
+        <ProjectCard
+          title="Design History"
+          information="A project built using Gatsby a static site generator based on the React JavaScript framework with Forestry.io as the CMS. A work in progress"
+          repo="https://github.com/cguttweb/design-history"
+          link="https://www.designhistory.co.uk/"
+          techused="Gatsby, React, Markdown"
+        />
+        <a href="https://designhistory.co.uk" target="_blank" rel="noopener noreferrer">
+          <img
+            alt="Design History screenshot"
+            src="~/assets/design-history.png"
+            width="400"
+          />
+        </a>
+        <p>Learn more about <a class="underline" href="https://forestry.io/" rel="noopener noreferrer" target="_blank">Forestry</a></p>
       </div>
     </div>
     </section>
