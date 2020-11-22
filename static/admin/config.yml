@@ -1,6 +1,7 @@
 backend:
   name: github
   repo: cguttweb/nuxt-portfolio-blog
+  branch: main
 
 media_folder: 'static/uploads'
 public_folder: '/uploads'
@@ -10,11 +11,13 @@ collections:
   - name: 'posts'
     label: 'Posts'
     folder: 'content/posts'
+    format: 'frontmatter'
     create: true
     slug: '{{slug}}'
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'date' }
+      - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
       - { label: 'Image', name: 'image', widget: 'image', required: false }
 
