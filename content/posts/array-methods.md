@@ -63,7 +63,7 @@ filterNumbers = numbers.filter((number) => number < 50 )
 ```javascript
 ```
 
-- every - this will look at all array values and is like using `&&` operator
+- every - this will look at all array values and is like using `&&` operator so unless all values match this will return false.
 
 ```javascript
 
