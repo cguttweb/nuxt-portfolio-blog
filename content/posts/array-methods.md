@@ -3,7 +3,7 @@ title: Array Methods
 date: 2020-11-22T12:06:31.591Z
 description: A post on array methods
 ---
-whenThere are many many array methods with more being added all the time as a new version of ECMAScript is released. There are a few methods which do the same thing and can reduce the need to use for loops in many cases it is knowing when to use each of them.
+There are many array methods available in JavaScript with more being added all the time as a new version of ECMAScript is released. There are a few methods which do the same thing and can reduce the need to use for loops in many cases it is knowing when to use each of them.
 
 ```javascript
 let colours = ['red', 'blue', 'green', 'yellow', 'purple', 'orange']
@@ -16,9 +16,32 @@ for(var i = 0; i < colours.length; i++){
 
 ```
 
-- forEach
-- map - 
-- filter -
+- forEach - this works in the same way as a for loop but uses less code and is a more efficient way of coding. It provides an iterator function when called on an array and runs once for each element in your array.
+
+- map - this is perhaps the most commonly used method as it will create a new array instead of mutating or changing an existing array e.g.
+
+```javascript
+let images = [ 
+  { height: '100px', width: '400px' }, 
+  { height: '40px', width: '200' }
+]
+
+let imageHeights = images.map(image => image.height)
+
+// returns ["100px", "40px"]
+```
+
+- filter - this creates a new array with elements that pass the test of a given function and is commonly used for filtering lists e.g.
+
+```javascript
+const numbers =  [12, 34, 56, 43, 21, 19, 65, 78, 38]
+
+let filterNumbers = []
+filterNumbers = numbers.filter((number) => number < 50 )
+// returns [ 12, 34, 43, 21, 19, 38 ]
+
+```
+
 
 
 
