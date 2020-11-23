@@ -16,7 +16,24 @@ for(var i = 0; i < colours.length; i++){
 
 ```
 
-- forEach - this works in the same way as a for loop but uses less code and is a more efficient way of coding. It provides an iterator function when called on an array and runs once for each element in your array.
+- forEach - this works in the same way as a for loop but uses less code and is a more efficient way of coding. It provides an iterator function when called on an array and runs once for each element in your array. e.g.
+
+```javascript
+let images = [ 
+  { height: 100, width: 400 }, 
+  { height: 40, width: 200 }
+]
+
+let areas = []
+
+images.forEach((image) => {
+  let imageArea = image.height * image.width
+  areas.push(imageArea)
+})
+
+// areas = [40000, 8000]
+```
+
 
 - map - this is perhaps the most commonly used method as it will create a new array instead of mutating or changing an existing array e.g.
 
