@@ -70,17 +70,6 @@ let users = [
 ]
 
 users.find((user) => user.name === 'Simon')
-
-// More complex example
-
-let posts = [
-  { id: 1, title: 'This is post 1' },
-  { id: 2, title: 'This is post 2' }
-]
-
-let comment = {
-postId: 1, content: 'A great post!'
-}
 ```
 
 - every - this will look at all array values and is like using `&&` operator so unless all values match this will return false.
