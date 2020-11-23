@@ -58,6 +58,10 @@ filterNumbers = numbers.filter((number) => number < 50 )
 // returns [ 12, 34, 43, 21, 19, 38 ]
 
 ```
+- find
+- every and some
+
+- reduce - this is the one I still don't fully understand
 
 
 
