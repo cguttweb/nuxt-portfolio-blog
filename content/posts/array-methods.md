@@ -58,8 +58,14 @@ filterNumbers = numbers.filter((number) => number < 50 )
 // returns [ 12, 34, 43, 21, 19, 38 ]
 
 ```
-- find
-- every and some
+- find - this is used to iterate over an array until it returns true when this happens it will exit and return the value it finds e.g.
+
+```javascript
+```
+
+- every - this will look at all array values and is like using `&&` operator
+
+- some - this works by looking at some values like using `||` operator between values so if at least one matches value returned it will be true
 
 - reduce - this is the one I still don't fully understand
 
