@@ -61,6 +61,26 @@ filterNumbers = numbers.filter((number) => number < 50 )
 - find - this is used to iterate over an array until it returns true when this happens it will exit and return the value it finds e.g.
 
 ```javascript
+// Simple Example
+
+let users = [
+  { name: 'Jennifer' },
+  { name: 'Rachel' },
+  { name: 'Simon' }
+]
+
+users.find((user) => user.name === 'Simon')
+
+// More complex example
+
+let posts = [
+  { id: 1, title: 'This is post 1' },
+  { id: 2, title: 'This is post 2' }
+]
+
+let comment = {
+postId: 1, content: 'A great post!'
+}
 ```
 
 - every - this will look at all array values and is like using `&&` operator so unless all values match this will return false.
