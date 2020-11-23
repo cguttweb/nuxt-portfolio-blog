@@ -102,8 +102,13 @@ let hasSubmitted = users.some(user => user.hasSubmittedForm === true)
 // returns true
 ```
 
-- reduce - this is the one I still don't fully understand
+will- reduce - this method is one of the most flexible. You pass in an initial value which is sent to function through every iteration. It will condense to a single value e.g.
 
+```javascript
+let trips = [ {distance: 22 }, { distance: 35 }, { distance: 5 }]
 
+let totalDistance = trips.reduce((previous, trip) => { return previous + trip.distance }, 0)
 
+// totalDistance returns 62
+```
 
