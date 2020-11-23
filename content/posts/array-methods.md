@@ -65,6 +65,19 @@ filterNumbers = numbers.filter((number) => number < 50 )
 
 - every - this will look at all array values and is like using `&&` operator
 
+```javascript
+
+let users = [
+  { id: 1, hasSubmittedForm: true },
+  { id: 3, hasSubmittedForm: false },
+  { id: 8, hasSubmittedForm: true }
+]
+
+let hasSubmitted = users.every(user => user.hasSubmittedForm === true)
+
+// returns false as not everyone has submitted the form
+```
+
 - some - this works by looking at some values like using `||` operator between values so if at least one matches value returned it will be true e.g.
 
 ```javascript
@@ -75,10 +88,9 @@ let users = [
   { id: 8, hasSubmittedForm: true }
 ]
 
-let hasSubmitted = users.every(user => 
-user.hasSubmittedForm === true)
+let hasSubmitted = users.some(user => user.hasSubmittedForm === true)
 
-// returns false as not everyone has submitted the form
+// returns true
 ```
 
 - reduce - this is the one I still don't fully understand
