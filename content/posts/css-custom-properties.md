@@ -7,21 +7,21 @@ CSS Variables have been around for a while and designed to try and reduce duplic
 
 ```css
 :root {
-  --header-background-color: red;
-  --secondary-background-color: blue;
-  --text-color: white;
+  --header-background-colour: red;
+  --secondary-background-colour: blue;
+  --text-colour: white;
 }
 
 header {
-  background-color: var(--header-background-color);
-  color: var(--text-color);
+  background-color: var(--header-background-colour);
+  color: var(--text-colour);
 }
 
 p {
-  background-color: var(--secondary-background-color);
-  color: var(--text-color);
+  background-color: var(--secondary-background-colour);
+  color: var(--text-colour);
 }
 
 ```
 
-**It is important to note that these are _case sensitive_** so `--bg-color` and `--BG-color` are seen as two separate properties.
+**It is important to note that these _are_ case sensitive** so `--bg-colour` and `--BG-colour` are seen as two separate properties.
