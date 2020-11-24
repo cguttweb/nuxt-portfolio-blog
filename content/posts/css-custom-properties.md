@@ -18,7 +18,10 @@ header {
 }
 
 p {
-  background-color: var(--seconmdary-background-color);
+  background-color: var(--secondary-background-color);
+  color: var(--text-color);
 }
 
 ```
+
+**It is important to note that these are _case sensitive_** so `--bg-color` and `--BG-color` are seen as two separate properties.
