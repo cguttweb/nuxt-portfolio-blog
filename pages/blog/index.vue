@@ -1,19 +1,20 @@
 <template>
-<div class="bg-gray-900">
+<main class="bg-gray-900">
+<h1 class="text-center text-white">My Blog</h1>
     <div class="flex justify-center">
         <SearchPosts />
     </div>
     <ul class="block md:flex flex-wrap mx-auto lg:w-1/2">
         <li class="p-5 shadow-lg md:w-1/2" v-for="post in posts" :key="post.id">
             <nuxt-link :to="{ name: 'blog-slug', params: { slug: post.slug } }">
-                <p class="text-small text-green-500">{{ formatDate(post.date) }}</p>
-                <h3 class="py-4 text-white">{{ post.title }}</h3>
-                <!-- <p class="py-2 text-white">{{ post.description }}</p>-->
-                <a :to="{ name: 'blog-slug', params: { slug: post.slug }}" class="bg-red-800 px-3 py-2 rounded text-white hover:bg-blue-800 ">Read More</a>
+                <p class="text-small text-green-400">{{ formatDate(post.date) }}</p>
+                <h2 class="py-4 text-white">{{ post.title }}</h2>
+                <!--<a :to="{ name: 'blog-slug', params: { slug: post.slug }}" class="bg-red-800 px-3 py-2 rounded text-white hover:bg-blue-800 ">Read More</a>-->
+                <a class="bg-red-800 px-3 py-2 rounded text-white hover:bg-blue-800 ">Read More</a>
             </nuxt-link>
         </li>
     </ul>
-</div>
+</main>
 </template>
 
 <script>

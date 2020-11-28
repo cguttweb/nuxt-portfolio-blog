@@ -5,7 +5,7 @@
       I'm Chloe a web developer based in Hampshire, UK I'm currently learning and creating projects with anything Vue based including <a class="underline hover:font-bold" href="https://nuxtjs.org" target="_blank" rel="noopener noreferrer">Nuxt</a> which this site is now built from having moved from <a class="underline hover:font-bold" href="https://gridsome.org" target="_blank" rel="noopener noreferrer">Gridsome</a>. I'm attempting to document my learnings with my latest posts on my <nuxt-link class="underline hover:font-bold" to="/blog/">blog</nuxt-link>
     </p>
 
-    <h2 class="py-3 text-gray-900 text-center text-2xl">Projects</h2>
+    <h1 class="py-3 text-white text-center text-3xl">Projects</h1>
     <section>
     <div class="grid lg:grid-cols-2 gap-6">
       <!-- <div class="p-4 shadow-lg">
@@ -50,13 +50,11 @@
           link="https://coffee-matcher.vercel.app/"
           techused="Vue, Bootstrap"
         />
-        <a href="https://coffee-matcher.vercel.app/" target="_blank" rel="noopener noreferrer">
           <img
             alt="Coffee Matcher"
             src="#"
             width="300"
           />
-        </a>
       </div>
       <div class="p-4 shadow-lg">
         <ProjectCard
@@ -66,12 +64,10 @@
           link="https://github.com/cguttweb/gym-site"
           techused="Gatsby, CSS"
         />
-        <a href="https://github.com/cguttweb/gym-site" rel="noopener noreferrer" target="_blank">
         <img 
         alt="simple gym site using gatsby" 
         src="~/assets/gym-site.png" 
         width="300" />
-        </a>
       </div>
       <div class="p-4 shadow-lg">
         <ProjectCard
@@ -80,13 +76,12 @@
           repo="https://github.com/cguttweb/lfc-euro-champions"
           link="https://github.com/cguttweb/lfc-euro-champions"
           techused="Vue, Vue Router, CSS" />
-        <a href="#" target="_blank" rel="noopener noreferrer">
           <img
             alt="LFC Euro Champions screenshot"
             src="~/assets/lfc-euro-champs.png"
             width="300"
           />
-        </a>
+        
       </div>
       <div class="p-4 shadow-lg">
         <ProjectCard
@@ -96,12 +91,11 @@
           techused="Gridsome, Vue, TailwindCSS"
           link="https://github.com/cguttweb/all-about-coffee"
         />
-        <a href="https://github.com/cguttweb/all-about-coffee" rel="noopener noreferrer" target="_blank">
-          <img 
+        <img 
           alt="All About Coffee site homepage" 
           src="~/assets/all-about-coffee.png" 
           width="300" />
-        </a>
+        
       </div>
       <div class="p-4 shadow-lg">
         <ProjectCard
