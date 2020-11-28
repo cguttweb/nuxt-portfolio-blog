@@ -1,7 +1,7 @@
 ---
 title: Array Methods
 date: 2020-11-22T12:06:31.591Z
-description: A post on array methods
+description: A post on some more recent array methods
 ---
 There are many array methods available in JavaScript with more being added all the time as a new version of ECMAScript is released. There are a few methods which do the same thing and can reduce the need to use for loops in many cases it is knowing when to use each of them.
 
