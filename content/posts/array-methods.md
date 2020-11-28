@@ -16,7 +16,7 @@ for(var i = 0; i < colours.length; i++){
 
 ```
 
-- forEach - this works in the same way as a for loop but uses less code and is a more efficient way of coding. It provides an iterator function when called on an array and runs once for each element in your array. e.g.
+- **forEach** - this works in the same way as a for loop but uses less code and is a more efficient way of coding. It provides an iterator function when called on an array and runs once for each element in your array. e.g.
 
 ```javascript
 let images = [ 
@@ -35,7 +35,7 @@ images.forEach((image) => {
 ```
 
 
-- map - this is perhaps the most commonly used method as it will create a new array instead of mutating or changing an existing array e.g.
+- **map** - this is perhaps the most commonly used method as it will create a new array instead of mutating or changing an existing array e.g.
 
 ```javascript
 let images = [ 
@@ -48,7 +48,7 @@ let imageHeights = images.map(image => image.height)
 // returns ["100px", "40px"]
 ```
 
-- filter - this creates a new array with elements that pass the test of a given function and is commonly used for filtering lists e.g.
+- **filter** - this creates a new array with elements that pass the test of a given function and is commonly used for filtering lists e.g.
 
 ```javascript
 const numbers =  [12, 34, 56, 43, 21, 19, 65, 78, 38]
@@ -58,7 +58,7 @@ filterNumbers = numbers.filter((number) => number < 50 )
 // returns [ 12, 34, 43, 21, 19, 38 ]
 
 ```
-- find - this is used to iterate over an array until it returns true when this happens it will exit and return the value it finds e.g.
+- **find** - this is used to iterate over an array until it returns true when this happens it will exit and return the value it finds e.g.
 
 ```javascript
 // Simple Example
@@ -72,7 +72,7 @@ let users = [
 users.find((user) => user.name === 'Simon')
 ```
 
-- every - this will look at all array values and is like using `&&` operator so unless all values match this will return false.
+- **every** - this will look at all array values and is like using `&&` operator so unless all values match this will return false.
 
 ```javascript
 
@@ -87,7 +87,7 @@ let hasSubmitted = users.every(user => user.hasSubmittedForm === true)
 // returns false as not everyone has submitted the form
 ```
 
-- some - this works by looking at some values like using `||` operator between values so if at least one matches value returned it will be true e.g.
+- **some** - this works by looking at some values like using `||` operator between values so if at least one matches value returned it will be true e.g.
 
 ```javascript
 
@@ -102,7 +102,7 @@ let hasSubmitted = users.some(user => user.hasSubmittedForm === true)
 // returns true
 ```
 
-will- reduce - this method is one of the most flexible. You pass in an initial value which is sent to function through every iteration. It will condense to a single value e.g.
+- **reduce** - this method is one of the most flexible. You pass in an initial value which is sent to function through every iteration. It will condense to a single value e.g.
 
 ```javascript
 let trips = [ {distance: 22 }, { distance: 35 }, { distance: 5 }]
