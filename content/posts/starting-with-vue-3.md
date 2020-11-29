@@ -8,14 +8,19 @@ I bought myself a year-long subscription to [Vue Mastery](https://www.vuemastery
 ```Vue
 // Vue 2
 
-
+const app = new Vue({
+  el: '#app',
+  data: {
+   name: 'Jane'
+  }
+})
 
 // Vue 3
 
 const app = Vue.createApp({
   data(){
     return {
-      name: ''
+      name: 'Jane'
     }
   }
 })
