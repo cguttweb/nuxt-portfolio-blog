@@ -132,3 +132,10 @@ computed:{}
 In most cases you will use Single File Components (SFCs) which are what is created when using the Vue-CLI to scaffold an app.
 
 ### Communicating Events
+
+
+### Forms and v-model
+
+TWo way data binding with `v-model` - set properties in data and then in HTML add `v-model="name"` or `v-model.number="rating"`
+
+number is a modifier to type check that the value is a number. The only form input bindings are `.lazy` and `.trim`.
