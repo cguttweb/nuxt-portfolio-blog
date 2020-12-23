@@ -45,6 +45,7 @@ data(){
   }
 }
 ```
+Shorthand for this is simple `:`
 
 ### Conditional Rendering
 
