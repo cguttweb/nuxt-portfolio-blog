@@ -97,6 +97,26 @@ methods: {
 
 ### Class and Style Binding
 
+Dynamically binding classes and styles work the same wayas other attributes except you use object or array syntax e.g. 
+
+```
+...style="{ backgroundColor: option.color }"
+```
+
+If you are using mutliple styles you could bind to an object e.g. 
+`<p :style="myStyles">Some random text</p>`
+
+```vue
+data(){
+  return {
+    myStyles: {
+      color: 'red',
+      font-size: 1rem,
+    }
+  }
+}
+```
+
 ### Computed Properties
 
 These calculate values and are useful because they cache these values and will only update when one of the dependencies change e.g.
