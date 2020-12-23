@@ -101,5 +101,10 @@ methods: {
 
 These calculate values and are useful because they cache these values and will only update when one of the dependencies change e.g.
 
-```
+```vue
+computed: {
+  title(){
+    return this.myName +  ' ' + this.myProduct
+  }
+}
 ```
