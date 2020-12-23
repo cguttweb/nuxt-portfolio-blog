@@ -118,7 +118,7 @@ data(){
   }
 }
 ```
-You can also conditionally bind classes e.g.
+You can also conditionally bind classes to elements e.g.
 
 ```html
 <button :class="{ CSSClass: !inStock } :disabled="!inStock">Text here</button>
