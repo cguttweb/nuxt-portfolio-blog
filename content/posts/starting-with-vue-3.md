@@ -30,3 +30,17 @@ Once this is set up you need to import and 'mount' the app to the DOM e.g.
 ```javascript
 const mountedApp = app.mount('#app')
 ```
+
+### Attribute Binding
+
+### Conditional Rendering
+
+This is done using a Vue directive called `v-if` this can be used with `v-else` or on its own e.g.
+
+```
+<p vif="inStock">Product is in stock</p>
+<p v-else>Out of stock</p>
+
+```
+
+### List Rendering
