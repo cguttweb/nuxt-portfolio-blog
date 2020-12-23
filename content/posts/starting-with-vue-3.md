@@ -136,6 +136,8 @@ In most cases you will use Single File Components (SFCs) which are what is creat
 
 ### Forms and v-model
 
-TWo way data binding with `v-model` - set properties in data and then in HTML add `v-model="name"` or `v-model.number="rating"`
+TWo way data binding with `v-model` - set properties in data and then in HTML add `v-model="name"` or `v-model.number="rating"`.
 
-number is a modifier to type check that the value is a number. The only form input bindings are `.lazy` to only sync after change events and `.trim` which will remove any whitespace.
+[Form input modifiers](https://vuejs.org/v2/guide/forms.html#Modifiers)
+
+`.number` is a modifier to type check that the value is a number. The only form input bindings are `.lazy` to only sync after change events and `.trim` which will remove any whitespace.
