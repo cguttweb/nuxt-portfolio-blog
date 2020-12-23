@@ -105,6 +105,12 @@ These calculate values and are useful because they cache these values and will o
 computed: {
   title(){
     return this.myName +  ' ' + this.myProduct
+  },
+  onSale(){
+    if(this.onSale) {
+      return this.myName + ' ' + this.myProduct + ' is on sale!'
+    }
+      return ' '
   }
 }
 ```
