@@ -25,3 +25,8 @@ const app = Vue.createApp({
   }
 })
 ```
+Once this is set up you need to import and 'mount' the app to the DOM e.g.
+
+```javascript
+const mountedApp = app.mount('#app')
+```
