@@ -33,6 +33,19 @@ const mountedApp = app.mount('#app')
 
 ### Attribute Binding
 
+This dynamically binds an attribute to an expression e.g.
+
+```Vue
+
+<a v-bind href="url">My Website</a>
+...
+data(){
+  return {
+    url: 'https://mywebsite.com'
+  }
+}
+```
+
 ### Conditional Rendering
 
 This is done using a Vue directive called `v-if` this can be used with `v-else` or on its own e.g.
@@ -42,7 +55,7 @@ This is done using a Vue directive called `v-if` this can be used with `v-else` 
 <p v-else>Out of stock</p>
 ```
 
-You can also chain logic using v-if/v-else-if/v-else like a standard js if-else conditional.
+You can also chain logic using `v-if/v-else-if/v-else` like a standard js if-else conditional.
 
 Another option is to use `v-show` this is different because instead of removing the element from the DOM as v-if does instead it toggles the visibility. This is the better option for performance if you have an element that changes often.
 
