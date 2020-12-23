@@ -70,3 +70,22 @@ This uses `v-for` directive and it works like a classic for loop in javascript e
 <li v-for="items in items" :key="item.id">{{ item }}</li>
 ```
 MAke asure to add a key to give each element a unique key for Vue to be able to keep track of them.
+
+### Event Handling
+
+You listen for events using the `v-on` directive and its event type e.g. click, mouseover(equivalent to hover)
+
+```html
+<button v-on:click="dosomething">
+// using shorthand
+<button @click="doSomething">
+```
+
+### Class and Style Binding
+
+### Computed Properties
+
+These calculate values and are useful because they cache these values and will only update when one of the dependencies change e.g.
+
+```
+```
