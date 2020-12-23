@@ -37,8 +37,8 @@ const mountedApp = app.mount('#app')
 
 This is done using a Vue directive called `v-if` this can be used with `v-else` or on its own e.g.
 
-```
-<p vif="inStock">Product is in stock</p>
+```html
+<p v-if="inStock">Product is in stock</p>
 <p v-else>Out of stock</p>
 
 ```
