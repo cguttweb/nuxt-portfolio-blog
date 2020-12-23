@@ -81,6 +81,20 @@ You listen for events using the `v-on` directive and its event type e.g. click, 
 <button @click="doSomething">
 ```
 
+A simple example would be adding values to keep score or add values to a cart e.g.
+
+```html
+<button @click="addToScore">
+```
+
+```Vue
+methods: {
+  addToScore(){
+    this.score += 1
+  }
+}
+```
+
 ### Class and Style Binding
 
 ### Computed Properties
