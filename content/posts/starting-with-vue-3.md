@@ -114,3 +114,21 @@ computed: {
   }
 }
 ```
+
+### Components and Props
+
+Components are the building blocks of Vue apps that are reusable. When creating an example the structure is as follows:
+
+```vue
+app.component('component-name', {
+props: (to pass values),
+template: `` (add html here),
+data(){ },
+methods: {},
+computed:{}
+})
+```
+
+In most cases you will use Single File Components (SFCs) which are what is created when using the Vue-CLI to scaffold an app.
+
+### Communicating Events
