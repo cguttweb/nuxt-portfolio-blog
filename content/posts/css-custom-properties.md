@@ -32,9 +32,5 @@ To see the current support see [caniuse.com](https://caniuse.com/?search=css%20v
 
 #### Inheritance
 
-Custom properties do inherit meaning if no value is set it will inherit from its parent e.g.
-
-```css
-\\ add examples
-```
+Custom properties do inherit meaning if no value is set it will inherit from its parent.
 
