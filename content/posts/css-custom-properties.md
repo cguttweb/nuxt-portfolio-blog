@@ -28,7 +28,7 @@ p {
 
 A good example of using these is the Bootstrap scss file which uses `:root` to set colours, breakpoints for responsiveness and base fonts.
 
-To see the current support see [caniuse.com](https://caniuse.com/?search=css%20variables) fairly good support in modern browsers although if you need to support IE they won't work.
+To see the current support see [caniuse.com](https://caniuse.com/?search=css%20variables) fairly good support in modern browsers although if you need to support everyone's favourite IE they won't work.
 
 #### Inheritance
 
