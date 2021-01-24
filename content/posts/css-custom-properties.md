@@ -28,7 +28,7 @@ p {
 
 <!-- A good example of using these is the Bootstrap scss file which uses `:root` to set colours, breakpoints for responsiveness and base fonts. -->
 
-To see the current support see [caniuse.com](https://caniuse.com/?search=css%20variables) there is good support in modern browsers although if you need to support everyone's favourite IE they won't work and instead you will need to set a separate background property before using var e.g.
+To see the current support see [caniuse.com](https://caniuse.com/?search=css%20variables) there is good support in modern browsers although if you need to support everyone's favourite IE they won't work and instead, you will need to set a separate background property before using var e.g.
 
 ```css
 background-color: red; // this will work in IE
@@ -37,5 +37,5 @@ background-color: var(--header-background-color); // this will not work in IE
 
 #### Inheritance
 
-As with other CSS properties, variables will inherit so a good idea to set them in `:root` to make them globally available.
+As with other CSS properties, variables will inherit so a good idea to set them in `:root` as shown above to make them globally available and therefore accessible  to every element. You can then set in specific individual elements to overwrite these global values. 
 
