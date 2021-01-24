@@ -3,7 +3,7 @@ title: CSS Variables
 date: 2020-11-24T16:03:57.225Z
 description: also known as custom properties
 ---
-CSS Variables have been around for a while and designed to try and reduce duplication in CSS. They are prefixed with `--` and can be used in declarations using `var()` function e.g.
+CSS Variables have been around for a while and designed to try and reduce duplication in CSS. They are useful way to change multiple values at the same time. To create them you use prefix with `--` and can be used in declarations using `var()` function e.g.
 
 ```css
 :root {
