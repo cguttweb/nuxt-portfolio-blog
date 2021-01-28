@@ -4,7 +4,7 @@ date: 2021-01-28T14:22:31.739Z
 description: Post about multiple events
 ---
 ## Mouse Events
-// click;
+/ click;
 // doubleclick; // dblclick in code
 // mousedown; // click hold to fire mousedown
 // mouseup; // opposite run when click hold and release
