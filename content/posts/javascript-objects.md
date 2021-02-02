@@ -5,6 +5,16 @@ description: A post on objects in javascript
 ---
 Objects are a key part of JavaScript. 
 
+
+```javascript
+var myDog {
+  name 'Darcy',
+  age: 9,
+  loves: 'being the centre of attention',
+  hates: 'wearing her coat'
+}
+```
+
 ### Checking Properties
 
 To check if an object has a specific property you can use the `hasOwnProperty(propname)` method this will return a boolean based on the outcome of this check against property e.g.
