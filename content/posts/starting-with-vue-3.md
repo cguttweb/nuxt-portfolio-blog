@@ -148,18 +148,19 @@ Components are the building blocks of Vue apps that are reusable. When creating 
 
 ```vue
 app.component('component-name', {
-props: (to pass values),
-template: `` (add html here),
-data(){ },
-methods: {},
-computed:{}
+  props: (to pass values),
+  template: `` (add html here),
+  data(){},
+  methods: {},
+  computed:{}
 })
 ```
 
-In most cases you will use Single File Components (SFCs) which are what is created when using the Vue-CLI to scaffold an app.
+In most cases, you will use Single File Components (SFCs) which are what is created when using the Vue-CLI to scaffold an app.
 
 ### Communicating Events
 
+This is done by emitting a custom event e.g. `this.$emit('review-submitted')` which is then referenced in your component e.g. `<review-form @review-submitted="addReview">`
 
 ### Forms and v-model
 
