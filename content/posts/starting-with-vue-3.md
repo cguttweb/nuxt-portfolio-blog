@@ -160,7 +160,7 @@ In most cases, you will use Single File Components (SFCs) which are what is crea
 
 ### Communicating Events
 
-This is done by emitting a custom event e.g. `this.$emit('review-submitted')` which is then referenced in your component e.g. `<review-form @review-submitted="addReview">`
+This is done by emitting a custom event e.g. `this.$emit('event-name')` which is then referenced in your component e.g. `<my-component @event-name="doSomething">`
 
 ### Forms and v-model
 
