@@ -168,4 +168,6 @@ Two way data binding with `v-model` - set properties in data and then in HTML ad
 
 [Form input modifiers](https://v3.vuejs.org/guide/forms.html#modifiers)
 
-`.number` is a modifier to type check that the value is a number. The only form input bindings are `.lazy` to only sync after change events and `.trim` which will remove any whitespace. Another useful example is `.prevent` e.g. on form `@submit.prevent="onSubmitMethod"` as the name suggests this is like using event.preventDefault in standard JS to prevent the browser reloading the page on submission of a form.
+`.number` is a modifier to type check that the value is a number. The only form input bindings are `.lazy` to only sync after change events and `.trim` which will remove any whitespace. 
+
+Another useful example is `.prevent` e.g. on form `@submit.prevent="onSubmitMethod"` as the name suggests this is like using event.preventDefault in standard JS to prevent the browser reloading the page on submission of a form.
