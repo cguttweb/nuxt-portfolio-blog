@@ -97,13 +97,13 @@ methods: {
 
 ### Class and Style Binding
 
-Dynamically binding classes and styles work the same wayas other attributes except you use object or array syntax e.g. 
+Dynamically binding classes and styles work the same way as other attributes except you use either the object or array syntax e.g. 
 
 ```
 ...style="{ backgroundColor: option.color }"
 ```
 
-It is important to note anything in `{}` is JS therefore you need to use either camelCase or kebab-case but be sure to use quotes if you using kebab-case e.g. :style="{ 'background-color': 'red' }"
+It is important to note anything in `{}` is read as JavaScript, therefore, you need to use either camelCase or kebab-case but be sure to use quotes if you using kebab-case e.g.:style="{ 'background-color': 'red' }"
 
 If you are using multiple styles you could bind to an object e.g. 
 `<p :style="myStyles">Some random text</p>`
