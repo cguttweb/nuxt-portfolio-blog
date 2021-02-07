@@ -11,13 +11,10 @@ description: a look at the Math object
 ```javascript
 Math.floor(Math.random() * 10) // will generate a number between 0 and 9
 ```
-
 - **Math.ceil()** - the opposite of `Math.floor` this will round a number up
-
+- **Math.round()** - this will round to the nearest integer
 
 - Math.PI
-- Math.round
-- Math.ceil - round up
 - Math.sqrt
 - Math.pow
 - Math.min
