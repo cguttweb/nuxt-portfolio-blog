@@ -1,12 +1,5 @@
 <template>
     <div class="bg-gray-800 text-white flex justify-center">
-        <!-- <nav>
-            <ul>
-                <li v-for="link of post.toc" :key="link.id">
-                    <nuxt-link :to="`#${link.id}`">{{ link.text }}</nuxt-link>
-                </li>
-            </ul>
-        </nav> -->
         <div class="w-4/5">
             <h1>{{ post.title }}</h1>
 
@@ -32,7 +25,7 @@
             .surround(params.slug)
             .fetch()
 
-            return { 
+            return {
                 post,
                 prev,
                 next

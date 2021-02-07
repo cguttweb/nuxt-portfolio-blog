@@ -5,6 +5,7 @@
       class="flex flex-row justify-center py-2 text-xl text-white uppercase">
       <nuxt-link class="pr-5 hover:underline" to="/">Home</nuxt-link>
       <nuxt-link class="pr-5 hover:underline" to="/blog/">Blog</nuxt-link>
+      <nuxt-link class="pr-5 hover:underline" to="/docs/">Docs</nuxt-link>
       <a href="https://dev.to/cguttweb"
          target="_blank"
          rel="noopener noreferrer"
@@ -15,7 +16,7 @@
         <a
           href="https://twitter.com/cguttweb"
           target="_blank"
-          rel="noopener noreferrer" 
+          rel="noopener noreferrer"
           aria-label="twitter icon"
         >
           <font-awesome-icon :icon="['fab', 'twitter']" title="Twitter" />
@@ -31,7 +32,7 @@
         <a
           href="https://codepen.io/cgweb"
           target="_blank"
-          rel="noopener noreferrer" 
+          rel="noopener noreferrer"
           aria-label="codepen icon"
         >
           <font-awesome-icon :icon="['fab', 'codepen']" title="Codepen" />
@@ -40,7 +41,7 @@
           class="text-red-700"
           href="https://instagram.com/cguttweb2017"
           target="_blank"
-          rel="noopener noreferrer" 
+          rel="noopener noreferrer"
           aria-label="codepen icon"
         >
          <font-awesome-icon :icon="['fab', 'instagram']" title="Instagram" />
@@ -51,7 +52,7 @@
 
 <script>
     export default {
-        
+
     }
 </script>
 

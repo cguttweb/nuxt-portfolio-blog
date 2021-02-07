@@ -1,8 +1,8 @@
 <template>
-  <div>   
+  <div>
     <TheNavBar />
     <Nuxt />
-    <Footer />
+    <TheFooter />
   </div>
 </template>
 
@@ -17,9 +17,9 @@ html {
   box-sizing: border-box;
 }
 
-h1, 
-h2, 
-h3, 
+h1,
+h2,
+h3,
 h4 {
   font-family: 'Roboto', sans-serif;
 }

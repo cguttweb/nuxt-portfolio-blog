@@ -6,7 +6,7 @@
           href="https://github.com/cguttweb"
           target="_blank"
           aria-label="github icon"
-          rel="noopener noreferrer" 
+          rel="noopener noreferrer"
         >Chloe
           <font-awesome-icon :icon="['fab', 'github']" title="Github" />
         </a> in {{ getYear() }} &nbsp;<a class="flex justify-center" href="https://nuxtjs.org" target="_blank" rel="noopener noreferrer" title="Nuxtjs"><img class="align-top inline" src="~/assets/built-with-nuxt.svg" alt="nuxt svg logo" width="130"></a>&nbsp;and hosted on&nbsp; <a class="underline" href="https://www.netlify.com" target="_blank" rel="noopener noreferrer">Netlify</a>
@@ -25,7 +25,4 @@
 </script>
 
 <style scoped>
-/* img {
-    vertical-align: top;
-} */
 </style>

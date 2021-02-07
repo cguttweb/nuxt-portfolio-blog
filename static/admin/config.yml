@@ -21,4 +21,15 @@ collections:
       - { label: 'Body', name: 'body', widget: 'markdown' }
       - { label: 'Image', name: 'image', widget: 'image', required: false }
 
+  - name: 'mydocs'
+    label: 'mydocs'
+    folder: 'content/mydocs/'
+    format: 'frontmatter'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'string', required: false}
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+
 
