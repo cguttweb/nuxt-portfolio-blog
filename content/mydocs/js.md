@@ -3,15 +3,11 @@ title: JavaScript
 description: Interactive level of web dev that has morphed into a large ecosystem
 position: 3
 ---
-
-ECMAScript is the standard and JavaScript is the implementation. JavaScript has become the dominant in web development in the frontend with progress in the support of newer EMCAScript versions being supported in browsers and the use of frameworks like Vue, React and Angular. On the backend Node.js is used in a majority of cases.
-
-Strings are words, sentences, text etc
-Numbers = calculations etc
-
 ### Variables
 
 These are used to store and keep track of information
+
+ECMAScript is the standard and JavaScript is the implementation. JavaScript has become the dominant in web development in the frontend with progress in the support of newer EMCAScript versions being supported in browsers and the use of frameworks like Vue, React and Angular. On the backend Node.js is used in a majority of cases.
 
 `parseInt()`- converts strings to integers
 `parseFloat()`- converts to decimal numbers
@@ -21,28 +17,6 @@ These are used to store and keep track of information
 `Math.ceil()` - rounds number up
 
 <!-- Look up math object -->
-
-### Conditionals
-
-```javascript
-if(condition is true){
-    // do something
-} else {
-    // do something
-}
-```
-
-### Comparison operators
-
-- `</<=` - less than/less than or equal to
-- `>/>=` - greater than/greater than or equal to
-- `===` - strict equal to
-- `!==` - strict not equal to
-
-#### Logical operators
-
-- `&&` - and
-- `||` - or
 
 ### Functions
 
@@ -69,6 +43,28 @@ myFunction2(para1, para2){
 **return** keyword = function will stop when it hits return keyword so it will be the last line of function. It can only return _one_ thing - a string, number, Boolean value or the contents of a variable.
 
 Scope is a key thing to remember e.g. global means it can be accessed everywhere local means it is limited to the function in which it is declared.
+
+### Conditionals
+
+```javascript
+if(condition is true){
+    // do something
+} else {
+    // do something
+}
+```
+
+#### Comparison operators
+
+- `</<=` - less than/less than or equal to
+- `>/>=` - greater than/greater than or equal to
+- `===` - strict equal to
+- `!==` - strict not equal to
+
+#### Logical operators
+
+- `&&` - and
+- `||` - or
 
 **Truthy** - a value considered true in a Boolean context
 
@@ -152,7 +148,7 @@ myHeading.textContent = 'This is my new header'
 You have `<ul>` element with `<li>` and assign a new value it will replace existing values e.g.
 
 ```javascript
-let list = document.quierySelector('ul')
+let list = document.querySelector('ul')
 ul.innerHTML = `<li>new list value</li>`
 ```
 
@@ -219,3 +215,5 @@ There are many types of events e.g. click, mouseover, mouseoff, keypress (see MD
 **Event handler/listener** - these are the functions that handles or responds to the event
 
 **Event target** - this is the object on which the event occured or is associated with. When referring to an event both the type and target need to be included e.g. a click event on a button or load on a window object.
+
+<!-- PROMISES -->

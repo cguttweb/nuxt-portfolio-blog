@@ -30,13 +30,13 @@ and then to create a project
 gridsome create my-gridsome-site
 ```
 
-## VuePress
+<!-- ## VuePress
 
 This framework is more suited to documentation sites I've used it in the past for docs and have instead switched to nuxt after it introduced the content module
 
 ```javascript
 npm install -g vuepress or yarn global add vuepress
-```
+``` -->
 
 ## Nuxt
 

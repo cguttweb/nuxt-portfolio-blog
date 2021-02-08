@@ -32,7 +32,7 @@ This offset value is based on the parent container as the positioning contectt e
 
 ### Z-Index
 
-This will position elements based on stacking rule, so those elements later in the code will appear to 'stack' on top of those shown below. 0 is the default value. The higher the z-index value the further up the 'stacjk' an element is. This only works on absolute, relative and fixed positioned elements. 
+This will position elements based on stacking rule, so those elements later in the code will appear to 'stack' on top of those shown below. 0 is the default value. The higher the z-index value the further up the 'stack' an element is. This only works on absolute, relative and fixed positioned elements.
 
 
 ### CSS Calc() function
@@ -68,9 +68,9 @@ Another possible use case would be to create your own fluid grid (although with 
 }...
 ```
 
-### CSS Variables (CSS Custom Properties)
+### CSS Variables
 
-CSS Variables have been around for a while and designed to try and reduce duplication in CSS. They are a useful way to change multiple values at the same time. To create them you use a prefix with `--` and can be used in declarations using `var()` function e.g.
+CSS Variables (also knwon as CSS Custom Properties) have been around for a while and designed to try and reduce duplication in CSS. They are a useful way to change multiple values at the same time. To create them you use a prefix with `--` and can be used in declarations using `var()` function e.g.
 
 ```css
 :root {

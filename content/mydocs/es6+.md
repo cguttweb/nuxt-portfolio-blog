@@ -6,7 +6,11 @@ position: 4
 
 **ES6** or **ES2015** was the 6th version of ECMAScript and although browser support has improved. (Wes Bos has a great course on these updates [here](https://es6.io))
 
+Prior to the release of ECMASCript 6 (it may also be referred to as ES6 or ES2015) there was only one way to declare variables in JavaScript and that was using `var` e.g. `var score = 0`. However there were sometimes issues with using this as they could either be in the local or global scope so values could be overwritten or accidentally reassigned.
+
 ### Variables
+
+In ES6/ES2015 there were two new options for declaring variables introduced const and let. The major difference between these two options and var is they are _block_ scoped. Before this if a variable was declared within a block, it is local to the function in which it is declared meaning there is the possibility that a variable could be overwritten.
 
 **const** - as the name suggests the value is constant it should not change and is usually the best option. These cannot be redefined and prevents arrays and objects from being overwritten or reassigned.
 
@@ -22,7 +26,7 @@ for(let i = 0; i < buttons.length; > i++){
 }
 ```
 
-**_Const_** should be used to declare variables should be the first option when creating variables. Both of these have block level scoping unlike `var` which can be global and local and can result in some variables being accidentally overwritten or reassigned.
+**_Const_** should be the first option when creating variables. Both of these have block level scoping unlike `var` which can be global and local and can result in some variables being accidentally overwritten or reassigned.
 
 ### Template Literals
 
@@ -99,10 +103,12 @@ This is an implicit return meaning that the results of expression are automatica
 
 ```javascript
 const numbers = [2, 4, 6, 8]
+
 // ES5 syntax
 numbers.map(function(number){
   return number * 2
 })
+
 // ES6 syntax
 numbers.map(number => number * 2)
 

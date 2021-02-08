@@ -1,6 +1,6 @@
 <template>
     <div class="bg-gray-800 text-white flex justify-center">
-        <nav>
+        <nav class="mx-auto">
             <ul>
                 <li v-for="link of docs.toc" :key="link.id">
                     <nuxt-link :to="`#${link.id}`">{{ link.text }}</nuxt-link>
