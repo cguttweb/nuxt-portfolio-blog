@@ -1,12 +1,12 @@
 <template>
     <div class="bg-gray-800 text-white flex justify-center">
-        <!-- <nav>
+        <nav>
             <ul>
                 <li v-for="link of docs.toc" :key="link.id">
                     <nuxt-link :to="`#${link.id}`">{{ link.text }}</nuxt-link>
                 </li>
             </ul>
-        </nav> -->
+        </nav>
         <div class="w-4/5">
             <h1 class="text-red-700 text-2xl">{{ docs.title }}</h1>
 

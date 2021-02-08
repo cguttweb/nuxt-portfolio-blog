@@ -16,7 +16,7 @@
 export default {
     async asyncData({ $content, params }) {
         const docs = await $content('mydocs', params.slug)
-        .sortBy(['title'])
+        .sortBy(['position'])
         .fetch()
 
         return {
