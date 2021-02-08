@@ -21,3 +21,5 @@ HTML stands for **H**yper**T**ext **M**arkup **L**anguage it is the structure of
 </body>
 </html>
 ```
+
+To find out more about emmet check out the [cheat sheet](https://docs.emmet.io/cheat-sheet/)
