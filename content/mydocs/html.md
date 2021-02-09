@@ -37,11 +37,11 @@ When HTML5 was released it introduced a number of semantic elements including `<
   </main>
 ```
 
-**Nav** elements are the same generally they appear at top or left of a site, but can be used elsewhere e.g. to contains links in a footer element although this isn't strictly necessary. Pages can quite often contain multiple nav elements - one for main site navigation and another for intra-page navigation. If doing this it is a good idea to use `aria-labelledby` attribute for those using screen readers.
+**Nav** elements generally appear at top or left of a site, but can be used elsewhere e.g. to contains links in a footer element although this isn't strictly necessary. Pages can quite often contain multiple nav elements - one for main site navigation and another for intra-page navigation. If doing this it is a good idea to use [`aria-labelledby`](https://a11yproject.com) attribute for those using screen readers.
 
-**Article** element is used for a self-contained content not related to the page e.g. a news site would have multiple article elements. Note each of these elements should contain a heading tag as a child element.
+**Article** is used for a self-contained content not related to the page e.g. a news site would have multiple article elements. Note each of these elements should contain a heading tag as a child element.
 
-**Aside** element is used for content indirectly related to the main content of the page usually a sidebar or some sort of call out box.
+**Aside** is used for content indirectly related to the main content of the page usually a sidebar or some sort of call out box.
 
 **Section** element is a standalone section within a page (usually containing a heading) which as MDN states:
 

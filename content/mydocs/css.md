@@ -22,6 +22,8 @@ h1 {} /* targets h1 elements */
 
 ### Positioning
 
+All elements are position static by default in the normal document flow.
+
 **Absolute** - elements with absolute positioning do not affect and are not affected by other elements on the page. You use positioning offsets to position anywhere on the page e.g. `left: 0; top: 0;` will place your element at the top left of the page. You can use `%` or `ems` if you prefer for offset values.
 
 This offset value is based on the parent container as the positioning contectt e.g. browser window but this can be changed.

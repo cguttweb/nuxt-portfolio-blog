@@ -8,7 +8,7 @@
             </ul>
         </nav>
         <div class="w-4/5">
-            <h1 class="text-red-700 text-2xl">{{ docs.title }}</h1>
+            <h1 class="text-red-700 text-2xl pl-2">{{ docs.title }}</h1>
 
             <nuxt-content :document="docs" />
 
@@ -38,15 +38,15 @@
 .nuxt-content h3,
 .nuxt-content h4 {
     color: #CC0000;
-    padding: 0.5rem 0;
+    padding: 0.5rem;
 }
 
 .nuxt-content h3 {
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .nuxt-content h4 {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .nuxt-content a {
@@ -57,15 +57,20 @@
   font-weight: bold;
 }
 
-/* .nuxt-content p {
-    font-size:16px;
+.nuxt-content p {
     padding: 0.5rem;
-} */
+} 
 
-/* .nuxt-content li {
-    font-size: 16px;
+.nuxt-content blockquote {
+    font-size: 22px;
+    font-style:italic;
+}
+
+.nuxt-content li {
+    font-size: 18px;
     list-style: disc;
     margin-left: 0.5rem;
     padding: 0.5rem;
-} */
+}
+
 </style>

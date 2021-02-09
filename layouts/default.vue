@@ -9,7 +9,7 @@
 <style>
 html {
   font-family: 'Nunito', Arial, sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
