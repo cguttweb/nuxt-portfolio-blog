@@ -3,7 +3,13 @@ title: Array Methods
 date: 2020-11-22T12:06:31.591Z
 description: A post on some array methods
 ---
-There are many array methods available in JavaScript with more being added all the time as a new version of ECMAScript is released. There are a few methods which do the same thing and can reduce the need to use for loops in many cases it is knowing when to use each of them.
+There are many array methods available in JavaScript with more being added all the time as a new version of ECMAScript is released. 
+
+- **includes** - this method will check whether a 
+
+
+
+There are a few methods which do the same thing and can reduce the need to use for loops in many cases it is knowing when to use each of them.
 
 ```javascript
 let colours = ['red', 'blue', 'green', 'yellow', 'purple', 'orange']
@@ -34,7 +40,6 @@ images.forEach((image) => {
 // areas = [40000, 8000]
 ```
 
-
 - **map** - this is perhaps the most commonly used method as it will create a new array instead of mutating or changing an existing array e.g.
 
 ```javascript
@@ -58,6 +63,7 @@ filterNumbers = numbers.filter((number) => number < 50 )
 // returns [ 12, 34, 43, 21, 19, 38 ]
 
 ```
+
 - **find** - this is used to iterate over an array until it returns true when this happens it will exit and return the value it finds e.g.
 
 ```javascript

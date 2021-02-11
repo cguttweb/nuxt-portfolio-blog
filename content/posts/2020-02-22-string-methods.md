@@ -17,6 +17,7 @@ myStr.indexOf('First'); // returns -1 as this does not exist in the string
 ```
 
 - **lastIndexOf** - works the same way as the above but starts at the end of the string
+
 - **slice** - it takes part of string and returns a new string it does _not_ modify the original. Note it is zero indexed and spaces count as characters.The first parameters is the starting index and the optional 2nd parameter if included is the ending index. Negative numbers will count backwards from the end of the string.
 
 ```javascript
@@ -25,6 +26,16 @@ myString.slice(8); // returns a randomly typed string
 myString.slice(1, 7); // returns his is
 myString.slice(-6); // returns string
 myString.slice(-6, -4); // returns st
+```
+
+- **substring** - this method returns part of the string between start and end indexes or if no end index included the end of the string
+
+```javascript
+mystr.substring(startIndex, endIndex) // endIndex is optional
+const mystr = 'My favourite football stadium is Anfield'
+mystr.substring(3, 13) // returns 'favourite ' note whitespace is included
+mystr.substring(22) // returns 'stadium is Anfield'
+mystr.substring(12) // returns ' football stadium is Anfield'
 ```
 
 - **toLowerCase** - this method will convert values to all lowercase particularly useful when creating anything with searches, comparisons or sorting data
@@ -61,7 +72,7 @@ myURLString.split('?')[0]; // returns "https://www.google.co.uk"
 myURLString.split('?')[1]; // returns "blog=newpost&testing=mytest"
 ```
 
-- **length\***- gives the length of string in characters (note spaces count towards this number)
+- **length** - gives the length of string in characters (note spaces count towards this number)
 
 ```javascript
 const myStr = 'This is a new string created for showing an example';
@@ -77,7 +88,7 @@ myString.trim(); // returns 'This is a string with a lof whitespace at either en
 
 - **match** - returns the result of matching a string against regex
 
-With the introduction of ES2015 (ES6) there were some new string methods added to the specification. These methods are:
+With the introduction of **ES2015 (ES6)** there were some new string methods added to the specification. These methods are:
 
 **startsWith**
 **endsWith**
@@ -105,6 +116,6 @@ A simple example:
 const myString = 'This is a random string!';
 const myString2 = 'This is another string!';
 
-myString2.includes(myString); // returns false
 myString.includes('random'); // return true
+myString2.includes(myString); // returns false
 ```
