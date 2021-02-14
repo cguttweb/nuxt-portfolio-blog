@@ -8,3 +8,11 @@ JavScript Promises have three states:
 - pending - this is the default or intialised state
 - resolved - 
 - rejected - when failed
+
+A Promise is a constructor function e.g.
+
+```javascript
+const myPromise = new Promise((resolve, reject) => {
+  // do something
+})
+```
