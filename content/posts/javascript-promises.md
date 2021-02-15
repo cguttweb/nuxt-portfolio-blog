@@ -20,3 +20,16 @@ const myPromise = new Promise((resolve, reject) => {
   // do something
 })
 ```
+
+### Resolved Promises
+
+### Rejected Promises
+
+If a Promise is rejected the method used to handle this is `catch` e.g.
+
+```javascript
+... reject('Promise failed')
+.catch(error => {
+  console.log(error)
+}
+```
