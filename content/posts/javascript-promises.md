@@ -13,7 +13,7 @@ JavaScript Promises have three states:
 
 ### Creating Promises
 
-A Promise is a constructor function so the `new` keyword is needed e.g.
+A Promise is a constructor function so the `new` keyword is needed. It takes a function as an argument with two parameters - resolve and reject e.g.
 
 ```javascript
 const myPromise = new Promise((resolve, reject) => {
