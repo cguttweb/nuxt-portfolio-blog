@@ -11,7 +11,9 @@ JavaScript Promises have three states:
 - resolved - 
 - rejected - when failed
 
-A Promise is a constructor function e.g.
+### Creating Promises
+
+A Promise is a constructor function so the `new` keyword is needed e.g.
 
 ```javascript
 const myPromise = new Promise((resolve, reject) => {
