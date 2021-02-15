@@ -27,6 +27,8 @@ const myPromise = new Promise((resolve, reject) => {
 
 ### Resolved Promises
 
+Once a Promise is resolved
+
 ### Rejected Promises
 
 If a Promise is rejected the method used to handle this is `catch` e.g.
