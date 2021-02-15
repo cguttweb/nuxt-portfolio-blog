@@ -3,7 +3,9 @@ title: JavaScript Promises
 date: 2021-02-14T17:09:13.997Z
 description: used asynchronously e.g Fetch API
 ---
-JavScript Promises have three states:
+A JavaScript Promise is an object representing the eventual completion or failure of an asynchronous operation.
+
+JavaScript Promises have three states:
 
 - pending - this is the default or intialised state
 - resolved - 
