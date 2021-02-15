@@ -8,8 +8,8 @@ A JavaScript Promise is an object representing the eventual completion or failur
 JavaScript Promises have three states:
 
 - pending - this is the default or initialised state
-- resolved - 
-- rejected - when failed
+- resolved - this means that the operation was successfully completed
+- rejected - when the operation has failed
 
 ### Creating Promises
 
