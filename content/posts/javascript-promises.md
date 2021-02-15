@@ -17,7 +17,11 @@ A Promise is a constructor function so the `new` keyword is needed. It takes a f
 
 ```javascript
 const myPromise = new Promise((resolve, reject) => {
-  // do something
+  if(condition is true) {
+    resolve('Promise resolved')
+  } else {
+    reject('Promise rejected')
+  }
 })
 ```
 
