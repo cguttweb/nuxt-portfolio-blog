@@ -53,5 +53,10 @@ A complete example:
 
 ```javascript
 const myPromise = new Promise((resolve, reject) => {
+.resolve()
+.reject()
+.catch(err => {
+    console.log(err)
+  })
 })
 ```
