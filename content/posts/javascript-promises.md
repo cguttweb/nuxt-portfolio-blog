@@ -39,3 +39,5 @@ If a Promise is rejected the method used to handle this is `catch` e.g.
   console.log(error)
 }
 ```
+
+There is an additional method that can be used with Promises called `finally` which is useful for doing some cleanup once the Promise is finished regardless of whether it was resolved or recjeted.
