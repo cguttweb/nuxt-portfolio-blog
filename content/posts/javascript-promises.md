@@ -27,7 +27,7 @@ const myPromise = new Promise((resolve, reject) => {
 
 ### Resolved Promises
 
-Once a Promise is resolved
+Once a Promise is resolved you'll want to do something with the response you get back this is where then `then` method is used. This will execute **as soon as** the Promise is resolved
 
 ### Rejected Promises
 
