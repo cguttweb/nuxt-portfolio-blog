@@ -93,7 +93,7 @@ for(let val in myTeam){
 
 ```javascript
 Object.values(myTeam) 
-// ['Liverpool', 'Anfield' 'Liverpool', 'Jurgen Klopp']
+// returns ['Liverpool', 'Anfield' 'Liverpool', 'Jurgen Klopp']
 ```
 
 - **Object.keys()** - This method will return an array of all the keys stored in an object which you pass in as a parameter e.g. 
