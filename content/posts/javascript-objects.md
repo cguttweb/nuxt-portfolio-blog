@@ -15,8 +15,6 @@ let myTeam = {
 // In this object literal example the properties/keys are name, stadium and city with Liverpool, Anfield and Liverpool being the values
 ```
 
-- **Object.create()**
-
 ### Adding and Accessing Properties
 
 As with arrays properties can be added to an object using either dot (`.`) or bracket `[]` notation. Note if the property name has a space in it or you want to use a variable you will need to use bracket notation e.g.
@@ -27,7 +25,7 @@ myTeam[founded] = 1892
 
 myTeam['trophies won'] = { 'European Cups': 6, 'League Titles' : 19}
 
-// myTeam now contains the following which shows as with arrays you can nest objects inside objects
+// myTeam now contains the following which shows as with arrays you can nest objects inside objects e.g.
 
 myTeam = {
   name: 'Liverpool',
