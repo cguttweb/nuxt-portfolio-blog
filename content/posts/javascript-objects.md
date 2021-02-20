@@ -84,7 +84,7 @@ for(let val in myTeam){
   console.log(val)
 }
 
-// name, stadium, city, manager, trophies won
+// returns name, stadium, city, manager, trophies won
 ```
 
 - **Object.keys()** - This method will return an array of all the keys stored in an object which you pass in as a parameter e.g. 
