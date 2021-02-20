@@ -31,20 +31,6 @@ myDog.hasOwnProperty('age') // returns true as this prop exists in the object
 myDog.hasOwnProperty('loves') // returns false as this prop does not exist in the object
 ```
 
-### Remove Properties
-
-To remove properties from an object use the `delete` keyword e.g.
-
-```javascript
-let myTeam = {
-  name: 'Liverpool',
-  stadium: 'Anfield',
-  city: 'Liverpool',
-}
-
-delete myTeam.city // myTeam: { name: 'Liverpool', stadium: 'Anfield' }
-```
-
 - **Object.keys()** - This method will return an array of all the keys stored in an object which you pass in as a parameter e.g. 
 
 ```javascript
@@ -64,4 +50,18 @@ let teams = {
 }
 
 Object.keys(teams) // ['Liverpool', 'Everton', 'Southampton']
+```
+
+### Remove Properties
+
+To remove properties from an object use the `delete` keyword e.g.
+
+```javascript
+let myTeam = {
+  name: 'Liverpool',
+  stadium: 'Anfield',
+  city: 'Liverpool',
+}
+
+delete myTeam.city // myTeam: { name: 'Liverpool', stadium: 'Anfield' }
 ```
