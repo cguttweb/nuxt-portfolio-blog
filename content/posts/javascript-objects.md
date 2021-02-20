@@ -9,7 +9,7 @@ Objects are a key part of JavaScript. In their most simple form, they are key-va
 let myTeam = {
   name: 'Liverpool',
   stadium: 'Anfield',
-  city: 'Liverpool',
+  city: 'Liverpool'
 }
 
 // In this object literal example the properties/keys are name, stadium and city with Liverpool, Anfield and Liverpool being the values
