@@ -17,9 +17,16 @@ let myTeam {
 
 ### Adding Properties
 
+As with arrays properties can be added to an object using either dot (`.`) or bracket `[]` notation. Note if the property name has a space in it or you want to use a variable you will need to use bracket notation e.g.
+
+```javascript
+myTeam.manager = 'Jurgen Klopp'
+myTeam[founded] = 1892
+```
+
 ### Checking Properties
 
-To check if an object has a specific property you can use the `hasOwnProperty(propname)` method this will return a boolean based on the outcome of this check against property e.g.
+To check if an object has a specific property you can use the `hasOwnProperty('propname')` method this will return a boolean based on the outcome of this check against property e.g.
 
 ```javascript
 let myTeam {
