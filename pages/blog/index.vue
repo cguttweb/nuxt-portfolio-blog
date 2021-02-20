@@ -14,6 +14,7 @@
             </nuxt-link>
         </li>
     </ul>
+    <Pagination />
 </main>
 </template>
 
