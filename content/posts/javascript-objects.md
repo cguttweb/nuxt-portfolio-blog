@@ -6,7 +6,7 @@ description: A post on objects in javascript
 Objects are a key part of JavaScript. In their most simple form, they are simply key-value pairs made up of properties (keys) and values e.g.
 
 ```javascript
-let myTeam {
+let myTeam = {
   name: 'Liverpool',
   stadium: 'Anfield',
   city: 'Liverpool',
@@ -22,6 +22,22 @@ As with arrays properties can be added to an object using either dot (`.`) or br
 ```javascript
 myTeam.manager = 'Jurgen Klopp'
 myTeam[founded] = 1892
+
+myTeam['trophies won'] = { 'European Cups': 6, 'League Titles' : 19}
+
+// myTeam now contains:
+
+myTeam = {
+  name: 'Liverpool',
+  stadium: 'Anfield',
+  city: 'Liverpool',
+  manager: 'Jurgen Klopp',
+  founded: 1892,
+  'trophies won': {
+    'European Cups' : 6,
+    'League Titles': 19
+  }
+
 ```
 
 ### Checking Properties
