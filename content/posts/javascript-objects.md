@@ -126,4 +126,11 @@ delete myTeam.city // myTeam: { name: 'Liverpool', stadium: 'Anfield' }
 
 ## Prevent mutation
 
-- **Object.freeze()** - This method will prevent an object from being mutated in any way so you cannot add, remove or update any of the properties in the object.
+- **Object.freeze()** - This method will prevent an object from being mutated in any way so you cannot add, remove or update any of the properties in the object. e.g.
+
+```javascript
+Object.freeze(myTeam)
+
+myTeam.fullName = 'Liverpool Football Club' 
+// this will be ignored as the freeze prevnets any mutation
+```
