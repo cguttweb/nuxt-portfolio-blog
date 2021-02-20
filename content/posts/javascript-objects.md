@@ -89,7 +89,12 @@ for(let val in myTeam){
 // returns name, stadium, city, manager, trophies won
 ```
 
-- **Object.values()** - works in a similar way to `for... in`
+- **Object.values()** - works in a similar way to `for... in` as it will provide the values in the same order, but it will return an array e.g. 
+
+```javascript
+Object.values(myTeam) 
+// ['Liverpool', 'Anfield' 'Liverpool', 'Jurgen Klopp']
+```
 
 - **Object.keys()** - This method will return an array of all the keys stored in an object which you pass in as a parameter e.g. 
 
