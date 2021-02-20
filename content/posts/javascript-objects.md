@@ -62,7 +62,8 @@ myTeam['trophies won']['European Super Cups'] // 3
 
 ### Checking Properties
 
-To check if an object has a specific property you can use the `hasOwnProperty('propname')` method this will return a boolean based on the outcome of this check against property e.g.
+To check if an object has a specific property you can use 
+- `hasOwnProperty('propname')` method this will return a boolean based on the outcome of this check against property e.g.
 
 ```javascript
 let myTeam {
