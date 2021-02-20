@@ -22,15 +22,15 @@ let myTeam {
 To check if an object has a specific property you can use the `hasOwnProperty(propname)` method this will return a boolean based on the outcome of this check against property e.g.
 
 ```javascript
-let myDog {
+let myTeam {
   name: 'Liverpool',
   stadium: 'Anfield',
   city: 'Liverpool',
   manager: 'Jurgen Klopp'
 }
 
-myDog.hasOwnProperty('age') // returns true as this prop exists in the object
-myDog.hasOwnProperty('loves') // returns false as this prop does not exist in the object
+myTeam.hasOwnProperty('manager') // returns true as this prop exists in the object
+myTeam.hasOwnProperty('founded') // returns false as this prop does not exist in the object
 ```
 
 - **Object.keys()** - This method will return an array of all the keys stored in an object which you pass in as a parameter e.g. 
