@@ -46,4 +46,6 @@ let teams = {
     manager: 'Ralph Hasenhuttl'
   }
 }
+
+Object.keys(teams) // ['Liverpool', 'Everton', 'Southampton']
 ```
