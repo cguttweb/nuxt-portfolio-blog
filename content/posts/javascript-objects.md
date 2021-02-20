@@ -1,7 +1,7 @@
 ---
 title: JavaScript Objects
-date: 2021-02-02T18:42:37.516Z
-description: A post on objects in javascript
+date: 2021-02-05T18:42:37.516Z
+description: A post on objects and their methods in javascript
 ---
 Objects are a key part of JavaScript. In their most simple form, they are simply key-value pairs made up of properties/keys and values e.g.
 
@@ -12,8 +12,10 @@ let myTeam = {
   city: 'Liverpool',
 }
 
-// In this example the properties/keys are name, stadium and city with Liverpool, Anfield and Liverpool being the values
+// In this object literal example the properties/keys are name, stadium and city with Liverpool, Anfield and Liverpool being the values
 ```
+
+- **Object.create()**
 
 ### Adding and Accessing Properties
 
@@ -121,3 +123,7 @@ let myTeam = {
 
 delete myTeam.city // myTeam: { name: 'Liverpool', stadium: 'Anfield' }
 ```
+
+## Prevent mutation
+
+- **Object.freeze()** - This method will prevent an object from being mutated in any way so you cannot add, remove or update any of the properties in the object.
