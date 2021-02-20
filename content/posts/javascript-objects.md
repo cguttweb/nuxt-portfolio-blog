@@ -28,3 +28,22 @@ var myDog {
 myDog.hasOwnProperty('age') // returns true as this prop exists in the object
 myDog.hasOwnProperty('loves') // returns false as this prop does not exist in the object
 ```
+
+- **Object.keys()** - this method will return an array of all the keys stored in an object which you pass in as a parameter e.g. 
+
+```javascript
+let teams = {
+  Liverpool: {
+    founded: 1892,
+    manager: 'Jurgen Klopp'
+  },
+  Everton: {
+    founded: 1888,
+    manager: 'Carlo Ancelotti'
+  },
+  Southampton: {
+    founded: 1885,
+    manager: 'Ralph Hasenhuttl'
+  }
+}
+```
