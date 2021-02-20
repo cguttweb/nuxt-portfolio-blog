@@ -1,6 +1,6 @@
 ---
 title: JavaScript Objects
-date: 2021-02-20T18:42:37.516Z
+date: 2021-02-02T18:42:37.516Z
 description: A post on objects in javascript
 ---
 Objects are a key part of JavaScript. In their most simple form, they are simply key-value pairs made up of properties/keys and values e.g.
@@ -15,7 +15,7 @@ let myTeam = {
 // In this example the properties/keys are name, stadium and city with Liverpool, Anfield and Liverpool being the values
 ```
 
-### Adding Properties
+### Adding and Accessing Properties
 
 As with arrays properties can be added to an object using either dot (`.`) or bracket `[]` notation. Note if the property name has a space in it or you want to use a variable you will need to use bracket notation e.g.
 
@@ -25,7 +25,7 @@ myTeam[founded] = 1892
 
 myTeam['trophies won'] = { 'European Cups': 6, 'League Titles' : 19}
 
-// myTeam now contains the following:
+// myTeam now contains the following which shows as with arrays you can nested objects inside objects
 
 myTeam = {
   name: 'Liverpool',
