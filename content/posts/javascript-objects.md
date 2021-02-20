@@ -77,7 +77,10 @@ myTeam.hasOwnProperty('manager') // returns true as this prop exists in the obje
 myTeam.hasOwnProperty('founded') // returns false as this prop does not exist in the object
 ```
 
-- **the `in` keyword** - 
+- **for... in** - this method can be used iterate over all the keys in an object e.g.
+
+```javascript
+```
 
 - **Object.keys()** - This method will return an array of all the keys stored in an object which you pass in as a parameter e.g. 
 
