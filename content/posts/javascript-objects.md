@@ -23,8 +23,10 @@ To check if an object has a specific property you can use the `hasOwnProperty(pr
 
 ```javascript
 let myDog {
-  name: 'Hector'
-  age: 9
+  name: 'Liverpool',
+  stadium: 'Anfield',
+  city: 'Liverpool',
+  manager: 'Jurgen Klopp'
 }
 
 myDog.hasOwnProperty('age') // returns true as this prop exists in the object
@@ -54,7 +56,7 @@ Object.keys(teams) // ['Liverpool', 'Everton', 'Southampton']
 
 ### Remove Properties
 
-To remove properties from an object use the `delete` keyword e.g.
+To remove properties from an object, use the `delete` keyword e.g.
 
 ```javascript
 let myTeam = {
