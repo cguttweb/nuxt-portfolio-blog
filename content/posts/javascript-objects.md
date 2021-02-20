@@ -3,7 +3,7 @@ title: JavaScript Objects
 date: 2021-02-05T18:42:37.516Z
 description: A post on objects and their methods in javascript
 ---
-Objects are a key part of JavaScript. In their most simple form, they are simply key-value pairs made up of properties/keys and values e.g.
+Objects are a key part of JavaScript. In their most simple form, they are key-value pairs made up of properties/keys and values e.g.
 
 ```javascript
 let myTeam = {
