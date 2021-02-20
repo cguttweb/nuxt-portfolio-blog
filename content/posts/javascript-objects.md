@@ -89,6 +89,8 @@ for(let val in myTeam){
 // returns name, stadium, city, manager, trophies won
 ```
 
+- **Object.values()** - works in a similar way to `for... in`
+
 - **Object.keys()** - This method will return an array of all the keys stored in an object which you pass in as a parameter e.g. 
 
 ```javascript
@@ -124,7 +126,7 @@ let myTeam = {
 delete myTeam.city // myTeam: { name: 'Liverpool', stadium: 'Anfield' }
 ```
 
-## Prevent mutation
+### Prevent mutation
 
 - **Object.freeze()** - This method will prevent an object from being mutated in any way so you cannot add, remove or update any of the properties in the object. e.g.
 
@@ -132,5 +134,5 @@ delete myTeam.city // myTeam: { name: 'Liverpool', stadium: 'Anfield' }
 Object.freeze(myTeam)
 
 myTeam.fullName = 'Liverpool Football Club' 
-// this will be ignored as the freeze prevnets any mutation
+// this will be ignored as the freeze prevents any mutation to the myTeam object
 ```
