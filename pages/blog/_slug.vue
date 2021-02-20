@@ -20,8 +20,8 @@
             const post = await $content('posts', params.slug).fetch()
 
             const [prev, next] = await $content('posts')
-            .only(['title', 'slug'])
-            .sortBy('createdAt', 'desc')
+            .only(['title', 'slug', 'date'])
+            .sortBy('date', 'desc')
             .surround(params.slug)
             .fetch()
 

@@ -11,7 +11,7 @@
       <!-- <div class="p-4 shadow-lg">
         <ProjectCard
           title="Portfolio"
-          information="This website itself is built with 
+          information="This website itself is built with
           nuxt and uses Tailwind CSS for styling. I have also added netlifyCMS to make it easier to create posts with markdown."
           repo="https://github.com/cguttweb/portfolio-and-blog"
           link="https://www.cgweb.co.uk"
@@ -64,9 +64,9 @@
           link="https://github.com/cguttweb/gym-site"
           techused="Gatsby, CSS"
         />
-        <img 
-        alt="simple gym site using gatsby" 
-        src="~/assets/gym-site.png" 
+        <img
+        alt="simple gym site using gatsby"
+        src="~/assets/gym-site.png"
         width="300" />
       </div>
       <div class="p-4 shadow-lg">
@@ -81,7 +81,7 @@
             src="~/assets/lfc-euro-champs.png"
             width="300"
           />
-        
+
       </div>
       <div class="p-4 shadow-lg">
         <ProjectCard
@@ -91,11 +91,11 @@
           techused="Gridsome, Vue, TailwindCSS"
           link="https://github.com/cguttweb/all-about-coffee"
         />
-        <img 
-          alt="All About Coffee site homepage" 
-          src="~/assets/all-about-coffee.png" 
+        <img
+          alt="All About Coffee site homepage"
+          src="~/assets/all-about-coffee.png"
           width="300" />
-        
+
       </div>
       <div class="p-4 shadow-lg">
         <ProjectCard
@@ -109,7 +109,7 @@
           <img
             alt="Design History screenshot"
             src="~/assets/design-history.png"
-            width="400"
+            width="300"
           />
         </a>
         <p>Learn more about <a class="underline" href="https://forestry.io/" rel="noopener noreferrer" target="_blank">Forestry</a></p>
@@ -131,5 +131,4 @@ export default {
 </script>
 
 <style>
-
 </style>
