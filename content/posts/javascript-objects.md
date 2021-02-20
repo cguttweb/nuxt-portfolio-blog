@@ -25,7 +25,7 @@ myTeam[founded] = 1892
 
 myTeam['trophies won'] = { 'European Cups': 6, 'League Titles' : 19}
 
-// myTeam now contains:
+// myTeam now contains the following:
 
 myTeam = {
   name: 'Liverpool',
