@@ -25,7 +25,7 @@ myTeam[founded] = 1892
 
 myTeam['trophies won'] = { 'European Cups': 6, 'League Titles' : 19}
 
-// myTeam now contains the following which shows as with arrays you can nested objects inside objects
+// myTeam now contains the following which shows as with arrays you can nest objects inside objects
 
 myTeam = {
   name: 'Liverpool',
@@ -38,7 +38,18 @@ myTeam = {
     'League Titles': 19
   }
 
+myTeam['trophies won']['European Super Cups'] = 3
+
+// ...
+'trophies won' : {
+  'European Cups' : 6,
+  'League Titles' : 19,
+  'European Super Cup' : 3
+}
+
 ```
+
+Access properties follow the same format
 
 ### Checking Properties
 
