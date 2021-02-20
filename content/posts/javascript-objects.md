@@ -44,12 +44,21 @@ myTeam['trophies won']['European Super Cups'] = 3
 'trophies won' : {
   'European Cups' : 6,
   'League Titles' : 19,
-  'European Super Cup' : 3
+  'European Super Cups' : 3
 }
 
 ```
 
-Access properties follow the same format
+Access properties follow the same format e.g.
+
+```javascript
+myTeam.manager // 'Jurgen Klopp'
+
+myTeam['trophies won'] // { 'European Cups': 6, 'League Titles' : 19, 'European Super Cups' : 3 }
+
+myTeam['trophies won']['European Super Cups'] // 3
+
+```
 
 ### Checking Properties
 
