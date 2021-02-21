@@ -49,9 +49,18 @@ If a Promise is rejected the method used to handle this is `catch` e.g.
 
 There is an additional method that can be used with Promises called `finally` which is useful for doing some cleaning up once the Promise is finished regardless of whether it was resolved or rejected.
 
-An example:
+This is an example using the [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) which uses Promises under the hood and the free open source [Random User API](https://randomuser.me/) from a tutorial I found which helped me understand the Fetch API  better.
 
 ```javascript
+
+function createNode(element) {
+  return document.createElement(element);
+}
+
+function append(parent, el) {
+  return parent.appendChild(el);
+}
+
 const url = 'https://randomuser.me/api/?results=10';
 
 fetch(url)
