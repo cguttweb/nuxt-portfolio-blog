@@ -37,11 +37,3 @@ This framework is more suited to documentation sites I've used it in the past fo
 ```javascript
 npm install -g vuepress or yarn global add vuepress
 ``` -->
-
-## Nuxt
-
-Unlike Vue or Gridsome you don't need to install a CLI tool for Nuxt as long as you have node installed this will work:
-
-```javascript
-npx create-nuxt-app project-name
-```
