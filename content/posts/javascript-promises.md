@@ -49,7 +49,7 @@ If a Promise is rejected the method used to handle this is `catch` e.g.
 
 There is an additional method that can be used with Promises called `finally` which is useful for doing some cleaning up once the Promise is finished regardless of whether it was resolved or rejected.
 
-This is an example using the [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) which uses Promises under the hood and the free open source [Random User API](https://randomuser.me/) from a tutorial I found which helped me understand the Fetch API  better.
+This is an example using the [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) which uses Promises under the hood and the free open-source [Random User API](https://randomuser.me/) from this [tutorial](https://www.digitalocean.com/community/tutorials/how-to-use-the-javascript-fetch-api-to-get-data#how-do-we-use-the-fetch-api) I found which helped me understand the Fetch API better.
 
 ```javascript
 
@@ -61,7 +61,7 @@ function append(parent, el) {
   return parent.appendChild(el);
 }
 
-const url = 'https://randomuser.me/api/?results=10';
+const url = 'https://randomuser.me/api/?results=20';
 
 fetch(url)
  .then((resp) => resp.json())
@@ -71,14 +71,14 @@ fetch(url)
     let li = createNode('li'),
         img = createNode('img'),
         span = createNode('span');
-   img.src = author.picture.medium;
-    span.innerHTML = `${author.name.first} ${author.name.last}`;
+    img.src = author.picture.medium;
+    span.innerHTML = `${author.name.first}`;
     append(li, img);
     append(li, span);
     append(ul, li);
-     })
-   })
-  .catch((error) => {
-    console.log(error);
+  })
+})
+ .catch((error) => {
+   console.log(error); // catching any errors
 });
 ```
