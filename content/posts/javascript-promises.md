@@ -49,15 +49,27 @@ If a Promise is rejected the method used to handle this is `catch` e.g.
 
 There is an additional method that can be used with Promises called `finally` which is useful for doing some cleaning up once the Promise is finished regardless of whether it was resolved or rejected.
 
-A complete example:
+An example:
 
 ```javascript
-const myPromise = new Promise((resolve, reject) => {
-.resolve()
-.reject()
-.catch(err => {
-    console.log(err)
-  })
-.finally()
-})
+const url = 'https://randomuser.me/api/?results=10';
+
+fetch(url)
+ .then((resp) => resp.json())
+ .then((data) => {
+   let authors = data.results;
+   return authors.map((author) => {
+    let li = createNode('li'),
+        img = createNode('img'),
+        span = createNode('span');
+   img.src = author.picture.medium;
+    span.innerHTML = `${author.name.first} ${author.name.last}`;
+    append(li, img);
+    append(li, span);
+    append(ul, li);
+     })
+   })
+  .catch((error) => {
+    console.log(error);
+});
 ```
