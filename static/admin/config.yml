@@ -33,3 +33,79 @@ collections:
       - { label: 'Body', name: 'body', widget: 'markdown' }
 
 
+  - name: 'html'
+    label: 'html docs'
+    folder: 'content/docs/html'
+    format: 'frontmatter'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'string', required: false}
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+
+  - name: 'css'
+    label: 'css docs'
+    folder: 'content/docs/css'
+    format: 'frontmatter'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'string', required: false}
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+
+  - name: 'javascript'
+    label: 'javascript docs'
+    folder: 'content/docs/js'
+    format: 'frontmatter'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'string', required: false}
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+
+  - name: 'vue'
+    label: 'vue docs'
+    folder: 'content/docs/vue'
+    format: 'frontmatter'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'string', required: false}
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+
+  - name: 'accessibility'
+    label: 'accessibility docs'
+    folder: 'content/docs/'
+    format: 'frontmatter'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'string', required: false}
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+
+  - name: 'react'
+    label: 'react docs'
+    folder: 'content/docs/'
+    format: 'frontmatter'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'string', required: false}
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+
+  - name: 'miscellaneous'
+    label: 'misc docs'
+    folder: 'content/docs/'
+    format: 'frontmatter'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'string', required: false}
+      - { label: 'Body', name: 'body', widget: 'markdown' }
