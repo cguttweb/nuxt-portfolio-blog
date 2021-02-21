@@ -19,9 +19,9 @@
 <script>
     export default {
         async asyncData({ $content, params }){
-            const docs = await $content('docs', params.slug).fetch()
+            const docs = await $content('docs', `${params.subfolder}/${params.slug}`).fetch();
             return {
-                docs: docs
+                docs
             }
         },
         head(){
@@ -41,7 +41,7 @@
     padding: 0.5rem;
 }
 
-/* .nuxt-content h3 {
+.nuxt-content h3 {
     font-size: 22px;
 }
 
@@ -55,7 +55,7 @@
 
 .nuxt-content a:hover {
   font-weight: bold;
-} */
+}
 
 .nuxt-content p {
     padding: 0.5rem;
