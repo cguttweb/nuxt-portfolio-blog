@@ -8,7 +8,7 @@ A JavaScript Promise is an object representing the eventual completion or failur
 JavaScript Promises have three states:
 
 - pending - this is the default or initialised state
-- resolved - this means that the operation was successfully completed
+- resolved - this means that the operation was completed
 - rejected - when the operation has failed
 
 ### Creating Promises
@@ -49,7 +49,7 @@ If a Promise is rejected the method used to handle this is `catch` e.g.
 
 There is an additional method that can be used with Promises called `finally` which is useful for doing some cleaning up once the Promise is finished regardless of whether it was resolved or rejected.
 
-This is an example using the [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) which uses Promises under the hood and the free open-source [Random User API](https://randomuser.me/) from this [tutorial](https://www.digitalocean.com/community/tutorials/how-to-use-the-javascript-fetch-api-to-get-data#how-do-we-use-the-fetch-api) I found which helped me understand the Fetch API better.
+This is an example with the [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) which uses Promises under the hood and the free open-source [Random User API](https://randomuser.me/) from this [tutorial](https://www.digitalocean.com/community/tutorials/how-to-use-the-javascript-fetch-api-to-get-data#how-do-we-use-the-fetch-api) I found which helped me understand the Fetch API better.
 
 ```javascript
 
@@ -70,15 +70,16 @@ fetch(url)
    return authors.map((author) => {
     let li = createNode('li'),
         img = createNode('img'),
-        span = createNode('span');
+        div = createNode('div');
     img.src = author.picture.medium;
+
     span.innerHTML = `${author.name.first}`;
     append(li, img);
-    append(li, span);
+    append(li, div);
     append(ul, li);
   })
 })
  .catch((error) => {
-   console.log(error); // catching any errors
+   console.log(error); 
 });
 ```
