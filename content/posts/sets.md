@@ -29,6 +29,19 @@ To add and remove values you use the `use` and `delete` methods respectively e.g
 ```javascript
 mySet2.add(4) // [1, 2, 3, 4]
 
-mySet.delete(2) // [1, 3, 4]
+mySet2.delete(2) // [1, 3, 4]
 ```
 
+If you wish to remove all the values from a Setuse the `clear` method e.g.
+
+```javascript
+mySet2.clear() // ''
+```
+
+You can iterate/loop through a Set using `forEach` or a `for...of` loop e.g.
+
+```javascript
+for(let [key, value] of mySet){
+  // do something
+}
+```
