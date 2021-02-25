@@ -27,7 +27,7 @@ mySet2.size // 3
 To add and remove values you use the `use` and `delete` methods respectively e.g.
 
 ```javascript
-mySet2.add(4) // [1, 2, 3, 4]
+mySet2.add(4) // ['hello', 'world', 2021, 4 ]
 
 mySet2.delete(2) // [1, 3, 4]
 ```
