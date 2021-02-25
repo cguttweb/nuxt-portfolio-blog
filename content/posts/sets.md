@@ -45,3 +45,9 @@ for(let [key, value] of mySet){
   // do something
 }
 ```
+
+You convert to an array if needed e.g. 
+
+```javascript
+Array.from(mySet)
+```
