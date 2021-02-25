@@ -46,6 +46,14 @@ for(let [key, value] of mySet){
 }
 ```
 
+To check if an element is present in a Set use the `has` method which will return a Boolean e.g.
+
+```javascript
+mySet.has('hello') // true
+
+mySet.has(2021) // false
+```
+
 You convert to an array if needed e.g. 
 
 ```javascript
