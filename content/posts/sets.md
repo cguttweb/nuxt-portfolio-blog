@@ -58,6 +58,9 @@ mySet.has('hello') // true
 mySet.has(2021) // false
 ```
 
+The values and entries methods
+
+
 You convert to an array if needed e.g. 
 
 ```javascript
