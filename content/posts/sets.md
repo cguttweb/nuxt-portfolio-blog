@@ -32,7 +32,7 @@ mySet2.add(4) // ['hello', 'world', 2021, 4 ]
 mySet2.delete(2021) // ['hello', 'world', 4 ]
 ```
 
-If you wish to remove all the values from a Setuse the `clear` method e.g.
+If you wish to remove all the values from a Set, use the `clear` method e.g.
 
 ```javascript
 mySet2.clear() // ''
