@@ -17,3 +17,18 @@ const mySet = new Set()
 
 const mySet2 = new Set(['hello', 'world', 2021])
 ```
+
+There are a number of methods you can use depending on what you are trying to achieve e.g. size to get the number of values
+
+```javascript
+mySet2.size // 3
+```
+
+To add and remove values you use the `use` and `delete` methods respectively e.g.
+
+```javascript
+mySet2.add(4) // [1, 2, 3, 4]
+
+mySet.delete(2) // [1, 3, 4]
+```
+
