@@ -29,7 +29,7 @@ To add and remove values you use the `use` and `delete` methods respectively e.g
 ```javascript
 mySet2.add(4) // ['hello', 'world', 2021, 4 ]
 
-mySet2.delete(2) // [1, 3, 4]
+mySet2.delete(2021) // ['hello', 'world', 4 ]
 ```
 
 If you wish to remove all the values from a Setuse the `clear` method e.g.
