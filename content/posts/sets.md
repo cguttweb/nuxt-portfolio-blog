@@ -44,6 +44,10 @@ You can iterate/loop through a Set using `forEach` or a `for...of` loop e.g.
 for(let [key, value] of mySet){
   // do something
 }
+
+mySet.forEach( (val) => {
+  console.log(val)
+}
 ```
 
 To check if an element is present in a Set use the `has` method which will return a Boolean e.g.
