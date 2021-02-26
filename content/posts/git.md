@@ -17,7 +17,12 @@ git push -u origin master
 ### Key Commands
 
 - `git add`: this command add files to git and makes sure any changes are 'tracked' which are added to thestaging area' - this is the middle man where you ca check any updates/changes before committing
-- `git commit`: 
+- `git commit`: this commits or finalised your changes when using this you need to add `-m` which is a revelant message explaining your changes e.g.
+
+```git
+git commit -m 'updated footer'
+```
+
 - `git push`: this 'pushes' any changes to the remote repo on github so it is accessible to everyone
 - `git pull`: this opposite to push this will 'pull' any updates into your local repo so you have the most recent changes available to you
 - `git status`: this will give you information around your files e.g. whether or not changes have been made and whether they have been tracked
