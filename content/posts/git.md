@@ -20,9 +20,9 @@ git push -u origin master
 - `git commit`: 
 - `git push`: this 'pushes' any changes to the remote repo on github so it is accessible to everyone
 - `git pull`: this opposite to push this will 'pull' any updates into your local repo so you have the most recent changes available to you
-- git status: this will give you information around your files e.g. whether or not changes have been made and whether they have been tracked
-- git rm: remove a file from the 'staging area' if updated by accident
-- git log: this will give a list of the most recent commits e.g. date and who committed the updates
+- `git status`: this will give you information around your files e.g. whether or not changes have been made and whether they have been tracked
+- `git rm`: remove a file from the 'staging area' if updated by accident
+- `git log`: this will give a list of the most recent commits e.g. date and who committed the updates
 
 
 ### Branching and Merging
