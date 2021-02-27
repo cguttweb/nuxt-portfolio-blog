@@ -11,6 +11,7 @@ You can get started by creating an empty repository (or repo) on your host of ch
 
 ```javascript
 git remote add origin git@github.com:'YOUR_USERNAME'/'REPO_NAME'.git
+
 git push -u origin master
 ```
 
@@ -35,7 +36,7 @@ git commit -m 'updated footer'
 
 - `git branch`: this is most useful for larger software/app projects where you can complete updates without modifying the original content e.g.
 
-```git
+```javascript
 git branch
 * master
 
@@ -51,14 +52,14 @@ The default branch will be the `master` but you can create several updates for d
 
 Switching branches use the `git checkout BRANCH_NAME` e.g.
 
-```git
+```javascript
 git branch
 * master // this will be the default
 
 git branch footerfix // switches from the master to the new footer-fix branch
 ```
 
-To delete a branch 
+To delete a branch use the `-d` flag:
 
 ```
 git branch -d footerfix
