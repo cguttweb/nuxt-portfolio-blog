@@ -7,7 +7,7 @@ Git is a version control system for everything for small sites to large scale ap
 
 The first step is to download and install it on your machine whether your OS of choice is (Windows, MacOS, Linux). Although there are GUIs available e.g. Github Desktop it is easy to get started on the CLI (Command Line Interface) which could be the terminal like or git bash or the built-in terminal in your editor.
 
-You can get started by creating an empty repository (or repo) on your host of choice usually [Github](https://github.com) you then clone that empty repo into your files which creates a copy of this locally and then add your files to this folder. If you already have a folder with files you wish to add to git you can do this with the following commands (which will be shown to you):
+You can get started by creating an empty repository (or repo) on your host of choice mine is [Github](https://github.com) you then clone that empty repo into your files which creates a copy of this locally and then add your files to this folder. If you already have a folder with files you wish to add to git you can do this with the following commands (which will be shown to you):
 
 ```javascript
 git remote add origin git@github.com:'YOUR_USERNAME'/'REPO_NAME'.git
