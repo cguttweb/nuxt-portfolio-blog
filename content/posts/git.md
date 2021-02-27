@@ -47,4 +47,4 @@ git branch
 
 ```
 
-The default branch will be the `main/master` branch
+The default branch will be the main/master` but you can create several updates for different things you may be working on. 
