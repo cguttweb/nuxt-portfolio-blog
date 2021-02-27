@@ -39,7 +39,7 @@ git commit -m 'updated footer'
 git branch
 * master/main
 
-git branch footer-fix // creates a new branch called footer-fix
+git branch footerfix // creates a new branch called footerfix
 
 git branch
  - master
@@ -55,7 +55,11 @@ Switching branches use the `git checkout BRANCH_NAME` e.g.
 git branch
 * master // this will be the default
 
-git branch footer-fix // switches from the master to the new footer-fix branch
+git branch footerfix // switches from the master to the new footer-fix branch
 ```
 
 To delete a branch 
+
+```
+git branch -d footerfix
+```
