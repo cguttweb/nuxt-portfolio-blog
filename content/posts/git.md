@@ -37,7 +37,7 @@ git commit -m 'updated footer'
 
 ```git
 git branch
-* master/main
+* master
 
 git branch footerfix // creates a new branch called footerfix
 
@@ -47,7 +47,7 @@ git branch
 
 ```
 
-The default branch will be the main/master` but you can create several updates for different things you may be working on. 
+The default branch will be the `master` but you can create several updates for different things you may be working on. 
 
 Switching branches use the `git checkout BRANCH_NAME` e.g.
 
