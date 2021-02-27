@@ -32,3 +32,19 @@ git commit -m 'updated footer'
 
 
 ### Branching and Merging
+
+- `git branch`: this is most useful for larger software/app projects where you can complete updates without modifying the original content e.g.
+
+```git
+git branch
+* master/main
+
+git branch footerfix // creates a new branch called footerfix
+
+git branch
+ - master
+ - footerfix
+
+```
+
+The default branch will be the `main/master` branch
