@@ -9,7 +9,7 @@ The first step is to download and install it on your machine whether your OS of 
 
 You can get started by creating an empty repository (or repo) on your host of choice mine is [Github](https://github.com) you then clone that empty repo into your files which creates a copy of this locally and then add your files to this folder. If you already have a folder with files you wish to add to git you can do this with the following commands (which will be shown to you):
 
-```javascript
+```git
 git remote add origin git@github.com:'YOUR_USERNAME'/'REPO_NAME'.git
 
 git push -u origin master
@@ -29,14 +29,14 @@ git commit -m 'updated footer'
 - `git status`: this will give you information around your files e.g. whether or not changes have been made and whether they have been tracked
 - `git rm`: remove a file from the 'staging area' if updated by accident
 - `git log`: this will give a list of the most recent commits e.g. date and who committed the updates
--`git diff`: this will show differences between original files and the most recent updates
+- `git diff`: this will show differences between original files and the most recent updates
 
 
 ### Branching and Merging
 
 - `git branch`: this is most useful for larger software/app projects where you can complete updates without modifying the original content e.g.
 
-```javascript
+```git
 git branch
 * master
 
@@ -52,15 +52,23 @@ The default branch will be the `master` but you can create several updates for d
 
 Switching branches use the `git checkout BRANCH_NAME` e.g.
 
-```javascript
+```git
 git branch
 * master // this will be the default
 
 git branch footerfix // switches from the master to the new footer-fix branch
 ```
 
+Once you are happy with the fix you merge this back into your `master` branch:
+
+```git
+git checkout master // switch from footerfix to master branch
+
+git merge footerfix // merge the fix back into the master branch then you can push to production
+```
+
 To delete a branch use the `-d` flag:
 
-```
+```git
 git branch -d footerfix
 ```
