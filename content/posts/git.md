@@ -24,7 +24,7 @@ In this case, I'm going to use the quick setup option and simply clone/copy the 
 ![git quick setup](/uploads/git-quick-setup.png "quick start")
 
 ```javascript
-git clone git@github.com:cguttweb/test-repo.git
+git clone git@github.com:cguttweb/test-repo.git // alwways to use SSH rather than HTTPS option
 ```
 
 
