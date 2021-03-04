@@ -7,13 +7,11 @@ Git is a version control system for everything from small sites to large scale a
 
 The first step is to [download](https://git-scm.com/download) and install Git on your machine whether your OS of choice is (Windows, macOS, Linux). Although there are GUIs available e.g. Github Desktop it is easy to get started on the CLI (Command Line Interface) which could be the terminal like git bash or the built-in terminal in your editor.
 
-You can get started by creating an empty repository (or repo) on your host of choice mine is [Github](https://github.com) you then clone that empty repo into your files which creates a copy of this locally and then add your files to this folder. I created an empty test repo
+You can get started by creating an empty repository (or repo) on your host of choice mine is [Github](https://github.com) you then clone that empty repo into your files which creates a copy of this locally and then add your files to this folder. I created an empty test repo on Github and I get the following instructions:
 
+![empty git repo](/uploads/empty-repo.png "empty git repo")
 
-
-
-
-If you already have a folder with files you wish to add to git you can do this with the following commands (which will be shown to you):
+If you already have a folder with files you wish to add to git you can do this with the following commands (as shown above):
 
 ```git
 git remote add origin git@github.com:'YOUR_USERNAME'/'REPO_NAME'.git
@@ -23,29 +21,28 @@ git push -u origin master
 
 ### Key Commands
 
-- `git add`: this command add files to git and makes sure any changes are 'tracked' which are added to the 'staging area' - this is the middle man where you can check any updates/changes before committing
+* `git add`: this command add files to git and makes sure any changes are 'tracked' which are added to the 'staging area' - this is the middle man where you can check any updates/changes before committing
 
 ```javascript
 git add . // using dot will add all of your files instead of having to do them individually
 ```
 
-- `git commit`: this commits or finalised your changes when using this you need to add `-m` which is a relevant message explaining your changes e.g.
+* `git commit`: this commits or finalised your changes when using this you need to add `-m` which is a relevant message explaining your changes e.g.
 
 ```git
 git commit -m 'updated footer'
 ```
 
-- `git push`: this 'pushes' any changes to the remote repo on Github so it is accessible to everyone
-- `git pull`: this opposite to push this will 'pull' any updates into your local repo so you have the most recent changes available to you
-- `git status`: this will give you information around your files e.g. whether or not changes have been made and whether they have been tracked
-- `git rm`: remove a file from the 'staging area' if updated by accident
-- `git log`: this will give a list of the most recent commits e.g. date and who committed the updates
-- `git diff`: this will show differences between original files and the most recent updates
-
+* `git push`: this 'pushes' any changes to the remote repo on Github so it is accessible to everyone
+* `git pull`: this opposite to push this will 'pull' any updates into your local repo so you have the most recent changes available to you
+* `git status`: this will give you information around your files e.g. whether or not changes have been made and whether they have been tracked
+* `git rm`: remove a file from the 'staging area' if updated by accident
+* `git log`: this will give a list of the most recent commits e.g. date and who committed the updates
+* `git diff`: this will show differences between original files and the most recent updates
 
 ### Branching and Merging
 
-- `git branch`: this is most useful for larger software/app projects where you can complete updates without modifying the original content e.g.
+* `git branch`: this is most useful for larger software/app projects where you can complete updates without modifying the original content e.g.
 
 ```git
 git branch
@@ -56,7 +53,6 @@ git branch footerfix // creates a new branch called footerfix
 git branch
  - master
  - footerfix
-
 ```
 
 The default branch will be the `master` but you can create several updates for different things you may be working on. 
