@@ -25,6 +25,9 @@ In this case, I'm going to use the quick setup option and simply clone/copy the 
 
 ```javascript
 git clone git@github.com:cguttweb/test-repo.git // alwways to use SSH rather than HTTPS option
+// It will say the following
+Cloning into 'test-repo'...
+warning: You appear to have cloned an empty repository. // this is fine aswe've not created anything yet
 ```
 
 
