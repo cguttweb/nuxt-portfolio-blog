@@ -35,12 +35,33 @@ Cloning into 'test-repo'...
 warning: You appear to have cloned an empty repository.
 ```
 
+Create a file `index.html` in the folder and then run git status again this time you will see:
+
+```javascript
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+``` 
+
+Next you run `git add index.html` this will enable got to recognise your file and track any changes to it. 
 
 ### Key Commands
 
 * `git add`: this command add files to git and makes sure any changes are 'tracked' which are added to the 'staging area' - this is the middle man where you can check any updates/changes before committing
 
 ```javascript
+// using the repo above
+
+git add 
+
+
 git add . // using dot will add all of your files instead of having to do them individually
 ```
 
