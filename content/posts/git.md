@@ -3,7 +3,7 @@ title: Working with Git
 date: 2021-02-25T14:47:55.024Z
 description: version control system
 ---
-Git is a version control system for everything from small sites to large scale apps and sites.
+Git is a version control system for everything from small sites to large-scale apps and sites.
 
 The first step is to [download](https://git-scm.com/download) and install Git on your machine whether your OS of choice is (Windows, macOS, Linux). Although there are GUIs available e.g. Github Desktop it is easy to get started on the CLI (Command Line Interface) which could be the terminal like git bash or the built-in terminal in your editor.
 
@@ -11,13 +11,19 @@ You can get started by creating an empty repository (or repo) on your host of ch
 
 ![empty git repo](/uploads/empty-repo.png "empty git repo")
 
-If you already have a folder with files you wish to add to git you can do this with the following commands (as shown above):
+You can create a new repo on the command line with the instructions shown above or if you already have a folder with files you wish to add to git you can do this with the following commands (as shown above):
 
 ```git
 git remote add origin git@github.com:'YOUR_USERNAME'/'REPO_NAME'.git
 
 git push -u origin master
 ```
+
+In this case, I'm going to use the quick setup option:
+
+![git quick setup](/uploads/git-quick-setup.png "quick start")
+
+
 
 ### Key Commands
 
