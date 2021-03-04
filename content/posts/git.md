@@ -24,10 +24,15 @@ In this case, I'm going to use the quick setup option and simply clone/copy the 
 ![git quick setup](/uploads/git-quick-setup.png "quick start")
 
 ```javascript
-git clone git@github.com:cguttweb/test-repo.git // alwways to use SSH rather than HTTPS option
+git clone git@github.com:cguttweb/test-repo.git // it's recommended to use SSH rather than HTTPS option
 // It will say the following
 Cloning into 'test-repo'...
-warning: You appear to have cloned an empty repository. // this is fine aswe've not created anything yet
+warning: You appear to have cloned an empty repository. // this is fine as we've not created anything yet
+
+cd test-repo then I use git status command and see:
+
+Cloning into 'test-repo'...
+warning: You appear to have cloned an empty repository.
 ```
 
 
