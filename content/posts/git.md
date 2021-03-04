@@ -19,10 +19,13 @@ git remote add origin git@github.com:'YOUR_USERNAME'/'REPO_NAME'.git
 git push -u origin master
 ```
 
-In this case, I'm going to use the quick setup option:
+In this case, I'm going to use the quick setup option and simply clone/copy the repo onto my PC
 
 ![git quick setup](/uploads/git-quick-setup.png "quick start")
 
+```javascript
+git clone git@github.com:cguttweb/test-repo.git
+```
 
 
 ### Key Commands
