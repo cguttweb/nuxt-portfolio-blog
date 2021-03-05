@@ -105,7 +105,17 @@ Branch 'master' set up to track remote branch 'master' from 'origin'.
 ```
 
 * `git pull`: this opposite to push this will 'pull' any updates into your local repo so you have the most recent changes available to you
-* `git status`: this will give you information around your files e.g. whether or not changes have been made and whether they have been tracked
+* `git status`: this will give you information about your files e.g. whether or not changes have been made and whether they have been tracked e.g.
+
+```javascript
+// Using git status on my test repo:
+
+Your branch is up-to-date with 'origin/master'.
+
+nothing to commit, working tree clean // meaning there are no untracked changes and everything is up to date
+```
+
+
 * `git rm`: remove a file from the 'staging area' if updated by accident
 * `git log`: this will give a list of the most recent commits e.g. date and who committed the updates
 * `git diff`: this will show differences between original files and the most recent updates
