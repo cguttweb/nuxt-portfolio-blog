@@ -73,14 +73,20 @@ Changes to be committed:
   (use "git rm --cached <file>..." to unstage)
 
         new file:   index.html
+```
 
+```javascript
 git add . // using dot will add all of your files instead of having to do them individually
 ```
 
 * `git commit`: this commits or finalised your changes when using this you need to add `-m` which is a relevant message explaining your changes e.g.
 
 ```git
-git commit -m 'updated footer'
+git commit -m 'first file'
+
+[master (root-commit) 13ae2e2] first file
+ 1 file changed, 12 insertions(+)
+ create mode 100644 index.html
 ```
 
 * `git push`: this 'pushes' any changes to the remote repo on Github so it is accessible to everyone
