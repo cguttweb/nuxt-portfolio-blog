@@ -59,8 +59,20 @@ Next you run `git add index.html` this will enable got to recognise your file an
 ```javascript
 // using the repo above
 
-git add 
+git add index.html // adds the file to track any changes
+```
 
+Then using git status you'll see the following:
+
+```javascript
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   index.html
 
 git add . // using dot will add all of your files instead of having to do them individually
 ```
