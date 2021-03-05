@@ -113,6 +113,35 @@ Branch 'master' set up to track remote branch 'master' from 'origin'.
 Your branch is up-to-date with 'origin/master'.
 
 nothing to commit, working tree clean // meaning there are no untracked changes and everything is up to date
+
+If I make changes to my index file:
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+You'll need to add a new commit message then when using git status again:
+
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+```
+
+then finally because this branch is being tracked you'll just need to use:
+
+```
+git push // You'll see something like:
+
+Writing objects: 100% (3/3), 394 bytes | 394.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:cguttweb/test-repo.git
+   13ae2e2..c8037ac  master -> master
 ```
 
 
