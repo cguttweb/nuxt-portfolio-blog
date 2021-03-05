@@ -89,7 +89,21 @@ git commit -m 'first file'
  create mode 100644 index.html
 ```
 
-* `git push`: this 'pushes' any changes to the remote repo on Github so it is accessible to everyone
+* `git push`: this 'pushes' any changes to the remote repo on Github so it is accessible to everyone. Using the test repo because it is the first push up to an empty repo you'll need to include `-u` to make sure branch is setup to track correctly e.g.
+
+```javascript
+git push -u origin master // command to push up to git repo then you'll see something like this:
+
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 398 bytes | 398.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To github.com:cguttweb/test-repo.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+```
+
 * `git pull`: this opposite to push this will 'pull' any updates into your local repo so you have the most recent changes available to you
 * `git status`: this will give you information around your files e.g. whether or not changes have been made and whether they have been tracked
 * `git rm`: remove a file from the 'staging area' if updated by accident
