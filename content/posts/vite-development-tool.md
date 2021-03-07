@@ -5,4 +5,4 @@ description: Development tool
 ---
 I've started learning about PWAs or Progressive Web Apps with a udemy course by Academind and am going to attempt to build one by restarting my quiz app idea as a PWA rather than the initial desktop-based electron app idea. 
 
-I'm going to use [Vite](https://vitejs.dev/) as my development tool rather than webpack echeck out the documentation to learn more.
+I'm going to use [Vite](https://vitejs.dev/) as my development tool rather than webpack check, out the documentation to learn more.
