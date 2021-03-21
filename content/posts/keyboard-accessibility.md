@@ -1,5 +1,5 @@
 ---
-title: Keyboard Accessibility
+title: Keyboard Events and Accessibility
 date: 2021-01-27T18:38:07.300Z
 description: tabindex and accesskey attribute
 ---
