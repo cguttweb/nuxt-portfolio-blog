@@ -34,13 +34,11 @@
           link="https://array-helper.vercel.app/"
           techused="Vue, Bootstrap"
         />
-        <a href="https://array-helper.vercel.app/" target="_blank" rel="noopener noreferrer">
           <img
             alt="Array Helper screenshot"
             src="~/assets/array-helper-small.png"
             width="300"
           />
-        </a>
       </div>
       <div class="p-4 shadow-lg">
         <ProjectCard
@@ -52,7 +50,7 @@
         />
           <img
             alt="Coffee Matcher"
-            src="#"
+            src="~/assets/coffee-matcher-small.png"
             width="300"
           />
       </div>
@@ -66,7 +64,7 @@
         />
         <img
         alt="simple gym site using gatsby"
-        src="~/assets/gym-site.png"
+        src="~/assets/gym-site-small.png"
         width="300" />
       </div>
       <div class="p-4 shadow-lg">
@@ -94,8 +92,8 @@
         <img
           alt="All About Coffee site homepage"
           src="~/assets/all-about-coffee.png"
-          width="300" />
-
+          width="300" 
+          />
       </div>
       <div class="p-4 shadow-lg">
         <ProjectCard
@@ -105,14 +103,12 @@
           link="https://www.designhistory.co.uk/"
           techused="Gatsby, React, Markdown"
         />
-        <a href="https://designhistory.co.uk" target="_blank" rel="noopener noreferrer">
           <img
             alt="Design History screenshot"
-            src="~/assets/design-history.png"
+            src="~/assets/design-history-small.png"
             width="300"
           />
-        </a>
-        <p>Learn more about <a class="underline" href="https://forestry.io/" rel="noopener noreferrer" target="_blank">Forestry</a></p>
+        <p class="text-sm">Learn more about <a class="underline" href="https://forestry.io/" rel="noopener noreferrer" target="_blank">Forestry</a></p>
       </div>
     </div>
     </section>

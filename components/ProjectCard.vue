@@ -8,7 +8,7 @@
       target="_blank"
       rel="noopener noreferrer"
     >Git Repo: {{ repo }}</a><br/>
-    <button type="button" class="bg-red-800 my-4 px-4 py-2 rounded"><a class="text-white" :href="link" target="_blank">{{title}}</a></button>
+    <button type="button" class="bg-red-800 my-4 px-4 py-2 rounded"><a class="text-white" :href="link" rel="noopener noreferrer" target="_blank">{{title}}</a></button>
   </div>
 </template>
 
