@@ -164,7 +164,7 @@ git branch
  - footerfix
 ```
 
-The default branch will be the `master` but you can create several updates for different things you may be working on. 
+The default branch will be the `master` but you can create several updates for different things you may be working on.
 
 Switching branches use the `git checkout BRANCH_NAME` e.g.
 
