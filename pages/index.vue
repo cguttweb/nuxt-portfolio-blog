@@ -1,31 +1,13 @@
 <template>
   <div class="bg-gray-900">
     <main class="container px-3 text-white text-lg mx-auto" role="main">
-    <p class="mx-auto py-4 text-center w-4/5">
-      I'm Chloe a web developer based in Hampshire, UK I'm currently learning and creating projects with anything Vue based including <a class="underline hover:font-bold" href="https://nuxtjs.org" target="_blank" rel="noopener noreferrer">Nuxt</a> which this site is now built from having moved from <a class="underline hover:font-bold" href="https://gridsome.org" target="_blank" rel="noopener noreferrer">Gridsome</a>. I'm attempting to document my learnings with my latest posts on my <nuxt-link class="underline hover:font-bold" to="/blog/">blog</nuxt-link>
+    <p class="mx-auto py-4 text-center text-md w-4/5">
+      I'm Chloe a web developer based in Hampshire, UK. I'm currently focusing on vanilla JavaScript and creating projects with anything Vue based including <a class="underline hover:font-bold" href="https://nuxtjs.org" target="_blank" rel="noopener noreferrer">Nuxt</a> which this site is built from. Check out the latest posts on my <nuxt-link class="underline hover:font-bold" to="/blog/">blog</nuxt-link>.
     </p>
 
     <h1 class="py-3 text-white text-center text-3xl">Projects</h1>
     <section>
     <div class="grid lg:grid-cols-2 gap-6">
-      <!-- <div class="p-4 shadow-lg">
-        <ProjectCard
-          title="Portfolio"
-          information="This website itself is built with
-          nuxt and uses Tailwind CSS for styling. I have also added netlifyCMS to make it easier to create posts with markdown."
-          repo="https://github.com/cguttweb/portfolio-and-blog"
-          link="https://www.cgweb.co.uk"
-          techused="Gridsome, Vue, Tailwindcss"
-        />
-        <a href="https://www.cgweb.co.uk" target="_blank">
-          <img
-            alt="Portfolio screenshot"
-            src="~/assets/portfolio-blog.png"
-            width="300"
-          />
-        </a>
-        <p>Learn more about <a href="https://www.netlifycms.org/" target="_blank">NetlifyCMS</a> which can be used with a variety of frameworks including Gridsome and Gatsby.</p>
-      </div> -->
       <div class="p-4 shadow-lg">
         <ProjectCard
           title="Array Helper"
@@ -95,7 +77,7 @@
           width="300" 
           />
       </div>
-      <div class="p-4 shadow-lg">
+      <!-- <div class="p-4 shadow-lg">
         <ProjectCard
           title="Design History"
           information="A project built using Gatsby a static site generator based on the React JavaScript framework with Forestry.io as the CMS. A work in progress"
@@ -109,7 +91,7 @@
             width="300"
           />
         <p class="text-sm">Learn more about <a class="underline" href="https://forestry.io/" rel="noopener noreferrer" target="_blank">Forestry</a></p>
-      </div>
+      </div> -->
     </div>
     </section>
     </main>
