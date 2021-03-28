@@ -4,12 +4,14 @@ date: 2021-01-27T18:38:07.300Z
 description: post on keyboard events
 ---
 ## Keyboard Events
-input; // targets any input click, focus etc
+<!-- input; // targets any input click, focus etc
 focus; // e.g. when you click into input
-blur; // when you click away from input
+blur; // when you click away from input -->
 
-- **keyup**
-- **keydown**
+There are 3 keyboard events:
+
+- **keyup** - this event activates when lifting off a key
+- **keydown** - this event is called when you hit any key
 - **keypress**
 
 accesskey - this is used to specify a shortcut key to focus on a particular element on the page and is useful for keyboard-only users.
