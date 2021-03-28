@@ -1,6 +1,7 @@
 ---
 title: Gatsby Fundamentals
 date: 2020-10-30T17:55:12.306Z
+description: Learning about Gatsby
 ---
 First install the CLI:
 `npm install -g gatsby-cli`
@@ -47,4 +48,4 @@ can use query name but they must be unique even if using in different components
 
 allField field - nodes - all files listed depending on where the source-filesystem plugin is pointed to e.g. `src or src/images`
 
-can use with contentful - a headless cms try with netlifycms?
+<!-- can use with contentful - a headless cms try with netlifycms? -->
