@@ -1,12 +1,16 @@
 ---
 title: Keyboard Events and Accessibility
 date: 2021-01-27T18:38:07.300Z
-description: tabindex and accesskey attribute
+description: post on keyboard events
 ---
 ## Keyboard Events
+input; // targets any input click, focus etc
+focus; // e.g. when you click into input
+blur; // when you click away from input
 
 - **keyup**
 - **keydown**
+- **keypress**
 
 accesskey - this is used to specify a shortcut key to focus on a particular element on the page and is useful for keyboard-only users.
 
