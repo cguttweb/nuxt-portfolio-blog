@@ -12,7 +12,7 @@ There are 3 keyboard events:
 
 - **keyup** - this event activates when lifting off a key
 - **keydown** - this event is called when you hit any key
-- **keypress**
+- **keypress** - this is now not recommended
 
 ```javascript
 const getKeyNames = event => {
