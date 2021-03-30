@@ -12,18 +12,20 @@ There are 3 keyboard events:
 
 - **keyup** - this event activates when lifting off a key
 - **keydown** - this event is called when you hit any key
-- **keypress** - this is now not recommended
+- **keypress** - triggered on any keypress
 
 ```javascript
 const getKeyNames = event => {
   console.log(event) // this will log the object with information on the event
+
+  if(event.key === 'Enter'){
+    return `You hit the Enter key`
+  } else {
+    return `You hit a different key`
+  }
 }
 
-if(event.key === 'Enter'){
-  return `You hit the Enter key`
-} else {
-  return `You hit a different key`
-}
+document.addEventListener('keypress', getKeyNames)
 
 ```
 
