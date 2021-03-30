@@ -15,6 +15,7 @@ There are 3 keyboard events:
 - **keypress** - triggered on any keypress
 
 ```javascript
+
 const getKeyNames = event => {
   console.log(event) // this will log the object with information on the event
 
