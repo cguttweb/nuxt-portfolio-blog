@@ -20,7 +20,7 @@
         <section class="w-1/3">
           <h2>Other things:</h2>
           <ul>
-            <li v-for="otherItem in otherStuff" :key="otherItem.label"><span class="text-green-400">{{ otherItem.label }}</span> {{ otherItem.product }}</span></li>
+            <li v-for="otherItem in otherStuff" :key="otherItem.label"><span class="text-green-400">{{ otherItem.label }}</span> {{ otherItem.product }}</li>
           </ul>
         </section>
       </div>
