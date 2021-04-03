@@ -5,7 +5,7 @@
       class="block text-center md:flex flex-row justify-center py-2 text-xl text-white uppercase">
       <nuxt-link class="block md:pr-5 hover:underline" to="/">Home</nuxt-link>
       <nuxt-link class="block md:pr-5 hover:underline" to="/blog/">Blog</nuxt-link>
-      <!-- <nuxt-link class="hidden lg:flex pr-5 hover:underline" to="/docs/">Docs</nuxt-link> -->
+      <nuxt-link class="block pr-5 hover:underline" to="/uses/">Uses</nuxt-link>
       <a
         class="block"
         href="https://dev.to/cguttweb"
