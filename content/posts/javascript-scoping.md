@@ -15,4 +15,6 @@ Scope = space or environment where the variable is declared
 - **function scope** - also known as local scope variables are only available inside the function. If attempting to access outside of the function there will be a reference error.
 - **block-level scoping** - this as introduced in ES6 and is **only** available to variables declared with `let` and `const`
 
-**Note: ES6 in strict mode functions are also block scoped**
+**Note: ES6 in strict mode functions are also block-scoped**
+
+Variable lookup in scope chain to parent scope. This only works with parent scope this does not work the other way round with child scope.
