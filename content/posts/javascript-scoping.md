@@ -1,6 +1,16 @@
 ---
 title: javascript scoping
 date: 2021-04-03T12:24:24.531Z
-description: post on scoping for reference later
+description: different types of scope
 ---
-While wokring on my way through my [complete js course](https://www.udemy.com/course/the-complete-javascript-course/) as well as 
+<!-- While working on my way through my [complete js course](https://www.udemy.com/course/the-complete-javascript-course/) there has been a few videos on how javascript works behind the scenes.-->
+
+Scoping = the organisation and access of variables
+
+**Lexical scoping** - where scoping is controlled by how functions and blocks are placed in the code e.g. a function inside another function has access to the variables from the first function. 
+
+Scope = space or environment where the variable is declared
+
+- **global scope** - top-level code variables are available everywhere
+- **function scope** - also known as local scope variables are only available inside the function
+- **block-level scoping** - this as introduced in ES6 and is **only** available to variables declared with let and const
