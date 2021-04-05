@@ -3,7 +3,7 @@ title: CSS Grid
 date: 2021-01-29T17:29:12.091Z
 description: Overview of CSS Grid
 ---
-CSS Grid was introduced to the spec in 2018? and is designed to help make layouts easier. 
+CSS Grid was introduced to the spec to help make layouts easier. Flexbox is grat but you can only use it one way either for rows or columns in combination with grid you can create some great layouts.
 
 To create a grid container use `display: grid` inside this are grid items
 
