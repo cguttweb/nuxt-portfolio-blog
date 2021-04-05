@@ -15,6 +15,7 @@ Like many developers, [VSCode](https://code.visualstudio.com/) is my text editor
 - [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) - adds material design icons to vscode
 - [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) - sync your settings between different devices
 - [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur) - vue tooling for vscode
+- [Tailwind CSS Intellisense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) - I've used tailwindcss in a few projects and have this super useful
 
 
 
