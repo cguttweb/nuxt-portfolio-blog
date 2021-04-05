@@ -15,7 +15,7 @@ The [vue cli](https://cli.vuejs.org/guide/) is a tool for rapid vue prototyping 
 ```javascript
 npm install @vue/cli -g
 ```
-
+<!--
 ## Gridsome
 
 Firstly install the gridsome cli
@@ -29,6 +29,7 @@ and then to create a project
 ```javascript
 gridsome create my-gridsome-site
 ```
+-->
 
 <!-- ## VuePress
 
