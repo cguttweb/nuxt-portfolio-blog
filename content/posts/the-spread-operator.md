@@ -31,7 +31,7 @@ const fullText = [...myTextArr, ...myTextArr2]
 
 ```
 
-Since ES2018 the spread operator can now also be used with objects. 
+Since ES2018 the spread operator can now also be used with objects:
 
 ```javascript
 const myObj = {
