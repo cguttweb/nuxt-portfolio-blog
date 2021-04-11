@@ -39,6 +39,8 @@ const myObj = {
   age: 28
 }
 
+const anotherObj = {...myObj}
+
 const myObjCopy = {...myObj} 
 myObjCopy.name = 'Jessica' // this will name of the new copied object not the original
 
