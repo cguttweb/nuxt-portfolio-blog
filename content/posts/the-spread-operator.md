@@ -41,8 +41,10 @@ const myObj = {
 
 const anotherObj = {...myObj, job: 'Developer'}
 // { name: 'Sarah', age: 28, job: 'Developer' }
+
 const myObjCopy = {...myObj} 
-myObjCopy.name = 'Jessica' // this will name of the new copied object not the original
+myObjCopy.name = 'Jessica' 
+// this will name of the new copied object not mutate the original
 
 // { name: 'Jessica', age: 28 }
 
