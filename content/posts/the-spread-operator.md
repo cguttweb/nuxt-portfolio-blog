@@ -5,6 +5,13 @@ description: A great introduction to modern javascript
 ---
 The Spread Operator which uses the `...` syntax was introduced in ES6 as a way of easily extracting all the elements from an array and it can be used where you would write comma separated values e.g. arrays or passing values to a function.
 
-It is useful more succinct way of joining/concatenating arrays
+It is useful as a more succinct way of joining/concatenating arrays e.g.
+
+```javascript
+const myNumsArr = [24, 36, 48, 56]
+
+const myNumsArr2 = [5, 10, 12, ...myNumsArr]
+// [5, 10, 12, 24, 36, 48, 56]
+```
 
 Since ES2018 the spread operator can now also be used with objects. 
