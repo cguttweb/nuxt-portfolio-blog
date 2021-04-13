@@ -1,7 +1,7 @@
 ---
 title: Sets
 date: 2021-02-24T20:24:39.004Z
-description: similar to arrays
+description: similar to arrays but with unique values
 ---
 Sets were introduced as part of the ES2015 specification. As described by MDN they:
 
@@ -10,7 +10,7 @@ Sets were introduced as part of the ES2015 specification. As described by MDN th
 
 They are similar to arrays but as described above the values must be unique duplicates are not allowed.
 
-They can be initialised through the constructor or with an array of values e.g.#
+They can be initialised through the constructor or with an array of values e.g.
 
 ```javascript
 const mySet = new Set()
