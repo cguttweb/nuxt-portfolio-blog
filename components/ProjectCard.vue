@@ -14,7 +14,27 @@
 
 <script>
 export default {
-  props: ["title", "information", "techused", "link", "repo"]
+  props: {
+    title: {
+      type: String,
+      required: true
+    },
+    information: {
+      type: String, 
+      required: true
+    },
+    techused: {
+      type: String,
+      required: true
+    },
+    link: {
+      type: String,
+      required: false
+    },
+    repo: {
+      type: String
+    }
+  }
 };
 </script>
 
