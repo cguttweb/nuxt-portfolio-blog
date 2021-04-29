@@ -9,7 +9,7 @@ Scoping = the organisation and access of variables
 
 **Lexical scoping** - where scoping is controlled by how functions and blocks are placed in the code e.g. a function inside another function has access to the variables from the first function. 
 
-Scope = space or environment where the variable is declared
+Scope = the space or environment where the variable is declared
 
 - **global scope** - top-level code variables are available everywhere e.g. `var`
 - **function scope** - also known as local scope variables are only available inside the function. If attempting to access outside of the function there will be a reference error.
@@ -18,3 +18,5 @@ Scope = space or environment where the variable is declared
 **Note: ES6 in strict mode functions are also block-scoped**
 
 Variable lookup in scope chain to parent scope. This only works with parent scope this does not work the other way round with child scope.
+
+<!-- ADD EXAMPLES -->
