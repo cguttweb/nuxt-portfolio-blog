@@ -7,6 +7,13 @@
 </template>
 
 <style>
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
 html {
   font-family: 'Nunito', Arial, sans-serif;
   font-size: 18px;
@@ -24,10 +31,7 @@ h4 {
   font-family: 'Roboto', sans-serif;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
+img {
+  height: auto;
 }
 </style>

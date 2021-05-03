@@ -79,4 +79,8 @@ h1 {
     margin-left: 0.5rem;
     padding: 0.5rem;
 }
+
+.nuxt-content a {
+    text-decoration: underline;
+}
 </style>
