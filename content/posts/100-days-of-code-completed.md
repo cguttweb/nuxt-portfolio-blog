@@ -12,4 +12,4 @@ I had hoped to finish my JS course but I did switch between a few different thin
 
 If I were to do it again I would perhaps put together a better plan on what I want to learn/refresh with a few ideas of things to build, as this time round I did switch between a few different things with my js course, a nuxt course and various Vue courses on Vue Mastery including learning about [vuetify](https://www.vuetifyjs.com). 
 
-In conclusion I'm glad I have completed the challenge and would do it again (but maybve not for a while :)) but would have more of a plan of what I want to go through.
+In conclusion I'm glad I have completed the challenge and would do it again (but maybe not for a while :)) but would have more of a plan of what I want to go through.
