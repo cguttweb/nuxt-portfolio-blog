@@ -4,7 +4,7 @@ date: 2021-05-03T14:11:56.142Z
 description: challenge done!
 image: https://images.unsplash.com/photo-1531686264889-56fdcabd163f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=450&q=1000
 ---
-Today is 3rd May early May Bank Holiday and it is the final day of my first 100 days of code challenge. Overall it's been a positive experience and has gotten me back into a regular learning routine again which I've struggled with for the last few months. I did struggle for a couple of weeks when work was very busy and didn't manage to get the whole hour done but I did do a little bit every day and 
+Today is 3rd May early May Bank Holiday and it is the final day of my first 100 days of code challenge. Overall it's been a positive experience and has gotten me back into a regular learning routine again which I've struggled with for the last few months. I did struggle for a couple of weeks when work was very busy and didn't manage to get the whole hour done, but I did do a little bit every day.
 
 I've learnt some new things and refreshed on a few things, but I need to practice a few things including css grid as I don't feel completely comfortable with it yet as well as practicing with APIs. I think I need to do some reading up on MDN to start with and try and build a few things. 
 
