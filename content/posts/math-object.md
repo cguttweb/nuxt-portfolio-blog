@@ -19,3 +19,9 @@ As described by MDN:
 **Math.trunc()** - returns integer part of a number removing fractional digits
 
 **Math.max()** - this returns the biggest of zero or more numbers given as parameters, or NaN if any parameter isn't a number and can't convert into 1
+
+**Math.min()** - a static function returns lowest-valued number passed to it, or NaN if any isn't a number
+
+**Math.abs()** - this returns the absolute value of a number. A static method if passed empty object, undefined/empty value or non-numeric string returns NaN and null, empty string or an empty array returns 0
+
+**Math.sqrt()** - returns the square root of a number
