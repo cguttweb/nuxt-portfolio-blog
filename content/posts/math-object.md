@@ -6,7 +6,10 @@ description: a built-in object
 As described by MDN: 
 > This is a built-in object that has properties and methods for mathematical constants and functions
 
-**Math.PI()** - this static property gives the ratio of the circumference of a circle to its diameter c.3.14159
+**Math.PI()** - this static property gives the ratio of the circumference of a circle to its diameter c.3.14159 e.g.
+```javascript
+console.log(Math.PI) // 3.141592653589793
+```
 
 **Math.random()** - this generates a random number between 0 and 1 (exclusive) often used with other methods
 
