@@ -38,19 +38,6 @@
       </div>
       <div class="p-4 shadow-lg">
         <ProjectCard
-          title="Gym Site"
-          information="A small site I built in a weekend with Gatsby using the default starter. It's far from perfect as I'm a beginner to Gatsby"
-          repo="https://github.com/cguttweb/gym-site"
-          link="https://github.com/cguttweb/gym-site"
-          techused="Gatsby, CSS"
-        />
-        <img
-        alt="simple gym site using gatsby"
-        src="~/assets/gym-site-small.png"
-        width="300" />
-      </div>
-      <div class="p-4 shadow-lg">
-        <ProjectCard
           title="LFC Euro Champions"
           information="A small app built with the Vue cli"
           repo="https://github.com/cguttweb/lfc-euro-champions"
