@@ -41,7 +41,7 @@
           title="LFC Euro Champions"
           information="A small app built with the Vue cli"
           repo="https://github.com/cguttweb/lfc-euro-champions"
-          link="https://github.com/cguttweb/lfc-euro-champions"
+          link="https://lfc-euro-champions.vercel.app/"
           techused="Vue, Vue Router, CSS" />
           <img
             alt="LFC Euro Champions screenshot"
