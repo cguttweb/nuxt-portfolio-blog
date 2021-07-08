@@ -1,7 +1,7 @@
 ---
 title: Keyboard events
 date: 2021-06-05T18:39:58.266Z
-description: some accessibility
+description: info on keyboard events and key values
 ---
 There are 3 keyboard events:
 
