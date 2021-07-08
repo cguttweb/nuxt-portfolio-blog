@@ -18,7 +18,7 @@ const getKeyNames = event => {
   } else if (event.key === 'Tab') {
      return `You hit the tab key`
   } else {
-    return `You hit a different key`
+     return `You hit a different key`
   }
 }
 
