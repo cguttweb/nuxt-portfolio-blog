@@ -1,6 +1,6 @@
 ---
 title: Keyboard events
-date: 2021-07-04T18:39:58.266Z
+date: 2021-06-05T18:39:58.266Z
 description: some accessibility
 ---
 There are 3 keyboard events:
