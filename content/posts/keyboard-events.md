@@ -3,7 +3,7 @@ title: Keyboard events
 date: 2021-06-05T18:39:58.266Z
 description: info on keyboard events and key values
 ---
-There are 3 keyboard events:
+A quick post on keyboard events. There are 3 keyboard events:
 
 * `keyup` - this event activates when lifting off a key
 * `keydown` - this event is called when you hit any key
