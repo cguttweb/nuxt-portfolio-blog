@@ -39,7 +39,7 @@
       <div class="p-4 shadow-lg">
         <ProjectCard
           title="LFC Euro Champions"
-          information="A small app built with the Vue cli"
+          information="A small app built with the Vue cli deployed on vercel"
           repo="https://github.com/cguttweb/lfc-euro-champions"
           link="https://lfc-euro-champions.vercel.app/"
           techused="Vue, Vue Router, CSS" />
@@ -50,12 +50,12 @@
           />
 
       </div>
-      <div class="p-4 shadow-lg">
+      <!-- <div class="p-4 shadow-lg">
         <ProjectCard
           title="All about coffee"
-          information="A site I'm building using Gridsome and tailwindcss for styling"
+          information="A site I'm building using Gridsome and bootstrap for styling"
           repo="https://github.com/cguttweb/all-about-coffee"
-          techused="Gridsome, Vue, TailwindCSS"
+          techused="Gridsome, Vue, Bootstrap"
           link="https://github.com/cguttweb/all-about-coffee"
         />
         <img
@@ -63,7 +63,7 @@
           src="~/assets/all-about-coffee.png"
           width="300" 
           />
-      </div>
+      </div> -->
       <!-- <div class="p-4 shadow-lg">
         <ProjectCard
           title="Design History"
