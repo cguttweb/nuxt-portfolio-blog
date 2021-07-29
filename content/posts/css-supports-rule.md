@@ -34,3 +34,11 @@ The `or` operator will match if any of the given expressions are matched e.g.
 // do something
 }
 ```
+
+I also learnt it is possible to check for support of custm properties e.g.
+
+```css
+@supports (--bgcolor: red){
+  body { background-color: var(--bgcolor); }
+}
+```
