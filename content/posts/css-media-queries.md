@@ -31,7 +31,7 @@ You can use either min or max-width or a combination of them e.g.
 }
 ```
 
-A full list of features can be seen on [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/@media#media_features)
+
 
 There are some newer queries that were added in [level 5](https://drafts.csswg.org/mediaqueries-5/) of the specification including `prefers-color-scheme` and `prefers-reduced-motion`. 
 
@@ -76,3 +76,5 @@ Complex media queries can be created with logical operators `and`, `or` and `onl
 
 To match this query a viewport must be between 320px and 500px and have a portrait orientation
 ```
+
+A full list of features can be seen on [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/@media#media_features)
