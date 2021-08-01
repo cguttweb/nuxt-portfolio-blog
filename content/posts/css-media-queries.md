@@ -35,7 +35,7 @@ A full list of features can be seen on [MDN](https://developer.mozilla.org/en-US
 
 There are some newer queries that were added in [level 5](https://drafts.csswg.org/mediaqueries-5/) of the specification including `prefers-color-scheme` and `prefers-reduced-motion`. 
 
-- `prefers-color-scheme` - this is used to check if a user has indicated a preference for a light or dark theme either via their operating system or a user agent setting e.g.
+- **prefers-color-scheme** - this is used to check if a user has indicated a preference for a light or dark theme either via their operating system or a user agent setting e.g.
 
 ```css
 /* this is the default option if no preference is set */
@@ -54,4 +54,7 @@ There are some newer queries that were added in [level 5](https://drafts.csswg.o
 }
 ```
 
-**Note**: this is is **not** supported in Internet Explorer but is in all other major browsers*
+
+- **prefers-reduced-motion** - this checks if a user has requested the system minimize the amount of non-essential motion it uses.
+
+**Note**: These are **not** supported in Internet Explorer but is in all other major browsers*
