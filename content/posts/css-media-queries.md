@@ -33,7 +33,6 @@ You can use either min or max-width or a combination of them e.g.
 
 - **orientation** - checks the orientation of the viewport **NOT** device orientation value can be portrait or landscape
 - ** height** - as with width this is based on the _viewport_ height and can use min and max-height
-- **display-mode**
 
 There are some newer queries that were added in [level 5](https://drafts.csswg.org/mediaqueries-5/) of the specification including `prefers-color-scheme` and `prefers-reduced-motion`. 
 
