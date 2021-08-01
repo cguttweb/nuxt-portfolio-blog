@@ -54,7 +54,11 @@ There are some newer queries that were added in [level 5](https://drafts.csswg.o
 }
 ```
 
+- **prefers-reduced-motion** - this checks if a user has requested the system minimize the amount of non-essential motion it uses. This is enabled in accessibility preferences and animation is reduced to a simple dissolve which help avoid motion sickness triggers. 
 
-- **prefers-reduced-motion** - this checks if a user has requested the system minimize the amount of non-essential motion it uses.
+```css
+@media (prefers-reduced-motion: true){
+}
+```
 
 **Note**: These are **not** supported in Internet Explorer but is in all other major browsers*
