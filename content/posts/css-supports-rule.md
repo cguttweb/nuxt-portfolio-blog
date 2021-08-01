@@ -35,7 +35,7 @@ The `or` operator will match if any of the given expressions are matched e.g.
 }
 ```
 
-I also learnt it is possible to check for support of custm properties e.g.
+I also learnt it is possible to check for support of custom properties e.g.
 
 ```css
 @supports (--bgcolor: red){
