@@ -69,3 +69,10 @@ There are some newer queries that were added in [level 5](https://drafts.csswg.o
 **Note**: These are **not** supported in Internet Explorer but is in all other major browsers*
 
 Complex media queries can be created with logical operators `and`, `or` and `only` and several queries can be added into a single rule. If using `only` operator a media type e.g. screen must be included
+
+```css
+@media screen and (min-width:320px) and (max-width:500px) and (orientation: portrait){
+}
+
+To match this query a viewport must be between 320px and 500px and have a portrait orientation
+```
