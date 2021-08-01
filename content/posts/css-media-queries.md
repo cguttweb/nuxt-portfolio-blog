@@ -31,7 +31,9 @@ You can use either min or max-width or a combination of them e.g.
 }
 ```
 
-
+- **orientation**
+- ** height** - as with width this is based on the _viewport_ height and can use min and max-height
+- **display-mode**
 
 There are some newer queries that were added in [level 5](https://drafts.csswg.org/mediaqueries-5/) of the specification including `prefers-color-scheme` and `prefers-reduced-motion`. 
 
@@ -41,14 +43,14 @@ There are some newer queries that were added in [level 5](https://drafts.csswg.o
 /* this is the default option if no preference is set */
 @media (prefers-color-scheme: light){
   :root {
-    background: #ffffff;
+    background-color: #ffffff;
     color: #333333;
   }
 }
 
 @media (prefers-color-scheme: dark){
   :root {
-    background: #333333;
+    background-color: #333333;
     color: #ffffff;
   }
 }
