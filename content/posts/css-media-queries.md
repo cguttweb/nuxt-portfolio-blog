@@ -58,7 +58,12 @@ There are some newer queries that were added in [level 5](https://drafts.csswg.o
 
 ```css
 @media (prefers-reduced-motion: reduce){
+  .main-nav {
+    animation: none;
+  }
 }
+// OR
+@media (prefers-reduced-motion: no-preference)
 ```
 
 **Note**: These are **not** supported in Internet Explorer but is in all other major browsers*
