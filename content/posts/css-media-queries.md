@@ -12,7 +12,9 @@ Possible media types are:
 - print - docs viewed on screen in print preview mode and paged material
 - speech - for speech synthesizers
 
-Media features are specific characteristics of browser (user agent), device or environment the most common example is the use of width (which means view of viewport) for responsive design e.g.
+Media features are specific characteristics of browser (user agent), device or environment and possible features include width, height and orientation.
+
+The most common example is the use of width (which means view of viewport) for responsive design e.g.
 
 ```css
 @media (max-width: 480px) {
