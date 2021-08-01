@@ -23,7 +23,6 @@ Media features are specific characteristics of browser (user agent), device or e
 You can use either min or max-width or a combination of them e.g.
 
 ```css
-
 @media (min-width: 481px) and (max-width: 768px) and (orientation: portrait){
   .main-nav { display: block; }
 }
@@ -32,3 +31,7 @@ You can use either min or max-width or a combination of them e.g.
 A full list of features can be seen on [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/@media#media_features)
 
 There are some newer queries that were added in [level 5](https://drafts.csswg.org/mediaqueries-5/) of the specification including `prefers-color-scheme` and `prefers-reduced-motion`. 
+
+- `prefers-color-scheme` - this is used to check if a user has indicated a preference for a light or dark theme either via their operating system or a user agent setting
+
+**Note**: this is is **not** supported in Internet Explorer but is in all other major browsers*
