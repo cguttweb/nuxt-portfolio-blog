@@ -31,7 +31,7 @@ You can use either min or max-width or a combination of them e.g.
 }
 ```
 
-- **orientation**
+- **orientation** - checks the orientation of the viewport **NOT** device orientation value can be portrait or landscape
 - ** height** - as with width this is based on the _viewport_ height and can use min and max-height
 - **display-mode**
 
@@ -79,4 +79,4 @@ Complex media queries can be created with logical operators `and`, `or` and `onl
 To match this query a viewport must be between 320px and 500px and have a portrait orientation
 ```
 
-A full list of features can be seen on [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/@media#media_features)
+A full list of features can be seen on [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/@media#media_features) although many of these don't yet have much support in browsers.
