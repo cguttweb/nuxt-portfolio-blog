@@ -26,7 +26,7 @@ The most common example is the use of width (which means view of viewport) for r
 You can use either min or max-width or a combination of them e.g.
 
 ```css
-@media (min-width: 481px) and (max-width: 768px) and (orientation: portrait){
+@media (min-width: 481px) and (max-width: 768px) {
   .main-nav { display: block; }
 }
 ```
