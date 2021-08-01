@@ -11,3 +11,24 @@ Possible media types are:
 - screen - for all screens e.g. pc or phone/tablet
 - print - docs viewed on screen in print preview mode and paged material
 - speech - for speech synthesizers
+
+Media features are specific characteristics of browser (user agent), device or environment the most common example is the use of width (which means view of viewport) for responsive design e.g.
+
+```css
+@media (max-width: 480px) {
+  .main-nav { display: none; }
+}
+```
+
+You can use either min or max-width or a combination of them e.g.
+
+```css
+
+@media (min-width: 481px) and (max-width: 768px) and (orientation: portrait){
+  .main-nav { display: block; }
+}
+```
+
+A full list of features can be seen on [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/@media#media_features)
+
+There are some newer queries that were added in [level 5](https://drafts.csswg.org/mediaqueries-5/) of the specification including `prefers-color-scheme` and `prefers-reduced-motion`. 
