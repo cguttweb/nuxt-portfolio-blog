@@ -4,7 +4,7 @@ date: 2021-08-01T15:11:26.485Z
 description: responsive design
 image: null
 ---
-Media queries are used to modify your site or app depending on a devices types or specific characteristics e.g. width or screen resolution. They include the media type and the feature to be checked against.
+Media queries are used to modify your site or app depending on a devices types or specific characteristics e.g. width or screen resolution. They include the media type and the feature(s) to be checked against.
 
 Possible media types are:
 
