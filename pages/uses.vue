@@ -2,15 +2,15 @@
   <div class="bg-gray-900">
     <main class="container mx-auto text-white" role="main">
       <p class="py-4 text-center">A list of hardware and software I use when coding</p>
-      <div class="flex py-4">
-        <section class="w-1/4">
+      <div class="sm:block md:flex py-4">
+        <section class="w-1/4 md:w-1/3">
             <h2>Software</h2>
           <ul>
             <li v-for="item in development" :key="item.label"><span class="text-green-400 text-bold">{{ item.label }}</span> {{ item.product }}</li>
           </ul>
         </section>
 
-        <section class="w-1/2">
+        <section class="md:w-1/3 lg:w-1/2">
           <h2>Hardware</h2>
           <ul>
             <li v-for="item in hardware" :key="item.label"><span class="text-green-400 text-bold">{{ item.label }}</span> {{ item.product }}</li>
@@ -54,7 +54,7 @@ export default {
       hardware: [
         {
           label: 'Keyboard:',
-          product: 'Corsair K70 RGB MK.2 Mechanical (Chery MX Silent keys)'
+          product: 'Corsair K70 RGB MK.2 Mechanical (Cherry MX Silent keys)'
         },
         {
           label: 'Mouse:',
