@@ -5,7 +5,7 @@
 - Vue - anything new I learn
 - Tailwind CSS (adding to Gridsome/webpack/projects)
 - dev.to community
-- vscode and its plugins e.g prettier/eslint
+- ~~vscode and its plugins e.g prettier/eslint~~
 - people who have non-tech degrees getting into tech/programming
 - JAMstack once I've learnt about it
 - webpack?
@@ -23,7 +23,7 @@
 - font awesome icons
 - nuxt config file
 - setting up own web dev docs
-- setting up rss feed on nuxt with content module
+- ~~setting up rss feed on nuxt with content module~~
 - setting up sitemap.xml file
 - coding challenges
 - working with gatsby/graph ql
