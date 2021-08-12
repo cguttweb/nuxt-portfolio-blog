@@ -3,9 +3,9 @@ title: CSS @supports rule
 date: 2021-07-29T13:23:03.564Z
 description: feature queries
 ---
-This is described by MDN as allowing you to "specify declarations that depend on a browsers support for specific CSS features".
+A quick post on @supports rule which although I know about. This is described by MDN as allowing you to "specify declarations that depend on a browsers support for specific CSS features".
 
-A couple of simple examples to check if a feature is supported or not:
+A couple of simple examples to check if a single feature is supported or not:
 
 ```css
 @supports (display:grid){
