@@ -91,6 +91,14 @@ export default {
     '@nuxtjs/sitemap'
   ],
 
+  sitemap: {
+    hostname: 'https://cgweb.co.uk',
+    gzip: false,
+    exclude: [
+      '/admin/**'
+    ],
+  },
+
   feed: [
     {
       path: '/feed.xml',
