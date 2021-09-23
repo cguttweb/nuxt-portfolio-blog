@@ -23,3 +23,8 @@ To target classes which are reusable use `.` (dot) notation
   display: flex;
 }
 ```
+
+## Sibling and adjacent selectors
+
+```css
+```
