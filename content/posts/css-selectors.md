@@ -3,6 +3,16 @@ title: CSS Selectors
 date: 2021-09-23T18:48:48.766Z
 description: CSS Selectors
 ---
+## Element/tags
+
+Target all `p` elements
+
+```css
+p {
+  color: red;
+}
+```
+
 ## IDs
 
 IDs must be unique on a page and are targeted using a `#` (hash) e.g.
@@ -25,6 +35,27 @@ To target classes which are reusable use `.` (dot) notation
 ```
 
 ## Sibling and adjacent selectors
+
+```css
+```
+
+## Pseudo Selectors
+
+These are added to a selector that allows styling of a specific part of the selected element(s) and there are few that are available some of which I've never used but probably the most common are:
+
+- `first-line` - style the first line of a paragraph
+- `first-letter` - targets the first letter e.g.in a newsletter style
+- `before` - the first child of the selected element
+- `after`
+
+```css
+.intro::first-letter {
+  font-size: 3rem;
+  padding-right: 1rem;
+}
+```
+
+## Attribute Selectors
 
 ```css
 ```
