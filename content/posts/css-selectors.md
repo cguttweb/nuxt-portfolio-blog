@@ -45,8 +45,8 @@ These are added to a selector that allows styling of a specific part of the sele
 
 - `::first-line` - style the first line of a paragraph
 - `::first-letter` - targets the first letter e.g.in a newsletter style
-- `::before` - the first child of the selected element
-- `::after`
+- `::before` - the first child of the selected element often used with content for UI improvements
+- `::after` - the last child of the selected element
 
 ```css
 .intro::first-letter {
