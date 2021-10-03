@@ -11,9 +11,10 @@ Markdown was created in 2004 by John Gruber anad Aaron Swartz as a lightweight m
 
 ## Text Formatting
 
-```
 bold text - wrap text in **this text will be bold**
-```
+
+italic text - wrap text in `_text_` or `*more text*` so _this is in italics_ and so *is this text*
+
 
 I particularly like using it for my blog posts because it is easy to use and makes formatting text and code blocks sstraightforward. I use [prism](https://prismjs.com/) to provide syntax highlighting for my code blocks for inf on how to do this with nuxt chck out the [docs](https://nuxtjs.org/docs/directory-structure/content#syntax-highlighting)
 
