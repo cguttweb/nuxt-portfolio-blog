@@ -43,7 +43,7 @@ To create an unordered lists use `-`
 - item 3
 ```
 
-For ordered lists:
+For ordered lists use `1., 2.` etc
 
 ```
 1. item 1
