@@ -53,7 +53,7 @@ For ordered lists use `1., 2.` etc
 
 ### Code Blocks
 
-You can create code blocks by wrapping the text in backticks
+You can create code blocks by wrapping the text in 3 backticks ` ``` ` with the option to add language for syntax highlighting e.g. ` ```css `
 
 ```css
 h1 {
