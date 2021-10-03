@@ -73,6 +73,6 @@ To add links wrap text squarebrackets `[]` and the url in `()` e.g.
 [this is a link](https://duckduckgo.com)
 ```
 
-I particularly like using it for my blog posts because it is easy to use and makes formatting text and code blocks straightforward. I use [prism](https://prismjs.com/) to provide syntax highlighting for my code blocks for inf on how to do this with nuxt check out the [docs](https://nuxtjs.org/docs/directory-structure/content#syntax-highlighting)
+I particularly like using it for my blog posts because it is easy to use and makes formatting text and code blocks straightforward. I use [prism](https://prismjs.com/) to provide syntax highlighting for my code blocks for info on how to do this with nuxt check out the [docs](https://nuxtjs.org/docs/directory-structure/content#syntax-highlighting)
 
 If you're interested in learning more check out [Markdown Guide](https://www.markdownguide.org/) and the [cheat sheet](https://www.markdownguide.org/cheat-sheet/)
