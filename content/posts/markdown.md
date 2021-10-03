@@ -70,7 +70,7 @@ h2 {
 To add links wrap text squarebrackets `[]` and the url in `()` e.g.
 
 ```markdown
-[this is a link](https://duckduckgo.com)
+[this is a link](https://duckduckgo.com "DuckDuckGo") // use quotes to add an optional title to your link
 ```
 
 I particularly like using it for my blog posts because it is easy to use and makes formatting text and code blocks straightforward. I use [prism](https://prismjs.com/) to provide syntax highlighting for my code blocks for info on how to do this with nuxt check out the [docs](https://nuxtjs.org/docs/directory-structure/content#syntax-highlighting)
