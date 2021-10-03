@@ -13,9 +13,9 @@ Headings are indicated by `#` these range from `#` (h1) to `######` (h6)
 
 ## Text Formatting
 
-bold text - wrap text in **this text will be bold**
+bold text - wrap text in double asterisks **this text will be bold** or double underscores and __so will this__
 
-italic text - wrap text in `_text_` or `*more text*` so _this is in italics_ and so *is this text*
+italic text - wrap text in underscores `_text_` or single asterisk `*more text*` so _this is in italics_ and so *is this text*
 
 
 I particularly like using it for my blog posts because it is easy to use and makes formatting text and code blocks sstraightforward. I use [prism](https://prismjs.com/) to provide syntax highlighting for my code blocks for inf on how to do this with nuxt chck out the [docs](https://nuxtjs.org/docs/directory-structure/content#syntax-highlighting)
