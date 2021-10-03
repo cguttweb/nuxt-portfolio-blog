@@ -76,7 +76,7 @@ h2 {
 
 ### Links
 
-To add links wrap text squarebrackets `[]` and the url in `()` e.g.
+To add links wrap text in square brackets `[]` and the url in `()` e.g.
 
 ```markdown
 [this is a link](https://duckduckgo.com "DuckDuckGo") // use quotes to add an optional title to your link
@@ -88,6 +88,12 @@ To add links wrap text squarebrackets `[]` and the url in `()` e.g.
 ![alt text goes here](image url here "add title text here")
 ```
 
-I particularly like using it for my blog posts because it is easy to use and makes formatting text and code blocks straightforward. I use [prism](https://prismjs.com/) to provide syntax highlighting for my code blocks for info on how to do this with nuxt check out the [docs](https://nuxtjs.org/docs/directory-structure/content#syntax-highlighting)
+To add a link to an image use the syntax above but wrap in an additional set of `[]` brackets and `()` with the link e.g.
+
+```markdown
+[![alt text goes here](image url here "add title text here")](add link here)
+```
+
+I particularly like using markdown for my blog posts because it is easy to use and makes formatting text and code blocks straightforward. I use [prism](https://prismjs.com/) to provide syntax highlighting for my code blocks for info on how to do this with nuxt check out the [docs](https://nuxtjs.org/docs/directory-structure/content#syntax-highlighting)
 
 If you're interested in learning more check out [Markdown Guide](https://www.markdownguide.org/) and the [cheat sheet](https://www.markdownguide.org/cheat-sheet/)
