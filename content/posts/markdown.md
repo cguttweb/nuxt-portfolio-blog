@@ -3,9 +3,8 @@ title: Markdown
 date: 2021-10-03T11:21:44.741Z
 description: A lightweight markup language
 ---
-Markdown was created in 2004 by John Gruber and Aaron Swartz as a lightweight markup language with the goal of enabling people to write using an easy-to-write and read plain text format with the option to convert it to structurally valid XHTML/HTML. There have several implementations since it was initially created with the need for additional features e.g. tables and footnotes.
 
-## Basic Syntax
+Markdown was created in 2004 by John Gruber and Aaron Swartz as a lightweight markup language with the goal of enabling people to write using an easy-to-write and read plain text format with the option to convert it to structurally valid XHTML/HTML. There have several implementations since it was initially created with the need for additional features e.g. tables and footnotes.
 
 ### Headings
 
@@ -13,18 +12,23 @@ Headings are indicated by `#` these range from `#` (h1) to `######` (h6)
 
 ```markdown
 # This top level h1 heading
+
 ## h2 heading
+
 ### h3
+
 #### h4
+
 ##### h5
+
 ###### h6
 ```
 
 ### Text Formatting
 
-bold text - wrap text in double asterisks **this text will be bold** or double underscores and __so will this__
+bold text - wrap text in double asterisks **this text will be bold** or double underscores and **so will this**
 
-italic text - wrap text in underscores `_text_` or single asterisk `*more text*` so _this is in italics_ and so *is this text*
+italic text - wrap text in underscores `_text_` or single asterisk `*more text*` so _this is in italics_ and so _is this text_
 
 ### Block quote
 
@@ -40,7 +44,7 @@ Use `>` to create a blockquote which can be also be nested:
 
 > This is a block quote
 >
->> This will be a nested quote
+> > This will be a nested quote
 
 ### Lists
 

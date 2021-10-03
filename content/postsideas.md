@@ -1,19 +1,17 @@
 # Blog Post Ideas
 
-- Gridsome - setup and thoughts on it so far...
-  - vue meta-gridsome - need to look at this
-- Vue - anything new I learn
-- Tailwind CSS (adding to Gridsome/webpack/projects)
+- Gridsome - setup and thoughts on it so far look at plugins e.g. vue meta-gridsome
+- General web dev thoughts
+- Vue and its ecosystem e.g. Vue CLI, Vue Router, Nuxt, Gridsome (plugins), Vuepress
+- Tailwind CSS
 - dev.to community
 - ~~vscode and its plugins e.g prettier/eslint~~
 - people who have non-tech degrees getting into tech/programming
-- JAMstack once I've learnt about it
+- JAMstack and SSGs - headless CMS e.g.forestry/netlifycms
 - webpack?
-- PostCSS?
-- General web dev thoughts
 - HTML emails
 - font awesome/icon fonts
-- accesibility as I increase my understanding e.g. aria-label
+- Accessibility - axe/wave extensions/WCAG contrast checker
 - React/Gatsby when I start to learn although playing around with gatsby very similar to gridsome but the styling is in the JS which I'm not sure I like.
 - Attribute selectors, psuedo classes and elements e.g. nth-child, :root, :not, ::first-letter
 - Anything else when inspiration strikes
@@ -26,5 +24,21 @@
 - ~~setting up rss feed on nuxt with content module~~
 - setting up sitemap.xml file
 - coding challenges
-- working with gatsby/graph ql
 - anything nuxt based
+- writing with markdown
+- formatters and linters?
+- SEO basics - need to look into this
+- node/express - build a baic CRUD app
+- browser dev tools - differences between Chrome/FF ?
+- front end dev tools e.g. webpack/gulp/vite/snowpack/vue-cli/CRA
+- performance - google lighthouse etc
+- Security - CORS/HTTPS/CSP - look into these in more detail
+- Progressive Web Apps - something I've learnt a bit about and I would like to build one - quiz app instead of trying to build an electron app
+- List of resources for learning different web dev things e.g. JS/Vue/React/SCSS
+- Frameworks - CSS/JS and their use cases both frontend and backend
+- Forms and styling
+- Validation - client vs server-side
+- find a LP mockup (frontend mentor) and build with different frameworks - vanilla css/scss/bootstrap/tailwindcss/bulma
+- blog post on JS built in objects - ~~string~~, number, boolean, function, ~~array~~, ~~objects~~, error, math, date, JSON, regex, ~~set~~, map, weakset, weakmap
+- Events object - bubbling/propagation
+- Frontend mentors
