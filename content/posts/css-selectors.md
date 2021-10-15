@@ -3,6 +3,10 @@ title: CSS Selectors
 date: 2021-09-23T18:48:48.766Z
 description: CSS Selectors
 ---
+## Universal selector
+
+`*` - targets everything
+
 ## Element/tags
 
 Target all `p` elements
@@ -58,6 +62,24 @@ h2 + p {
 }
 ```
 
+## Pseudo Classes
+
+I have used several of these, but there are a couple I use for every project these are:
+
+- `:root` - this targets the root element usually this is `<html>`
+- `:hover` - can use this to change styling of an element when hovering over it with a pointing device e.g.
+
+```css
+a {
+  color: #CC0000;
+}
+
+a:hover {
+  color: #000000;
+  font-weight: bold;
+}
+```
+
 ## Pseudo Selectors
 
 These are added to a selector that allows styling of a specific part of the selected element(s) and there are few that are available some of which I've never used but probably the most common are:
@@ -74,25 +96,13 @@ These are added to a selector that allows styling of a specific part of the sele
 }
 ```
 
-## Pseudo Classes
-
-I have used several of these around several projects but there are a couple I use for every project these are:
-
-- `:root` - this targets the root element usually this is `<html>`
-- `:hover` - can use this to change styling of an element when hovering over it with a pointing device e.g.
-
-```css
-a {
- color: #CC0000;
-}
-
-a:hover {
-  color: #000000;
-  font-weight: bold;
-}
-```
-
 ## Attribute Selectors
 
+These are surrounded by `[]`
+
+
 ```css
+a[title]{
+  color: green;
+}
 ```
