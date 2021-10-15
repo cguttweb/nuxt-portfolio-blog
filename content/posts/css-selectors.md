@@ -100,11 +100,11 @@ These are added to a selector that allows styling of a specific part of the sele
 
 These are surrounded by `[]`
 
-`[attr=value]` - exact match value
-`[attr^=value]` - starts with
-`[attr*=value]` - contains
-`[attr$=value]` - ends with
-`[attr~=value]` - elements with an attribute name of attr whose value is a whitespace-separated list of words one of which is exactly value
+- `[attr=value]` - exact match value
+- `[attr^=value]` - starts with
+- `[attr*=value]` - contains
+- `[attr$=value]` - ends with
+- `[attr~=value]` - elements with an attribute name of attr whose value is a whitespace-separated list of words one of which is exactly value
 
 and a new one I learnt researching these:
 
