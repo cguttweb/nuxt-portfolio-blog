@@ -100,6 +100,9 @@ These are added to a selector that allows styling of a specific part of the sele
 
 These are surrounded by `[]`
 
+`[^=value]` - starts with
+`[*=value]` - contains
+`[$=value]` - ends with
 
 ```css
 a[title]{
