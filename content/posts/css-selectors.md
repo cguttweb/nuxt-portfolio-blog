@@ -29,7 +29,7 @@ IDs must be unique on a page and are targeted using a `#` (hash) e.g.
 Classes are reusable and can be added to multiple elements to target them use `.` (dot) notation
 
 ```css
-.main-nav {
+.some-nav {
   display: flex;
 }
 ```
@@ -38,7 +38,7 @@ Classes are reusable and can be added to multiple elements to target them use `.
 
 ### General Sibling combinator
 
-`~` - this will match all iterations of the second element
+`~` - this will match all iterations of the second element following the first and are children of the same parent
 
 ```css
 // Targets any paragraphs that are siblings of and follow h2
@@ -49,9 +49,13 @@ h2 ~ p {
 
 ### Adjacent sibling combinator
 
-`+`
+`+` - this will match the second element only if it directly follows the first element and both have the same parent
 
 ```css
+// Any paragraphs that follows a h2 element
+h2 + p {
+  color: red;
+}
 ```
 
 ## Pseudo Selectors
