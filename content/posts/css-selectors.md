@@ -38,7 +38,14 @@ Classes are reusable and can be added to multiple elements to target them use `.
 
 ### General Sibling combinator
 
-`~`
+`~` - this will match all iterations of the second element
+
+```css
+// Targets any paragraphs that are siblings of and follow h2
+h2 ~ p {
+  color: blue;
+}
+```
 
 ### Adjacent sibling combinator
 
