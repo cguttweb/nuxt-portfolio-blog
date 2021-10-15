@@ -103,6 +103,8 @@ These are surrounded by `[]`
 `[^=value]` - starts with
 `[*=value]` - contains
 `[$=value]` - ends with
+`[~=value]`
+`[attr value i]` - adding i causes a case insensitive comparison for those in ASCII range
 
 ```css
 a[title]{
