@@ -26,7 +26,7 @@ IDs must be unique on a page and are targeted using a `#` (hash) e.g.
 
 ## Classes
 
-To target classes which are reusable use `.` (dot) notation
+Classes are reusable and can be added to multiple elements to target them use `.` (dot) notation
 
 ```css
 .main-nav {
@@ -36,6 +36,14 @@ To target classes which are reusable use `.` (dot) notation
 
 ## Sibling and adjacent selectors
 
+### General Sibling combinator
+
+`~`
+
+### Adjacent sibling combinator
+
+`+`
+
 ```css
 ```
 
@@ -44,9 +52,9 @@ To target classes which are reusable use `.` (dot) notation
 These are added to a selector that allows styling of a specific part of the selected element(s) and there are few that are available some of which I've never used but probably the most common are:
 
 - `::first-line` - style the first line of a paragraph
-- `::first-letter` - targets the first letter e.g.in a newsletter style
+- `::first-letter` - targets the first letter e.g.in a newspaper style
 - `::before` - the first child of the selected element often used with content for UI improvements
-- `::after` - the last child of the selected element
+- `::after` - as above but the last child of the selected element
 
 ```css
 .intro::first-letter {
