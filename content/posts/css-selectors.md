@@ -100,14 +100,27 @@ These are added to a selector that allows styling of a specific part of the sele
 
 These are surrounded by `[]`
 
-`[^=value]` - starts with
-`[*=value]` - contains
-`[$=value]` - ends with
-`[~=value]`
-`[attr value i]` - adding i causes a case insensitive comparison for those in ASCII range
+`[attr=value]` - exact match value
+`[attr^=value]` - starts with
+`[attr*=value]` - contains
+`[attr$=value]` - ends with
+`[attr~=value]` - elements with an attribute name of attr whose value is a whitespace-separated list of words one of which is exactly value
+
+and a new one I learnt researching these:
+
+- `[attr operator value i]` - adding i causes a case insensitive comparison for those in 
+ASCII range
 
 ```css
 a[title]{
   color: green;
+}
+
+a[href^="https://"]{
+  color: red;
+}
+
+a[href$=".com"]{
+  color: blue;
 }
 ```
