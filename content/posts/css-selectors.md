@@ -102,7 +102,7 @@ a:hover {
 }
 ```
 
-## Pseudo Selectors
+## Pseudo Elements
 
 These are added to a selector to target styling on a specific part of the selected element(s). There are few that are available some of which I've never used but probably the most common are:
 
