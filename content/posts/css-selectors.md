@@ -40,6 +40,17 @@ Classes are reusable and can be added to multiple elements to target them use `.
 
 ## Sibling and adjacent selectors
 
+
+### Descendant combinator
+
+This is represented by a space between selectors e.g.
+
+```css
+main p {
+  padding: 1rem 0;
+}
+```
+
 ### Child combinator
 
 `>` - this is placed between two selectors and will match only elements that are direct children of the first element
