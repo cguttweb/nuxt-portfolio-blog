@@ -104,12 +104,14 @@ a:hover {
 
 ## Pseudo Elements
 
-These are added to a selector to target styling on a specific part of the selected element(s). There are few that are available some of which I've never used but probably the most common are:
+These are added to a selector to target styling on a specific part of the selected element(s).* There are few that are available some of which I've never used but probably the most common are:
 
 - `::first-line` - style the first line of a paragraph
 - `::first-letter` - targets the first letter e.g.in a newspaper style
 - `::before` - the first child of the selected element often used with content for UI improvements one example may be to add quote marks or change the look of list elements
 - `::after` - as above but the last child of the selected element
+
+* Note the double colon is used to distinguish between pseudo elements and pseudo classes
 
 ```css
 .intro::first-letter {
