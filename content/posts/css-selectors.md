@@ -82,17 +82,25 @@ a:hover {
 
 ## Pseudo Selectors
 
-These are added to a selector that allows styling of a specific part of the selected element(s) and there are few that are available some of which I've never used but probably the most common are:
+These are added to a selector to target styling on a specific part of the selected element(s). There are few that are available some of which I've never used but probably the most common are:
 
 - `::first-line` - style the first line of a paragraph
 - `::first-letter` - targets the first letter e.g.in a newspaper style
-- `::before` - the first child of the selected element often used with content for UI improvements
+- `::before` - the first child of the selected element often used with content for UI improvements one example may be to add quote marks or change the look of list elements
 - `::after` - as above but the last child of the selected element
 
 ```css
 .intro::first-letter {
   font-size: 3rem;
   padding-right: 1rem;
+}
+
+.intro::first-line {
+  font-weight: bold;
+}
+
+a::before {
+  content: '&#9670;';
 }
 ```
 
