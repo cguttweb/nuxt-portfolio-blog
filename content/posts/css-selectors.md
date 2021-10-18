@@ -40,6 +40,17 @@ Classes are reusable and can be added to multiple elements to target them use `.
 
 ## Sibling and adjacent selectors
 
+### Child combinator
+
+`>` - this is placed between two selectors and will match only elements that are direct children of the first element
+
+```css
+div > span {
+  backgorund-color: #333;
+  color: #fff;
+}
+```
+
 ### General Sibling combinator
 
 `~` - this will match all iterations of the second element following the first and are children of the same parent
