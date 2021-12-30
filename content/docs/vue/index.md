@@ -15,28 +15,7 @@ The [vue cli](https://cli.vuejs.org/guide/) is a tool for rapid vue prototyping 
 ```javascript
 npm install @vue/cli -g
 ```
-
-## Gridsome
-
-Firstly install the gridsome cli
-
-```javascript
-npm install @gridsome/cli -g
-```
-
-and then to create a project
-
-```javascript
-gridsome create my-gridsome-site
-```
-
-<!-- ## VuePress
-
-This framework is more suited to documentation sites I've used it in the past for docs and have instead switched to nuxt after it introduced the content module
-
-```javascript
-npm install -g vuepress or yarn global add vuepress
-``` -->
+To create a new project `vue create project-name`
 
 ## Nuxt
 
