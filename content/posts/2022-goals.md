@@ -10,7 +10,7 @@ My goals for 2021 were the following:
 3. Write more CSS in most of my projects I tend to reach for [Bootstrap](getbootstrap.com) or [Tailwind](https://tailwindcss.com/) and learn some more sass (I know some basics).
 4. Get back into regular blogging I stopped towards the end of the year and need to start posting regularly again even if I don't finish them write a starting post which I can then review and add to as I feel necessary.
 
-Reviewing these
+Having reviewed these goals:
 
 1. I have done some of the FCC curriculum including finishing RWD section, working on some of the JS section and starting the front end libraries section - goal partially completed
 2. This I haven't achieved I got about halfway through so I am going to back to the start and make my way through this course in the next couple of months
