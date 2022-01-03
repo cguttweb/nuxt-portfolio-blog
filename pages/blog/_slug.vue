@@ -51,9 +51,8 @@ export default {
 
 <style>
 h1 {
-  @apply pl-2;
-  @apply text-red-700;
-  @apply text-2xl;
+  @apply pl-2 text-2xl;
+  color: #ccc000;
 }
 
 .nuxt-content h1 {
