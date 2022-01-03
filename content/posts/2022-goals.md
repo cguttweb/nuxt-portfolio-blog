@@ -19,4 +19,5 @@ Reviewing these
 
 Goals to complete this year:
 - Finish udemy course of vanillla JS projects
-- Complete Mastering Nuxt course and writea blog post reviewing it and what I have learnt
+- Complete Mastering Nuxt course and write a blog post reviewing it and what I have learnt
+- Review some jQuery perhaps try rewriting a couple of small vanilla JS projects with jquery
