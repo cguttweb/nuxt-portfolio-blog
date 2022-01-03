@@ -57,12 +57,13 @@ h1 {
 }
 
 .nuxt-content h1 {
+  color: #ccc000;
   text-align: center;
 }
 
 .nuxt-content h3,
 .nuxt-content h4 {
-  color: #cc0000;
+  color: #ccc000;
   padding: 0.5rem;
 }
 
