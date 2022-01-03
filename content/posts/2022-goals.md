@@ -13,9 +13,9 @@ My goals for 2021 were the following:
 Reviewing these
 
 1. I have done some of the FCC curriculum including finishing RWD section, working on some of the JS section and starting the front end libraries section - goal partially completed
-2. This I haven't achieved Igot about halfway through so I am going to back to the start and make my way through this course in the next couple of months
-3. This I have achieved working my way through some challenges on frontend mentor and some other small projects I have written plain ol' CSS including some SCSS avoiding the likes of bootstrap and tailwind - goal complete
-4. Again I was in a routine with this for a while had a few ideas wrote some posts but then I stopped so a goal for this year will be to write at least a blog post every month about something I have learnt or refreshed on.
+2. This I haven't achieved I got about halfway through so I am going to back to the start and make my way through this course in the next couple of months
+3. ~~This I have achieved working my way through some challenges on frontend mentor and some other small projects I have written plain ol' CSS including some SCSS avoiding the likes of bootstrap and tailwind~~ - goal complete!
+4. Again I was in a routine with this for a while had a few ideas wrote some posts but then I stopped so a goal for this year will be to write at least a blog post every month about something I have learnt or refreshed on - ongoing
 
 Goals to complete this year:
 - Finish udemy course of vanillla JS projects
