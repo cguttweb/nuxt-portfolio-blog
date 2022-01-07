@@ -1,7 +1,7 @@
 <template>
   <div class="bg-gray-800 text-white flex justify-center">
     <div class="w-4/5">
-      <h1>{{ post.title }}</h1>
+      <h1 class="text-2xl">{{ post.title }}</h1>
 
       <p class="pl-2 pb-2">{{ post.description }}</p>
 
@@ -28,12 +28,12 @@ export default {
     return {
       post,
       prev,
-      next
+      next,
     };
   },
   head() {
     return {
-      title: this.post.title
+      title: this.post.title,
     };
   },
   methods: {
@@ -41,17 +41,17 @@ export default {
       const dateFormatting = {
         year: "numeric",
         month: "numeric",
-        day: "numeric"
+        day: "numeric",
       };
       return new Date(date).toLocaleDateString("en-gb", dateFormatting);
-    }
-  }
+    },
+  },
 };
 </script>
 
 <style>
 h1 {
-  @apply pl-2 text-2xl;
+  @apply pl-2;
   color: #ccc000;
 }
 
