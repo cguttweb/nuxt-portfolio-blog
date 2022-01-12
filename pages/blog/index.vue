@@ -9,7 +9,6 @@
         <nuxt-link :to="{ name: 'blog-slug', params: { slug: post.slug } }">
           <p class="text-small text-green-400">{{ formatDate(post.date) }}</p>
           <h2 class="py-4 text-white">{{ post.title }}</h2>
-          <!--<a :to="{ name: 'blog-slug', params: { slug: post.slug }}" class="bg-red-800 px-3 py-2 rounded text-white hover:bg-blue-800 ">Read More</a>-->
           <a class="bg-red-800 px-3 py-2 rounded text-white hover:bg-blue-800"
             >Read More</a
           >

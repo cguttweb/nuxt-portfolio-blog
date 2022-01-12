@@ -33,7 +33,7 @@ export default {
         this.posts = [];
         return;
       }
-      this.posts = await this.$content("posts/*").limit(10).search(searchPosts).fetch();
+      this.posts = await this.$content("posts").limit(10).search(searchPosts).fetch();
     },
   },
 };

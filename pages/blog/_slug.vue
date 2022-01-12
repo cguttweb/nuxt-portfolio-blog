@@ -17,10 +17,7 @@
 <script>
 export default {
   async asyncData({ $content, params }) {
-    const post = await $content(
-      "posts/archive",
-      `${params.subfolder}/${params.slug}`
-    ).fetch();
+    const post = await $content("posts", params.slug).fetch();
 
     const [prev, next] = await $content("posts")
       .only(["title", "slug", "date"])
