@@ -6,6 +6,8 @@ description: a built-in object
 As described by MDN: 
 > This is a built-in object that has properties and methods for mathematical constants and functions
 
+This is not an extensive list but includes some of the most commonly used options
+
 **Math.PI()** - this static property gives the ratio of the circumference of a circle to its diameter c.3.14159 e.g.
 ```javascript
 console.log(Math.PI) // 3.141592653589793
