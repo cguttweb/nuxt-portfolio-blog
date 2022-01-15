@@ -1,8 +1,8 @@
 <template>
-  <div class="flex justify-center">
-    <p v-if="error.statusCode === 404">Page not found</p>
+  <div class="bg-gray-900 text-center text-white py-10">
+    <p class="text-lg" v-if="error.statusCode === 404">Sorry we cannot find that page</p>
     <p v-else>An error occured</p>
-    <p class="block underline"><nuxt-link to="/">Back to homepage</nuxt-link></p>
+    <p class="block text-lg underline"><nuxt-link to="/">Back to homepage <font-awesome-icon :icon="['fas', 'home']" title="Home" /></nuxt-link></p>
   </div>
 </template>
 
@@ -12,4 +12,8 @@ export default {
 };
 </script>
 
-<style></style>
+<style scoped>
+div {
+  min-height: 85vh;
+}
+</style>

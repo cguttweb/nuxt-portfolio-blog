@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="bg-gray-900">
     <TheNavBar />
     <Nuxt />
     <TheFooter />
@@ -15,6 +15,7 @@
 }
 
 html {
+  @apply bg-gray-900;
   font-family: 'Nunito', Arial, sans-serif;
   font-size: 18px;
   word-spacing: 1px;

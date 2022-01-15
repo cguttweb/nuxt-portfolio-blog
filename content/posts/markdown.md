@@ -6,7 +6,7 @@ description: A lightweight markup language
 
 Markdown was created in 2004 by John Gruber and Aaron Swartz as a lightweight markup language with the goal of enabling people to write using an easy-to-write and read plain text format with the option to convert it to structurally valid XHTML/HTML. There have several implementations since it was initially created with the need for additional features e.g. tables and footnotes.
 
-### Headings
+## Headings
 
 Headings are indicated by `#` these range from `#` (h1) to `######` (h6)
 
@@ -83,7 +83,7 @@ h2 {
 To add links wrap text in square brackets `[]` and the url in `()` e.g.
 
 ```markdown
-[this is a link](https://duckduckgo.com "DuckDuckGo") // use quotes to add an optional title to your link
+[this is a link](https://duckduckgo.com 'DuckDuckGo') // use quotes to add an optional title to your link
 ```
 
 ### Images

@@ -50,35 +50,6 @@
           />
 
       </div>
-      <!-- <div class="p-4 shadow-lg">
-        <ProjectCard
-          title="All about coffee"
-          information="A site I'm building using Gridsome and bootstrap for styling"
-          repo="https://github.com/cguttweb/all-about-coffee"
-          techused="Gridsome, Vue, Bootstrap"
-          link="https://github.com/cguttweb/all-about-coffee"
-        />
-        <img
-          alt="All About Coffee site homepage"
-          src="~/assets/all-about-coffee.png"
-          width="300" 
-          />
-      </div> -->
-      <!-- <div class="p-4 shadow-lg">
-        <ProjectCard
-          title="Design History"
-          information="A project built using Gatsby a static site generator based on the React JavaScript framework with Forestry.io as the CMS. A work in progress"
-          repo="https://github.com/cguttweb/design-history"
-          link="https://www.designhistory.co.uk/"
-          techused="Gatsby, React, Markdown"
-        />
-          <img
-            alt="Design History screenshot"
-            src="~/assets/design-history-small.png"
-            width="300"
-          />
-        <p class="text-sm">Learn more about <a class="underline" href="https://forestry.io/" rel="noopener noreferrer" target="_blank">Forestry</a></p>
-      </div> -->
     </div>
     </section>
     </main>

@@ -1,8 +1,10 @@
 <template>
   <div class="bg-gray-800 text-white flex justify-center">
     <div class="w-4/5">
-      <h1 class="text-2xl">{{ post.title }}</h1>
-
+    <header>
+      <h1 class="pl-2 text-2xl">{{ post.title }}</h1>
+    </header>
+    <main>
       <p class="pl-2 pb-2">{{ post.description }}</p>
 
       <p class="pl-2">Post created on: {{ formatDate(post.date) }}</p>
@@ -10,6 +12,9 @@
       <nuxt-content :document="post" />
 
       <prev-next :prev="prev" :next="next" />
+
+    </main>
+
     </div>
   </div>
 </template>
@@ -51,7 +56,6 @@ export default {
 
 <style>
 h1 {
-  @apply pl-2;
   color: #ccc000;
 }
 
@@ -60,10 +64,15 @@ h1 {
   text-align: center;
 }
 
+.nuxt-content h2,
 .nuxt-content h3,
 .nuxt-content h4 {
   color: #ccc000;
   padding: 0.5rem;
+}
+
+.nuxt-content h2 {
+  font-size: 22px;
 }
 
 .nuxt-content h3 {
