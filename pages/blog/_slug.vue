@@ -1,20 +1,18 @@
 <template>
   <div class="bg-gray-800 text-white flex justify-center">
     <div class="w-4/5">
-    <header>
-      <h1 class="pl-2 text-2xl">{{ post.title }}</h1>
-    </header>
-    <main>
-      <p class="pl-2 pb-2">{{ post.description }}</p>
+      <header>
+        <h1 class="pl-2 text-2xl">{{ post.title }}</h1>
+      </header>
+      <main>
+        <p class="pl-2 pb-2">{{ post.description }}</p>
 
-      <p class="pl-2">Post created on: {{ formatDate(post.date) }}</p>
+        <p class="pl-2">Post created on: {{ formatDate(post.date) }}</p>
 
-      <nuxt-content :document="post" />
+        <nuxt-content :document="post" />
 
-      <prev-next :prev="prev" :next="next" />
-
-    </main>
-
+        <prev-next :prev="prev" :next="next" />
+      </main>
     </div>
   </div>
 </template>

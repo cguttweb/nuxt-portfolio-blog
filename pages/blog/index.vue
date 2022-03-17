@@ -24,6 +24,7 @@ export default {
     const posts = await $content("posts", params.slug)
       .only(["title", "slug", "date"])
       .sortBy("date", "desc")
+      .limit(5)
       .fetch();
 
     return {
