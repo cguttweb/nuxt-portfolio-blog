@@ -12,7 +12,7 @@ Like many others I was initially hesistant about CSS frameworks as a result of t
 
 - It's easy to get setup
 - Syntax is straightforward especially if you have tailwind intellisense extension installed
-- The documentation is great and it;'s easy to find what classes you need
+- The documentation is great and it's easy to find what classes you need
 
 Here are some examples where I have used tailwind:
 
