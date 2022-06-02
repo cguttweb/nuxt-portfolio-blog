@@ -13,3 +13,24 @@ Like many others I was initially hesistant about CSS frameworks as a result of t
 - It's easy to get setup
 - Syntax is straightforward especially if you have tailwind intellisense extension installed
 - The documentation is great and it;'s easy to find what classes you need
+
+Here are some examples where I have used tailwind:
+
+The 'cards' for my personal site which uses Nuxt a Vue based framework:
+
+```vue
+<template>
+  <div>
+    <h2 class="font-bold text-2xl text-red-600">{{ title }}</h2>
+    <p class="py-2 text-white">{{ information }}</p>
+    <p class="text-red-400">Technology used: {{ techused }}</p>
+    <a class="text-green-300 py-4"
+      :href="repo"
+      target="_blank"
+      rel="noopener noreferrer"
+    >Git Repo: {{ repo }}</a><br/>
+    <button type="button" class="bg-red-800 my-4 px-4 py-2 rounded"><a class="text-white" :href="link" rel="noopener noreferrer" target="_blank">{{title}}</a></button>
+  </div>
+</template>
+```
+
