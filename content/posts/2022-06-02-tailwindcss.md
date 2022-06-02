@@ -34,3 +34,11 @@ The 'cards' for my personal site which uses Nuxt a Vue based framework:
 </template>
 ```
 
+Another useful thing is the option to use `@apply` directive to add multiple standard classes to your own css class e.g. 
+
+```css
+.h3 {
+  @apply pb-2 pt-3 text-blue-700 text-xl uppercase;
+}
+```
+
