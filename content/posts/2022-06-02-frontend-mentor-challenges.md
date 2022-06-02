@@ -11,4 +11,4 @@ I'm currently working on a couple of challenges including the space tourism mult
 
 All of my completed and in progress challenges are hosted on github and deployed on [vercel](https://vercel.com/), but there are several alternatives available including netlify.
 
-If you are looking to develop your frontend skills or simply practice some challenges I'd highly recommend frontend mentors so check the site out.
+If you are looking to develop your frontend skills or simply practice some challenges I'd highly recommend frontend mentors so check out the site ans try out some of the challenges.
