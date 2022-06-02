@@ -7,9 +7,8 @@ I came across [Frontend Mentor](https://www.frontendmentor.io/) a couple of year
 
 The challenges vary from newbie for those just starting out with coding to advanced using APIs so far I have completed some challenges ranging from newbie to intermediate and I will attempt some of the more advanced challenges once I feel more confident in my javascript. I have learnt to think mobile first and learnt more about CSS grid and have used some SCSS in most of my projects.
 
-
 I'm currently working on a couple of challenges including the space tourism multi page website which I intend to create two versions. One using the base HTML as initially provided and one using vue so I take advantages of using single file components (SFCs) and breaking the site down into individual components and make things more granular and reusable. There is an associated course on scrimba I will take a look at to see the approach that has been taken and compare to how I have approached it.
 
 All of my completed and in progress challenges are hosted on github and deployed on [vercel](https://vercel.com/), but there are several alternatives available including netlify.
 
-If you are looking to develop your frontend skills or simply practice some challenges I'd highly recommend frontend mentors.
+If you are looking to develop your frontend skills or simply practice some challenges I'd highly recommend frontend mentors so check the site out.
