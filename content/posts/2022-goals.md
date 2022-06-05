@@ -22,4 +22,4 @@ Goals to complete this year:
 * Finish udemy course of vanilla JS projects - I started this today I've setup a github repo and have completed first project
 * Complete Mastering Nuxt course and write a blog post reviewing it and what I have learnt
 * Attempt to complete the 100 days of code challenge again....
-* I'm learning to learn some node and express
+* I'm going to learn some node and express
