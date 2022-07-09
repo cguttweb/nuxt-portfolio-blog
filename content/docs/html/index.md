@@ -48,3 +48,5 @@ When HTML5 was released it introduced a number of semantic elements including `<
 > which doesn't have a more specific semantic element to represent it
 
 It should not be used as a generic container for content this is what divs are used for. A general rule of thumb is if it appears in a document outline it should be in its own section.
+
+**div** - this is for content that doesn't fit in any of the other examples
