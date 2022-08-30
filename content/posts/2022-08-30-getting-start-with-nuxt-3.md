@@ -8,3 +8,5 @@ Since the Nuxt 3 beta was announced late last year I have been interested in see
 I've dabbled with the basics reading through the [docs](https://v3.nuxtjs.org/getting-started/quick-start) and completing the Nuxt 3 essentials course on [Vue Mastery](https://vuemastery.com). It is currently in RC mode with a stable release due soon (Summer 2022 according to the roadmap) there are a few key modules which currently it such as tailwindcss, content v2 (I currently use v1 with my site) and pinia (replacing vuex) among others.
 
 When the stable release is released I will likely look to move my site from nuxt 2 to 3 in the meantime I'm looking at building a project with it to experiment with nuxt content v2 as there are a few different options I'm keen to try out.
+
+With my limited knowledge/use of it so far Nuxt 3 looks great I'm looking forward to using and learning more about it.
