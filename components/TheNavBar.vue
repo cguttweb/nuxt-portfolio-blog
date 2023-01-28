@@ -51,6 +51,9 @@
         >
          <font-awesome-icon :icon="['fab', 'instagram']" title="Instagram" />
          </a>
+         <a class="block" rel="me nopener noreferrer" href="https://uiuxdev.social/@cguttweb">
+         <i class="fa fa-mastodon" aria-hidden="true"></i>
+         </a>
     </nav>
     </div>
 </template>
