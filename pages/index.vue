@@ -3,8 +3,7 @@
     <main class="container px-3 text-white text-lg mx-auto" role="main">
       <p class="mx-auto py-4 text-center text-md w-4/5">
         I'm Chloe a web developer based in Hampshire, UK. I'm currently focusing
-        on vanilla JavaScript and creating projects with anything Vue based
-        including
+        on learning the latest version of
         <a
           class="underline hover:font-bold"
           href="https://nuxtjs.org"
@@ -12,7 +11,11 @@
           rel="noopener noreferrer"
           >Nuxt</a
         >
-        which this site is built from. Check out the latest posts on my
+        and Vue 3 as this site is currently built with V2 and I'm looking to
+        migrate this year following the release of Nuxt 3 stable late last year.
+        I've also started learning the basics of PHP, MySQL and Laravel as I'd
+        like to attempt a full stack project combining Laravel and Vue. Check
+        out the latest posts on my
         <nuxt-link class="underline hover:font-bold" to="/blog/">blog</nuxt-link
         >.
       </p>
@@ -75,14 +78,14 @@ export default {
       script: [
         {
           src: 'https://identity.netlify.com/v1/netlify-identity-widget.js',
-          defer: true
-        }
+          defer: true,
+        },
       ],
       meta: [
-        { name: 'msvalidate.01', content: '9FBDF05540DA2DBE0298AAA0EA6EBE12' }
-      ]
+        { name: 'msvalidate.01', content: '9FBDF05540DA2DBE0298AAA0EA6EBE12' },
+      ],
     }
-  }
+  },
 }
 </script>
 
