@@ -1,9 +1,9 @@
 ---
-title: Getting into a routine again
+title: Getting into a routine (again)
 date: 2023-04-08T12:18:14.850Z
 description: I've found it a struggle to get back into things
 ---
-In order to try and get back into a coding/learning routine again I have signed up for codecademy pro trial may sign up for the annual subscription depending on how things go. 
+In order to try and get back into a coding/learning routine again I have signed up for codecademy pro trial as it is a more structured path to guide me through the various skills needed for modern web development.
 
 I'm currently working my way through the JavaScript fundamentals section and I have started on the Web Development Skill Path and then the Full Stack Engineer Career Path. This goes through the fundamentals of HTML, CSS and JavaScript before then getting into more frontend and backend 
 
