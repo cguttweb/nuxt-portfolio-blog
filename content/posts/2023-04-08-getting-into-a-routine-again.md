@@ -7,7 +7,7 @@ In order to try and get back into a coding/learning routine again I have signed 
 
 I'm currently working my way through the JavaScript fundamentals section and I have started on the Web Development Skill Path and then the Full Stack Engineer Career Path. This goes through the fundamentals of HTML, CSS and JavaScript before then getting into more frontend and backend 
 
-1. Learn HTML- semantics, forms
+1. Learn HTML
 2. Styling a Website
 3. Getting Started with JavaScript
 4. Getting More Advanced with Design
