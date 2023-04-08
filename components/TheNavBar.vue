@@ -41,7 +41,7 @@
       </a>
       <a
         class="block"
-        href="https://instagram.com/cguttweb2017"
+        href="https://instagram.com/cguttweb2017/"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="codepen icon"
@@ -51,7 +51,7 @@
       <a
         class="block"
         rel="me nopener noreferrer"
-        href="https://uiuxdev.social/@cguttweb"
+        href="https://techhub.social/@cguttweb"
       >
         <i class="fa fa-mastodon" aria-hidden="true"></i>
       </a>
@@ -60,7 +60,7 @@
 </template>
 
 <script>
-export default {}
+export default {};
 </script>
 
 <style scoped>
