@@ -22,7 +22,7 @@ I'm currently working my way through the JavaScript fundamentals section and I h
 13. Building a Persistent API
 14. Test-Driven Development with JavaScript
 
-Full Stack path covers the following much of which links in with the web dev path above.
+Full Stack path covers the following much of which links in with the web development path listed above.
 
 - Web Development Foundations -  fundamentals of HTML/CSS and local development
 - Building Interactive Websites
