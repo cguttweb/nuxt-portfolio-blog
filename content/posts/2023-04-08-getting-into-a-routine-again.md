@@ -24,7 +24,7 @@ I'm currently working my way through the JavaScript fundamentals section and I h
 
 Full Stack path covers the following much of which links in with the web development path listed above.
 
-- Web Development Foundations -  fundamentals of HTML/CSS and local development
+- Web Development Foundations
 - Building Interactive Websites
 - Front-End Development
 - Back-End Development
