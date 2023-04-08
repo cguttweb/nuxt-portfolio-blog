@@ -35,4 +35,4 @@ There is a lot to get through currently just doing a refresh of some fundamental
 
 I have also managed to fix my site and it now deployed successfully after reverting back to a commit I'm still not entirely sure what I did I think it was potentially trying to update yarn and/or node modules which screwed it up.
 
-I do plan on rebuilding my site with Nuxt 3 I'm still deciding what I want to do with it what modules to use? are the ones I'm currently using compatible with nuxt 3? I need to play about with some potential ideas before I decide which way to go with it.
+I do plan on rebuilding my site with Nuxt 3 I'm still deciding what I want to do with it what modules to use? are the ones I'm currently using compatible with nuxt 3? I need to play about with some potential ideas before I decide which way to go with it...
