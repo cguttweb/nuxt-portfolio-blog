@@ -3,7 +3,7 @@ title: Codecademy Update
 date: 2023-04-15T14:09:23.315Z
 description: An update on progress so far
 ---
-Starting with the long Easter weekend I have made progress on the Web Development skill path working my way through HTML, CSS and starting with JavaScript. Some of it has been refreshing with I learnt a while ago particularly with JavaScript.
+Starting with the long Easter weekend I have made progress on the Web Development skill path working my way through HTML, CSS and starting with JavaScript. Some of it has been refreshing what I learnt a while ago particularly with JavaScript.
 
 1. ~~Learn HTML~~ - complete
 2. ~~Styling a Website~~ - complete
@@ -29,4 +29,4 @@ Full Stack path covers the following much of which links in with the web develop
 - Full-Stack Development
 - Interview Prep
 
-I'm aiming to post an update once a week on how progress I have (or haven't) made working through these paths, but so far so good I think I need to think of some ideas to practice some of the JS I've practiced so far.
+I'm aiming to post an update once a week on how progress I have (or haven't) made working through these paths, but so far so good I think I need to think of some ideas to reinforce the JS I've learnt so far especially around objects.
