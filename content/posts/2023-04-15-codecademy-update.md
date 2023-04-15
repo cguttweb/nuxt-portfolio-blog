@@ -3,7 +3,8 @@ title: Codecademy Update
 date: 2023-04-15T14:09:23.315Z
 description: An update on progress so far
 ---
-A﻿ short post to update in my progress through [Codecademy](https://www.codecademy.com/) web dev path. Starting on the long Easter weekend I have made progress on the Web Development skill path working my way through HTML, CSS and starting with JavaScript. Some of it has been refreshing what I learnt a while ago particularly with JavaScript. 
+A﻿ short post to update in my progress through [Codecademy](https://www.codecademy.com/) web dev path. Starting on the long Easter weekend I have made progress on the Web Development skill path working my way through HTML, CSS and starting with JavaScript. Some of it has been refreshing what I learnt a while ago particularly with JavaScript. I need to build some projects to showcase what I have learnt and put on my website.
+
 
 1. ~~Learn HTML~~ - complete
 2. ~~Styling a Website~~ - complete
