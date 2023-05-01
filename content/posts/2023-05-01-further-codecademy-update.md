@@ -17,7 +17,3 @@ Full Stack path covers the following much of which links in with the web develop
 
 - Web Development Foundations - this section is almost complete I have a couple of small projects to finalise
 - Building Interactive Websites - partially complete WIP
-- Front-End Development
-- Back-End Development
-- Full-Stack Development
-- Interview Prep
