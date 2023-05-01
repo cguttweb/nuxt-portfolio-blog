@@ -10,7 +10,7 @@ T﻿he Web Development path I am currently 35% of the way through the overall pa
 5. JavaScript: Arrays, Loops, and Objects - 75% complete
 6. Building Interactive JavaScript Websites
 7. Intermediate JavaScript
-8. Learn the Command Line- I am currently working my way through this section
+8. Learn the Command Line- I am currently working my way through this section I know some basics but keen to improve this
 9. Learn Git & GitHub - started WIP
 
 Full Stack path covers the following much of which links in with the web development path listed above. Overall I am 23% through this path. 
