@@ -17,3 +17,5 @@ Full Stack path covers the following much of which links in with the web develop
 
 - Web Development Foundations - this section is almost complete I have a couple of small projects to finalise
 - Building Interactive Websites - partially complete WIP
+
+I﻿'ve made reasonable progress on this, but I have realised I really need to practice with JS some more as I half remembered some parts of syntax/methods etc I need to think of some small projects I can use to reinforce these learnings.
