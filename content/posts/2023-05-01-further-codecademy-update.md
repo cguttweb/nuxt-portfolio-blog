@@ -5,9 +5,9 @@ description: Further update on progress
 ---
 It's been a couple of weeks since my last post so figured it was time to post an update on how I am getting on and what I have covered so far.
 
-T﻿he Web Development path I am currently **35%** of the way through the overall pathway.
+T﻿he Web Development path I am currently **36%** of the way through the overall pathway.
 
-5. JavaScript: Arrays, Loops, and Objects - 75% complete
+5. JavaScript: Arrays, Loops, and Objects - 75% complete I have a series of challenges to through to finish this section
 6. Building Interactive JavaScript Websites
 7. Intermediate JavaScript
 8. Learn the Command Line- I am currently working my way through this section I know some basics but keen to improve this
