@@ -9,8 +9,9 @@
         <nuxt-link :to="{ name: 'blog-slug', params: { slug: post.slug } }">
           <p class="text-small text-green-400">{{ formatDate(post.date) }}</p>
           <h2 class="py-4 text-white">{{ post.title }}</h2>
-          <a class="bg-red-800 px-3 py-2 rounded text-white hover:bg-blue-800"
-            >Read More</a
+          <span
+            class="bg-red-800 px-3 py-2 rounded text-white hover:bg-blue-800"
+            >Read More</span
           >
         </nuxt-link>
       </li>
@@ -21,30 +22,30 @@
 <script>
 export default {
   async asyncData({ $content, params }) {
-    const posts = await $content("posts", params.slug)
-      .only(["title", "slug", "date"])
-      .sortBy("date", "desc")
+    const posts = await $content('posts', params.slug)
+      .only(['title', 'slug', 'date'])
+      .sortBy('date', 'desc')
       .limit()
-      .fetch();
+      .fetch()
 
     return {
       posts,
-    };
+    }
   },
   head() {
     return {
-      title: "Web Development Blog",
-    };
+      title: 'Web Development Blog',
+    }
   },
   methods: {
     formatDate(date) {
       const dateFormatting = {
-        year: "numeric",
-        month: "long",
-        day: "numeric",
-      };
-      return new Date(date).toLocaleDateString("en-gb", dateFormatting);
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+      }
+      return new Date(date).toLocaleDateString('en-gb', dateFormatting)
     },
   },
-};
+}
 </script>

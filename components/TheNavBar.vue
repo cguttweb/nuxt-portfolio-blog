@@ -55,12 +55,15 @@
       >
         <i class="fa fa-mastodon" aria-hidden="true"></i>
       </a>
+      <a style="display: none" rel="me" href="https://techhub.social/@cguttweb"
+        >Mastodon</a
+      >
     </nav>
   </div>
 </template>
 
 <script>
-export default {};
+export default {}
 </script>
 
 <style scoped>
