@@ -84,6 +84,10 @@ export default {
           product: 'Linux Mint'
         },
         {
+          label: 'Macbook Pro',
+          product: 'Mac OS Ventura 13.5.2'
+        },
+        {
           label: 'Music:',
           product: 'Spotify',
         },
@@ -98,6 +102,8 @@ export default {
       ],
       likes: [
         'git',
+        'css',
+        'javascript',
         'vue',
         'nuxt',
         'tailwindcss'
