@@ -3,6 +3,9 @@ title: JavaScript Promises
 date: 2021-02-14T17:09:13.997Z
 description: used asynchronously e.g Fetch API
 ---
+
+<!-- this post needs updating and expanding on -->
+
 A JavaScript Promise is an object representing the eventual completion or failure of an asynchronous operation. It is a returned object to which you attach callbacks instead of passing callbacks to a function.
 
 JavaScript Promises have three states:
