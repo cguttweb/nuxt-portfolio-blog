@@ -41,15 +41,6 @@
       </a>
       <a
         class="block"
-        href="https://instagram.com/cguttweb2017/"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="codepen icon"
-      >
-        <font-awesome-icon :icon="['fab', 'instagram']" title="Instagram" />
-      </a>
-      <a
-        class="block"
         rel="me nopener noreferrer"
         href="https://techhub.social/@cguttweb"
       >
