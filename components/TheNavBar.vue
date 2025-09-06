@@ -32,7 +32,7 @@
       </a>
       <a
         class="block"
-        href="https://codepen.io/cgweb"
+        href="https://codepen.io/cguttweb"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="codepen icon"
